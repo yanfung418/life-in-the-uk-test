@@ -141,7 +141,7 @@ const PracticeExamPage = () => {
             >
               {showChinese ? 'EN' : '中'}
             </button>
-            <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-8 leading-relaxed">
+            <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-8 leading-relaxed pr-4">
               <div>{currentQuestion.question}</div>
               {showChinese && currentQuestion.question_zh && (
                 <div className="text-lg text-gray-600 mt-3 font-medium">{currentQuestion.question_zh}</div>
