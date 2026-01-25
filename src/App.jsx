@@ -3,6 +3,8 @@ import { Routes, Route } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import IndividualTestsPage from './pages/IndividualTestsPage';
 import PracticeExamPage from './pages/PracticeExamPage';
+import TestExamPage from './pages/TestExamPage';
+import ExamResultsPage from './pages/ExamResultsPage';
 
 // Simple placeholders for now
 const PlaceHolder = ({ title }) => (
@@ -21,6 +23,8 @@ function App() {
       <Route path="/test" element={<PlaceHolder title="Test Mode" />} />
       <Route path="/individual" element={<IndividualTestsPage />} />
       <Route path="/practice/exam/:examId" element={<PracticeExamPage />} />
+      <Route path="/test/exam/:examId" element={<TestExamPage />} />
+      <Route path="/exam-results/:examId" element={<ExamResultsPage />} />
     </Routes>
   );
 }
