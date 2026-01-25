@@ -184,9 +184,10 @@ const TestExamPage = () => {
             </button>
 
             <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-8 leading-relaxed">
-              {showChinese && currentQuestion.question_zh 
-                ? currentQuestion.question_zh 
-                : currentQuestion.question}
+              <div>{currentQuestion.question}</div>
+              {showChinese && currentQuestion.question_zh && (
+                <div className="text-lg text-gray-600 mt-3 font-medium">{currentQuestion.question_zh}</div>
+              )}
             </h2>
             
             <div className="space-y-4">
@@ -255,10 +256,13 @@ const TestExamPage = () => {
                   <div>
                     <h4 className="text-blue-900 font-bold mb-1">Explanation</h4>
                     <p className="text-blue-800 leading-relaxed">
-                       {showChinese && currentQuestion.explanation_zh 
-                        ? currentQuestion.explanation_zh 
-                        : currentQuestion.explanation}
+                       {currentQuestion.explanation}
                     </p>
+                    {showChinese && currentQuestion.explanation_zh && (
+                      <p className="text-blue-700 leading-relaxed mt-2 text-sm">
+                        {currentQuestion.explanation_zh}
+                      </p>
+                    )}
                   </div>
                 </div>
               </div>
