@@ -5,6 +5,7 @@ import IndividualTestsPage from './pages/IndividualTestsPage';
 import PracticeExamPage from './pages/PracticeExamPage';
 import TestExamPage from './pages/TestExamPage';
 import ExamResultsPage from './pages/ExamResultsPage';
+import ScrollToTop from './components/ScrollToTop';
 
 // Simple placeholders for now
 const PlaceHolder = ({ title }) => (
@@ -17,6 +18,8 @@ const PlaceHolder = ({ title }) => (
 
 function App() {
   return (
+    <>
+      <ScrollToTop />
     <Routes>
       <Route path="/" element={<LandingPage />} />
       <Route path="/practice" element={<PlaceHolder title="Practice Mode" />} />
@@ -26,6 +29,7 @@ function App() {
       <Route path="/test/exam/:examId" element={<TestExamPage />} />
       <Route path="/exam-results/:examId" element={<ExamResultsPage />} />
     </Routes>
+    </>
   );
 }
 
