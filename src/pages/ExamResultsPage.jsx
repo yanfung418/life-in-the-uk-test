@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
+import { saveIncorrectAnswers } from '../services/storage';
 
 const ExamResultsPage = () => {
   const { examId } = useParams();
@@ -15,6 +16,14 @@ const ExamResultsPage = () => {
     timedOut = false,
     mode = 'practice'
   } = location.state || {};
+
+  const [showChinese, setShowChinese] = React.useState(false);
+
+  React.useEffect(() => {
+    if (incorrectAnswers.length > 0) {
+      saveIncorrectAnswers(incorrectAnswers);
+    }
+  }, [incorrectAnswers]);
 
   const percentage = Math.round((correctCount / totalQuestions) * 100);
   const passed = percentage >= 75 && !timedOut;
@@ -103,6 +112,17 @@ const ExamResultsPage = () => {
             <h3 className="md:text-2xl text-xl font-bold text-gray-900 mb-6 flex items-center gap-3">
               <span className="text-3xl">📝</span>
               Review Incorrect Answers ({incorrectAnswers.length})
+              <button
+                onClick={() => setShowChinese(!showChinese)}
+                className={`ml-auto w-10 h-10 rounded-full flex items-center justify-center font-bold transition-all duration-300 shadow-sm border-2 ${
+                  showChinese 
+                    ? 'bg-blue-600 border-blue-600 text-white' 
+                    : 'bg-blue-50 border-blue-200 text-blue-600 hover:border-blue-600 hover:bg-blue-100 hover:scale-110'
+                }`}
+                title={showChinese ? "Switch to English" : "切換為中文"}
+              >
+                {showChinese ? 'EN' : '中'}
+              </button>
             </h3>
             
             <div className="space-y-6">
@@ -112,9 +132,14 @@ const ExamResultsPage = () => {
                     <span className="flex-shrink-0 w-8 h-8 rounded-full bg-red-100 text-red-700 font-bold flex items-center justify-center text-sm">
                       {item.questionIdx + 1}
                     </span>
-                    <h4 className="text-lg font-bold text-gray-900 leading-relaxed">
-                      {item.question}
-                    </h4>
+                    <div className="flex flex-col">
+                      <h4 className="text-lg font-bold text-gray-900 leading-relaxed">
+                        {item.question}
+                      </h4>
+                      {showChinese && item.question_zh && (
+                        <p className="text-gray-600 font-medium mt-1">{item.question_zh}</p>
+                      )}
+                    </div>
                   </div>
 
                   <div className="space-y-3 mb-6">
@@ -134,28 +159,36 @@ const ExamResultsPage = () => {
 
                       return (
                         <div key={optIdx} className={optionStyle}>
-                          {isCorrectAnswer && <span className="text-xl">✓</span>}
-                          {isUserAnswer && !isCorrectAnswer && <span className="text-xl">✗</span>}
-                          <span className="font-semibold">{option}</span>
+                          <div className="flex items-center gap-3">
+                            {isCorrectAnswer && <span className="text-xl">✓</span>}
+                            {isUserAnswer && !isCorrectAnswer && <span className="text-xl">✗</span>}
+                            <div className="flex flex-col">
+                              <span className="font-semibold">{option}</span>
+                              {showChinese && item.options_zh && (
+                                <span className="text-xs opacity-80">{item.options_zh[optIdx]}</span>
+                              )}
+                            </div>
+                          </div>
                           {isUserAnswer && <span className="ml-auto text-sm font-bold">(Your answer)</span>}
                           {isCorrectAnswer && <span className="ml-auto text-sm font-bold">(Correct answer)</span>}
                         </div>
                       );
                     })}
                   </div>
-
                   <div className="p-5 bg-blue-50/50 rounded-xl border border-blue-100">
-                    <div className="flex items-start gap-2">
-                      <span className="text-xl mt-0.5">💡</span>
                       <div>
-                        <h5 className="text-blue-900 font-bold mb-1">Explanation</h5>
+                        <h5 className="text-blue-900 font-bold mb-1">💡 Explanation</h5>
                         <p className="text-blue-800 leading-relaxed">
                           {item.explanation}
                         </p>
+                        {showChinese && item.explanation_zh && (
+                          <p className="text-blue-700 leading-relaxed mt-2 text-md">
+                            {item.explanation_zh}
+                          </p>
+                        )}
                       </div>
                     </div>
                   </div>
-                </div>
               ))}
             </div>
           </div>
