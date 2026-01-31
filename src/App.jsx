@@ -5,6 +5,7 @@ import IndividualTestsPage from './pages/IndividualTestsPage';
 import PracticeExamPage from './pages/PracticeExamPage';
 import TestExamPage from './pages/TestExamPage';
 import ExamResultsPage from './pages/ExamResultsPage';
+import ReviewIncorrectPage from './pages/ReviewIncorrectPage';
 import ScrollToTop from './components/ScrollToTop';
 
 // Simple placeholders for now
@@ -22,12 +23,13 @@ function App() {
       <ScrollToTop />
     <Routes>
       <Route path="/" element={<LandingPage />} />
-      <Route path="/practice" element={<PlaceHolder title="Practice Mode" />} />
+      {/* <Route path="/practice" element={<PlaceHolder title="Practice Mode" />} /> */}
       <Route path="/test" element={<PlaceHolder title="Test Mode" />} />
       <Route path="/individual" element={<IndividualTestsPage />} />
       <Route path="/practice/exam/:examId" element={<PracticeExamPage />} />
       <Route path="/test/exam/:examId" element={<TestExamPage />} />
       <Route path="/exam-results/:examId" element={<ExamResultsPage />} />
+      <Route path="/review-incorrect" element={<ReviewIncorrectPage />} />
     </Routes>
     </>
   );
