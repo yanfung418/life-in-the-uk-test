@@ -41,10 +41,13 @@ const PracticeExamPage = () => {
         incorrectAnswers.push({
           questionIdx: parseInt(qIdx),
           question: q.question,
-          userAnswer: q.options[selected],
+          question_zh: q.question_zh,
+          userAnswer: selected !== undefined ? q.options[selected] : "Not answered",
           correctAnswer: q.options[q.correctAnswers[0]],
           explanation: q.explanation,
+          explanation_zh: q.explanation_zh,
           options: q.options,
+          options_zh: q.options_zh,
           correctAnswers: q.correctAnswers,
           selectedIdx: selected
         });
@@ -120,7 +123,7 @@ const PracticeExamPage = () => {
         </div>
       </header>
 
-      <main className="max-w-5xl mx-auto px-4">
+      <main className="max-w-4xl mx-auto px-4">
         <QuestionGrid 
           currentQuestion={currentQuestionIdx + 1}
           totalQuestions={questions.length}
@@ -128,7 +131,7 @@ const PracticeExamPage = () => {
           onQuestionClick={(id) => setCurrentQuestionIdx(id - 1)}
         />
         
-        <div className="max-w-3xl mx-auto">
+        <div className=" mx-auto">
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 relative overflow-hidden">
             <button
               onClick={() => setShowChinese(!showChinese)}
@@ -209,19 +212,16 @@ const PracticeExamPage = () => {
                     </>
                   )}
                 </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-xl mt-0.5">💡</span>
-                  <div>
-                    <h4 className="text-blue-900 font-bold mb-1">Explanation</h4>
-                    <p className="text-blue-800 leading-relaxed">
-                      {currentQuestion.explanation}
+                <div>
+                  <h4 className="text-blue-900 font-bold mb-1">💡 Explanation</h4>
+                  <p className="text-blue-800 leading-relaxed">
+                    {currentQuestion.explanation}
+                  </p>
+                  {showChinese && currentQuestion.explanation_zh && (
+                    <p className="text-blue-700 leading-relaxed mt-2 text-md">
+                      {currentQuestion.explanation_zh}
                     </p>
-                    {showChinese && currentQuestion.explanation_zh && (
-                      <p className="text-blue-700 leading-relaxed mt-2 text-sm">
-                        {currentQuestion.explanation_zh}
-                      </p>
-                    )}
-                  </div>
+                  )}
                 </div>
               </div>
             )}
