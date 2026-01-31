@@ -69,10 +69,13 @@ const TestExamPage = () => {
         incorrectAnswers.push({
           questionIdx: qIdx,
           question: q.question,
+          question_zh: q.question_zh,
           userAnswer: selected !== undefined ? q.options[selected] : "Not answered",
           correctAnswer: q.options[q.correctAnswers[0]],
           explanation: q.explanation,
+          explanation_zh: q.explanation_zh,
           options: q.options,
+          options_zh: q.options_zh,
           correctAnswers: q.correctAnswers,
           selectedIdx: selected
         });
@@ -161,7 +164,7 @@ const TestExamPage = () => {
         </div>
       </header>
 
-      <main className="max-w-5xl mx-auto px-4">
+      <main className="max-w-4xl mx-auto px-4">
         <QuestionGrid 
           currentQuestion={currentQuestionIdx + 1}
           totalQuestions={questions.length}
@@ -169,7 +172,7 @@ const TestExamPage = () => {
           onQuestionClick={(id) => setCurrentQuestionIdx(id - 1)}
         />
         
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 relative overflow-hidden">
              <button
               onClick={() => setShowChinese(!showChinese)}
@@ -183,7 +186,7 @@ const TestExamPage = () => {
               {showChinese ? 'EN' : '中'}
             </button>
 
-            <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-8 leading-relaxed pr-4">
+            <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-8 leading-relaxed pr-14 sm:pr-16">
               <div>{currentQuestion.question}</div>
               {showChinese && currentQuestion.question_zh && (
                 <div className="text-lg text-gray-600 mt-3 font-medium">{currentQuestion.question_zh}</div>
@@ -251,19 +254,16 @@ const TestExamPage = () => {
                     </>
                   )}
                 </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-xl mt-0.5">💡</span>
-                  <div>
-                    <h4 className="text-blue-900 font-bold mb-1">Explanation</h4>
-                    <p className="text-blue-800 leading-relaxed">
-                       {currentQuestion.explanation}
+                <div>
+                  <h4 className="text-blue-900 font-bold mb-1">💡 Explanation</h4>
+                  <p className="text-blue-800 leading-relaxed">
+                     {currentQuestion.explanation}
+                  </p>
+                  {showChinese && currentQuestion.explanation_zh && (
+                    <p className="text-blue-700 leading-relaxed mt-2 text-md">
+                      {currentQuestion.explanation_zh}
                     </p>
-                    {showChinese && currentQuestion.explanation_zh && (
-                      <p className="text-blue-700 leading-relaxed mt-2 text-sm">
-                        {currentQuestion.explanation_zh}
-                      </p>
-                    )}
-                  </div>
+                  )}
                 </div>
               </div>
             )}
