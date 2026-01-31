@@ -7,13 +7,13 @@ const LandingPage = () => {
   const navigate = useNavigate();
 
   const modes = [
-    {
-      id: 'practice',
-      title: 'Practice Mode',
-      description: 'Practice with all available questions. No time limit, instant feedback. Perfect for learning at your own pace.',
-      icon: '📚',
-      path: '/practice'
-    },
+    // {
+    //   id: 'practice',
+    //   title: 'Practice Mode',
+    //   description: 'Practice with all available questions. No time limit, instant feedback. Perfect for learning at your own pace.',
+    //   icon: '📚',
+    //   path: '/practice'
+    // },
     {
       id: 'test',
       title: 'Test Mode',
@@ -27,6 +27,13 @@ const LandingPage = () => {
       description: 'Focus on specific topics or difficult areas. Choose from a library of specialized practice sets.',
       icon: '🎯',
       path: '/individual'
+    },
+    {
+      id: 'review',
+      title: 'Review Incorrect',
+      description: 'Review and practice the questions you got wrong. Targeted practice to improve your knowledge.',
+      icon: '🔄',
+      path: '/review-incorrect'
     }
   ];
 
