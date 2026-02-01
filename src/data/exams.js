@@ -17,6 +17,8 @@ export const examQuestions = {
       ],
       correctAnswers: [3],
       explanation: "Big Ben is the nickname for the Great Bell of the striking clock at the north end of the Palace of Westminster, commonly known as the Houses of Parliament.",
+      explanation_zh: "大本鐘是威斯敏斯特宮（俗稱國會大廈）北端報時鐘的大鐘的暱稱。",
+      category: "Geography",
       isMultipleChoice: false
     },
     {
@@ -26,6 +28,8 @@ export const examQuestions = {
       options: ["St George", "St Andrew", "St Patrick", "St David"],
       correctAnswers: [1],
       explanation: "St Andrew is the patron saint of Scotland. St George is for England, St David for Wales, and St Patrick for Northern Ireland.",
+      explanation_zh: "聖安德魯是蘇格蘭的守護聖人。聖喬治是英格蘭的，聖大衛是威爾斯的，聖派翠克是北愛爾蘭的。",
+      category: "Culture",
       isMultipleChoice: false
     },
     {
@@ -35,6 +39,8 @@ export const examQuestions = {
       options: ["11th November", "11th October", "5th November", "1st January"],
       correctAnswers: [0],
       explanation: "Remembrance Day is celebrated on 11th November each year to commemorate those who died in wars.",
+      explanation_zh: "陣亡將士紀念日於每年11月11日舉行，以紀念在戰爭中犧牲的人們。",
+      category: "History",
       isMultipleChoice: false
     },
     {
@@ -44,6 +50,8 @@ export const examQuestions = {
       options: ["Kew Gardens", "Snowdonia", "The Lake District", "Loch Lomond"],
       correctAnswers: [0],
       explanation: "Kew Gardens is a world-famous botanical garden in southwest London.",
+      explanation_zh: "邱園（Kew Gardens）是位於倫敦西南部的世界著名植物園。",
+      category: "Geography",
       isMultipleChoice: false
     },
     {
@@ -53,6 +61,8 @@ export const examQuestions = {
       options: ["Henry V", "Edward III", "Richard III", "Henry VIII"],
       correctAnswers: [0],
       explanation: "Henry V won the Battle of Agincourt against the French in 1415.",
+      explanation_zh: "亨利五世在1415年的阿金庫爾戰役中擊敗了法國。",
+      category: "History",
       isMultipleChoice: false
     },
     {
@@ -62,6 +72,8 @@ export const examQuestions = {
       options: ["Belfast", "Londonderry", "Armagh", "Newry"],
       correctAnswers: [0],
       explanation: "Belfast is the capital city of Northern Ireland.",
+      explanation_zh: "貝爾法斯特是北愛爾蘭的首都。",
+      category: "Geography",
       isMultipleChoice: false
     },
     {
@@ -71,6 +83,8 @@ export const examQuestions = {
       options: ["Every 5 years", "Every 4 years", "Every 3 years", "Every 6 years"],
       correctAnswers: [0],
       explanation: "General elections are held at least every five years, as set by the Fixed-term Parliaments Act.",
+      explanation_zh: "根據《固定任期議會法》，英國至少每五年舉行一次大選。",
+      category: "Government",
       isMultipleChoice: false
     },
     {
@@ -80,6 +94,8 @@ export const examQuestions = {
       options: ["Stonehenge", "Hadrian's Wall", "The Giant's Causeway", "Loch Ness"],
       correctAnswers: [0],
       explanation: "Stonehenge is a prehistoric monument located in Wiltshire, England.",
+      explanation_zh: "巨石陣是位於英格蘭威爾特郡的史前遺跡。",
+      category: "Geography",
       isMultipleChoice: false
     },
     {
@@ -89,6 +105,8 @@ export const examQuestions = {
       options: ["Margaret Thatcher", "Theresa May", "Angela Merkel", "Nicola Sturgeon"],
       correctAnswers: [0],
       explanation: "Margaret Thatcher was the first female Prime Minister of the UK, serving from 1979 to 1990.",
+      explanation_zh: "瑪格麗特·撒切尔是第一位女首相，她在1979年至1990年擔任首相。",
+      category: "Government",
       isMultipleChoice: false
     },
     {
@@ -98,6 +116,8 @@ export const examQuestions = {
       options: ["Gibraltar", "Malta", "Cyprus", "Iceland"],
       correctAnswers: [0],
       explanation: "Gibraltar is a British Overseas Territory located at the southern tip of the Iberian Peninsula.",
+      explanation_zh: "直布罗陀是英國海外領土，位於伊比利亞半島南部。",
+      category: "Geography",
       isMultipleChoice: false
     },
     {
@@ -107,6 +127,8 @@ export const examQuestions = {
       options: ["10 Downing Street", "Buckingham Palace", "The White House", "Windsor Castle"],
       correctAnswers: [0],
       explanation: "10 Downing Street in London is the official residence and office of the Prime Minister.",
+      explanation_zh: "倫敦的10號唐寧街是首相的官方住所和辦公地。",
+      category: "Geography",
       isMultipleChoice: false
     },
     {
@@ -116,6 +138,8 @@ export const examQuestions = {
       options: ["The Rose", "The Thistle", "The Daffodil", "The Shamrock"],
       correctAnswers: [0],
       explanation: "The Tudor Rose is the national emblem of England.",
+      explanation_zh: " Tudor Rose 是英格蘭的國徽。",
+      category: "Culture",
       isMultipleChoice: false
     },
     {
@@ -125,6 +149,8 @@ export const examQuestions = {
       options: ["1973", "1963", "1983", "1953"],
       correctAnswers: [0],
       explanation: "The UK joined the EEC (the precursor to the EU) in 1973.",
+      explanation_zh: "英國於1973年加入歐洲經濟共同體（EEC）（前稱歐洲聯盟）。",
+      category: "History",
       isMultipleChoice: false
     },
     {
@@ -134,6 +160,8 @@ export const examQuestions = {
       options: ["£10,000", "£5,000", "£15,000", "£20,000"],
       correctAnswers: [0],
       explanation: "In England and Wales, the small claims limit is generally £10,000.",
+      explanation_zh: "在英格蘭及威爾斯，小額索償法庭可申索的最高金額是 £10,000。",
+      category: "Law",
       isMultipleChoice: false
     },
     {
@@ -143,6 +171,8 @@ export const examQuestions = {
       options: ["Charles Dickens", "Albert Einstein", "Isaac Newton", "Alexander Fleming"],
       correctAnswers: [0],
       explanation: "Charles Dickens was a famous English writer and social critic.",
+      explanation_zh: "查爾斯·狄更斯是著名的英國作家和社会評論家。",
+      category: "Culture",
       isMultipleChoice: false
     },
     {
@@ -152,6 +182,8 @@ export const examQuestions = {
       options: ["A war memorial", "A museum", "A royal palace", "A theatre"],
       correctAnswers: [0],
       explanation: "The Cenotaph is a war memorial on Whitehall in London.",
+      explanation_zh: "The Cenotaph 是倫敦白Hall的一個戰爭紀念碑。",
+      category: "Culture",
       isMultipleChoice: false
     },
     {
@@ -161,6 +193,8 @@ export const examQuestions = {
       options: ["129", "650", "60", "90"],
       correctAnswers: [0],
       explanation: "The Scottish Parliament consists of 129 Members (MSPs).",
+      explanation_zh: "蘇格蘭議會（Scottish Parliament）由129名議員組成（MSPs）。",
+      category: "Government",
       isMultipleChoice: false
     },
     {
@@ -170,6 +204,8 @@ export const examQuestions = {
       options: ["Cricket", "Basketball", "Baseball", "Volleyball"],
       correctAnswers: [0],
       explanation: "Cricket is a bat-and-ball game that originated in south-east England.",
+      explanation_zh: "Cricket 是起源于南英格兰的一种板球游戏。",
+      category: "Culture",
       isMultipleChoice: false
     },
     {
@@ -179,6 +215,8 @@ export const examQuestions = {
       options: ["The Monarch", "The Archbishop of Canterbury", "The Pope", "The Prime Minister"],
       correctAnswers: [0],
       explanation: "The Monarch (currently King Charles III) is the Supreme Governor of the Church of England.",
+      explanation_zh: "The Monarch (目前為查爾斯三世)是英格蘭教會的最高首領。",
+      category: "Culture",
       isMultipleChoice: false
     },
     {
@@ -188,6 +226,8 @@ export const examQuestions = {
       options: ["Halloween", "Easter", "Christmas", "Guy Fawkes Night"],
       correctAnswers: [0],
       explanation: "Halloween is celebrated on 31st October.",
+      explanation_zh: "Halloween 是在10月31日慶祝的節日。",
+      category: "Culture",
       isMultipleChoice: false
     },
     {
@@ -197,6 +237,8 @@ export const examQuestions = {
       options: ["18", "16", "21", "25"],
       correctAnswers: [0],
       explanation: "The minimum legal age to buy alcohol in the UK is 18.",
+      explanation_zh: "在英國購買酒精的最低法定年齡是18歲。",
+      category: "Law",
       isMultipleChoice: false
     },
     {
@@ -206,6 +248,8 @@ export const examQuestions = {
       options: ["Key Stage 1", "Key Stage 3", "GCSE", "A-Levels"],
       correctAnswers: [0],
       explanation: "Key Stage 1 and 2 are primary school stages in England.",
+      explanation_zh: "Key Stage 1和2是英格蘭的小學教育階段。",
+      category: "Education",
       isMultipleChoice: false
     },
     {
@@ -215,6 +259,8 @@ export const examQuestions = {
       options: ["A diamond", "A mountain", "A river", "A city"],
       correctAnswers: [0],
       explanation: "The Koh-i-Noor is one of the largest cut diamonds in the world, part of the Crown Jewels.",
+      explanation_zh: "Koh-i-Noor 是世界上最大的切割鑽石之一，是皇冠寶石的一部分。",
+      category: "Culture",
       isMultipleChoice: false
     },
     {
@@ -224,7 +270,1074 @@ export const examQuestions = {
       options: ["Winston Churchill", "Clement Attlee", "Neville Chamberlain", "Anthony Eden"],
       correctAnswers: [0],
       explanation: "Winston Churchill was the UK Prime Minister during most of the Second World War.",
+      explanation_zh: "Winston Churchill是第二次世界大戰期間的英國首相。",
+      category: "Government",
       isMultipleChoice: false
     }
-  ]
-};
+  ],
+  2: [
+    {
+      id: 201,
+      question: "What is the Home Secretary responsible for?",
+      question_zh: "內政大臣負責什麼？",
+      options: ["Health", "Defence", "Education", "Policing and immigration"],
+      correctAnswers: [3],
+      explanation: "The Home Secretary is responsible for policing and immigration.",
+      explanation_zh: "內政大臣負責警務和移民事務。",
+      category: "Government",
+      isMultipleChoice: false
+    },
+    {
+      id: 202,
+      question: "St Helena is a British overseas territory and it is part of the United Kingdom.",
+      question_zh: "聖赫勒拿是英國的海外領土，也是聯合王國的一部分。",
+      options: ["True", "False"],
+      correctAnswers: [1],
+      explanation: "St Helena is a British overseas territory, but it is not part of the United Kingdom.",
+      explanation_zh: "聖赫勒拿是英國的海外領土，但它不是聯合王國的一部分。",
+      category: "Government",
+      isMultipleChoice: false
+    },
+    {
+      id: 203,
+      question: "Several Church of England bishops sit in the House of Lords.",
+      question_zh: "數名英格蘭教會的主教在貴族院中任職。",
+      options: ["True", "False"],
+      correctAnswers: [0],
+      explanation: "There are 26 bishops of the Church of England who sit in the House of Lords.",
+      explanation_zh: "有26名英格蘭教會的主教在貴族院中任職。",
+      category: "Government",
+      isMultipleChoice: false
+    },
+    {
+      id: 204,
+      question: "When walking your dog in a public place, you must ensure:",
+      question_zh: "帶狗在公共場所散步時，必須確保：",
+      options: ["That your dog does not bark", "That your dog wears a high visibility jacket", "That your dog wears a collar showing the name and address of the owner", "That your dog wears a high visibility jacket"],
+      correctAnswers: [2],
+      explanation: "You must ensure your dog is microchipped and wearing a collar with your name and address on it, is on a lead if required by local byelaws, and you clean up after it if it defecates in a public place.",
+      explanation_zh: "您必須確保您的狗已植入微晶片並佩戴帶有您的姓名和地址的項圈，如果當地法規要求，必須戴上牽繩，並且在狗在公共場所排便時清理乾淨。",
+      category: "Government",
+      isMultipleChoice: false
+    },
+    {
+      id: 205,
+      question: "Women over the age of 30 were given the right to vote as a result of their contribution towards the war effort. Which war was that?",
+      question_zh: "30歲以上的女性因其對戰爭努力的貢獻而獲得投票權。那是哪場戰爭？",
+      options: ["World War I", "World War II", "The Boer War", "The Crimean War"],
+      correctAnswers: [0],
+      explanation: "Women over the age of 30 were given the right to vote as a result of their contribution towards the war effort during World War I.",
+      explanation_zh: "30歲以上的女性因其對第一次世界大戰的貢獻而獲得投票權。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 206,
+      question: "When did Ireland become a republic?",
+      question_zh: "愛爾蘭何時成為共和國？",
+      options: ["1916", "1922", "1937", "1949"],
+      correctAnswers: [3],
+      explanation: "Ireland became a republic in 1949.",
+      explanation_zh: "愛爾蘭於1949年成為共和國。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 207,
+      question: "Where did the first farmers come from?",
+      question_zh: "第一批農民來自哪裡？",
+      options: ["South-west Europe", "South-east Europe", "North-east Europe", "North-west Europe"],
+      correctAnswers: [1],
+      explanation: "The first farmers came from South-east Europe.",
+      explanation_zh: "第一批農民來自東南歐。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 208,
+      question: "Who was an important contributor to the ‘pop art’ movement of the 1960’s?",
+      question_zh: "誰是20世紀60年代‘波普藝術’運動的重要貢獻者？",
+      options: ["David Hockney", "William Hogarth", "J.M.W. Turner", "John Constable"],
+      correctAnswers: [0],
+      explanation: "David Hockney was an important contributor to the ‘pop art’ movement of the 1960’s.",
+      explanation_zh: "David Hockney 是20世紀60年代‘波普藝術’運動的重要貢獻者。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 209,
+      question: "Who became Prime Minister and was an inspirational leader to the British people during WWII?",
+      question_zh: "誰在二戰期間成為首相並鼓舞了英國人民？",
+      options: ["Clement Attlee", "Winston Churchill", "Neville Chamberlain", "Anthony Eden"],
+      correctAnswers: [1],
+      explanation: "Winston Churchill was the UK Prime Minister during most of the Second World War.",
+      explanation_zh: "Winston Churchill是第二次世界大戰期間的英國首相。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 210,
+      question: "Who led the first invasion of Britain?",
+      question_zh: "誰領導了第一次入侵英國？",
+      options: ["William, the Duke of Normandy", "Julius Caesar", "William the Conqueror", "Henry VIII"],
+      correctAnswers: [1],
+      explanation: "Julius Caesar led a Roman invasion of Britain in 55 BC. This was unsuccessful and for nearly 100 years Britain remained separate from the Roman Empire. In AD 43 the Emperor Claudius led the Roman army in a new invasion. This time, there was resistance from some of the British tribes but the Romans were successful in occupying almost all of Britain.",
+      explanation_zh: "Julius Caesar是第一次入侵英國的領導者。這次入侵不成功，近100年來，英國一直與羅馬帝國分離。公元43年，皇帝克勞狄烏斯領導羅馬軍隊發動了新的入侵。這一次，儘管遭到一些英國部落的抵抗，但羅馬人成功佔領了幾乎整個英國。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 211,
+      question: "Under which king did the Anglo-Saxon kingdoms in England unite to defeat the Vikings?",
+      question_zh: "在哪位國王的領導下，英格蘭的盎格魯-撒克遜王國聯合起來擊敗了維京人？",
+      options: ["William the Conqueror", "Edward the Confessor", "Robert the Bruce", "Alfred the Great"],
+      correctAnswers: [3],
+      explanation: "Alfred the Great united the Anglo-Saxon kingdoms in England to defeat the Vikings.",
+      explanation_zh: "Alfred the Great是都鐸王朝的第一位君主。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    { 
+      id: 212,
+      question: "When was the Magna Carta created?",
+      question_zh: "麥格納卡塔是在什麼時候制定的？",
+      options: ["1066", "1215", "1485", "1603"],
+      correctAnswers: [1],
+      explanation: "The Magna Carta was created in 1215.",
+      explanation_zh: "麥格納卡塔是在1215年制定的。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 213,
+      question: "Northern Ireland has its own banknotes, which are valid everywhere in the UK.",
+      question_zh: "北愛爾蘭有自己的鈔票，在英國各地都有效。",
+      options: ["False", "True"],
+      correctAnswers: [1],
+      explanation: "Northern Ireland has its own banknotes, which are valid everywhere in the UK.",
+      explanation_zh: "北愛爾蘭有自己的鈔票，在英國各地都有效。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 214,
+      question: "Which of the following plays was written by William Shakespeare?",
+      question_zh: "以下哪部戲劇是由威廉·莎士比亞創作的？",
+      options: ["The Importance of Being Earnest", "The School for Scandal", "The Rivals", "A Midsummer Night’s dream"],
+      correctAnswers: [3],
+      explanation: "A Midsummer Night’s dream was written by William Shakespeare.",
+      explanation_zh: "仲夏夜之夢是由威廉·莎士比亞創作的。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 215,
+      question: "How many members does a jury have in England, Wales and Northern Ireland?",
+      question_zh: "英格蘭、威爾士和北愛爾蘭的陪審團有多少名成員？",
+      options: ["9", "11", "12", "15"],
+      correctAnswers: [2],
+      explanation: "A jury has 12 members in England, Wales and Northern Ireland.",
+      explanation_zh: "英格蘭、威爾士和北愛爾蘭的陪審團有12名成員。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 216,
+      question: "Which two of the following religious communities celebrate Diwali?",
+      question_zh: "以下哪兩個宗教社群慶祝排燈節？",
+      options: ["Jews", "Sikhs", "Buddhists", "Hindus"],
+      correctAnswers: [1, 3],
+      explanation: "Sikhs and Hindus celebrate Diwali.",
+      explanation_zh: "錫克教徒和印度教徒慶祝排燈節。",
+      category: "Culture",
+      isMultipleChoice: true
+    },
+    {
+      id: 217,
+      question: "What is Good Friday?",
+      question_zh: "Good Friday是什麼？",
+      options: [ "The day when Jesus Christ rose from the dead","The day when Jesus Christ died", "The day when Jesus Christ was born", "The day when Jesus Christ became 30 years old"],
+      correctAnswers: [1],
+      explanation: "Good Friday is the day when Jesus Christ died.",
+      explanation_zh: "Good Friday是耶穌受难日。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 218,
+      question: "St Patrick’s day is a public holiday in Northern Ireland.",
+      question_zh: "聖帕特里克節(St Patrick’s day)是北愛爾蘭的公共假日。",
+      options: ["False", "True"],
+      correctAnswers: [1],
+      explanation: "St Patrick’s day is a public holiday in Northern Ireland.",
+      explanation_zh: "聖帕特里克節是北愛爾蘭的公共假日。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 219,
+      question: "Which was the last successful foreign invasion of England that took place in 1066?",
+      question_zh: "1066年發生的最後一次成功的對英格蘭的外國入侵是？",
+      options: ["The Norman Conquest", "The Viking Invasion", "The Roman Invasion", "The Anglo-Saxon Invasion"],
+      correctAnswers: [0],
+      explanation: "The Norman Conquest was the last successful foreign invasion of England that took place in 1066.",
+      explanation_zh: "諾曼征服(The Norman Conquest)是1066年發生的最後一次成功的對英格蘭的外國入侵。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 220,
+      question: "Where are the Crown Jewels kept?",
+      question_zh: "皇冠珠寶存放在哪裡？",
+      options: ["Buckingham Palace", "The Tower of London", "Windsor Castle", "Edinburgh Castle"],
+      correctAnswers: [1],
+      explanation: "The Crown Jewels are kept in the Tower of London.",
+      explanation_zh: "皇冠珠寶存放在倫敦塔。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 221,
+      question: "Which sport can be traced back to the 15th century in Scotland?",
+      question_zh: "哪項運動可以追溯到15世紀的蘇格蘭？",
+      options: ["Football", "Rugby", "Golf", "Cricket"],
+      correctAnswers: [2],
+      explanation: "Golf can be traced back to the 15th century in Scotland.",
+      explanation_zh: "高爾夫球可以追溯到15世紀的蘇格蘭。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 222,
+      question: "Who was the first person in England to print books using a printing press?",
+      question_zh: "誰是英格蘭第一位使用印刷機印刷書籍的人？",
+      options: ["William Shakespeare", "William the Conqueror", "William Wallace", "William Caxton"],
+      correctAnswers: [3],
+      explanation: "William Caxton was the first person in England to print books using a printing press.",
+      explanation_zh: "威廉·卡克斯頓(William Caxton)是英格蘭第一位使用印刷機印刷書籍的人。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 223,
+      question: "Which court deals with minor criminal cases in England, Wales and Northern Ireland?",
+      question_zh: "在英格蘭、威爾士和北愛爾蘭，哪個法院處理輕微刑事案件？",
+      options: ["Crown Court", "Magistrates' Court", "High Court", "Justice of the Peace Court"],
+      correctAnswers: [1],
+      explanation: "Magistrates' Court deals with minor criminal cases in England, Wales and Northern Ireland.",
+      explanation_zh: "治安官法庭(Magistrates' Court)處理英格蘭、威爾士和北愛爾蘭的輕微刑事案件。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 224,
+      question: "What did the Scottish John Logie Baird develop?",
+      question_zh: "蘇格蘭的約翰·洛吉·貝爾德(John Logie Baird)發明了什麼？",
+      options: ["The telephone", "The steam engine", "The television", "The computer"],
+      correctAnswers: [2],
+      explanation: "John Logie Baird developed the television.",
+      explanation_zh: "約翰·洛吉·貝爾德(John Logie Baird)發明了電視。",
+      category: "Culture",
+      isMultipleChoice: false
+    }
+  ],
+  3: [
+    {
+      id: 301,
+      question: "Which of the following is a fundamental principle of British life?",
+      question_zh: "以下哪一個是英國生活的基本原則？",
+      options: ["Communism", "The monarchy", "The welfare state", "Individual liberty"],
+      correctAnswers: [3],
+      explanation: "Individual liberty is a fundamental principle of British life.",
+      explanation_zh: "個人自由是英國生活的基本原則。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 302,
+      question: "Wales has its own established church.",
+      question_zh: "威爾士有獨立於英國國教的教會制度",
+      options: ["False", "True"],
+      correctAnswers: [0],
+      explanation: "Wales does not have its own established church.",
+      explanation_zh: "威爾士沒有獨立於英國國教的教會制度",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 303,
+      question: "How is New Year’s Eve called in Scotland?",
+      question_zh: "蘇格蘭新年的前一晚叫什麼？",
+      options: ["Hogmanay", "New Year’s Eve", "New Year’s Day", "New Year’s Night"],
+      correctAnswers: [0],
+      explanation: "Hogmanay is how New Year’s Eve is called in Scotland.",
+      explanation_zh: "蘇格蘭新年的前一晚是 Hogmanay。",
+      category: "Geography",
+      isMultipleChoice: false
+    },
+    {
+      id: 304,
+      question: "Why did Henry VIII establish the church of England?",
+      question_zh: "亨利八世為什麼要建立英國國教？",
+      options: ["Because the Pope didn’t let him marry Catherine Howard", "Because the Pope wanted England to be a Catholic country", "Because the Pope didn’t let him divorce his first wife, Catherine of Aragon", "Because the Pope didn’t let him divorce his wife, Anne of Cleves"],
+      correctAnswers: [2],
+      explanation: "Because the Pope didn’t let him divorce his first wife, Catherine of Aragon",
+      explanation_zh: "亨利八世要建立英國國教是因為他不能離婚",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 305,
+      question: "What is the name of the long war that English kings fought with France in the middle ages?",
+      question_zh: "中世紀英王同法國打的長戰叫咩？",
+      options: ["The Thirty Years' War", "The Seven Years' War", "The Eight Years' War","The Hundred Years' War"],
+      correctAnswers: [3],
+      explanation: "The Hundred Years' War is the name of the long war that English kings fought with France in the middle ages.",
+      explanation_zh: "中世紀英王同法國打的長戰叫 The Hundred Years' War。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 306,
+      question: "Who was supported by clansmen from the Scottish highlands and raised and army in 1745?",
+      question_zh: "誰在1745年得到蘇格蘭高地部隊的支持並組成軍隊？",
+      options: [ "Robert Burns", "Bonnie Prince Charlie", "Oliver Cromwell", "Kenneth MacAlpin"],
+      correctAnswers: [1],
+      explanation: "In 1745 there was another attempt to put a Stuart king back on the throne in place of George I’s son, George II. Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland. He was supported by clansmen from the Scottish highlands and raised and army.",
+      explanation_zh: "1745年，有人試圖擁立一位斯圖亞特王朝的國王重返王位，取代喬治一世之子喬治二世。詹姆斯二世的孫子查理·愛德華·斯圖亞特（Bonnie Prince Charlie）登陸蘇格蘭。他得到了蘇格蘭高地氏族的支持，並組建了一支軍隊。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 307,
+      question: "If you think someone is trying to persuade you to join an extremist or terrorist activity, who should you contact?",
+      question_zh: "如果有人試圖勸你加入極端或恐怖活動，你應該聯絡誰？",
+      options: ["The Home Office", "Your local MP", "Your local police force", "The Ministry of Defence"],
+      correctAnswers: [2],
+      explanation: "Your local police force should be contacted if you think someone is trying to persuade you to join an extremist or terrorist activity.",
+      explanation_zh: "如果有人試圖勸你加入極端或恐怖活動，你應該聯絡當地警察。",
+      category: "Safety and Security",
+      isMultipleChoice: false
+    },
+    {
+      id: 308,
+      question: "It is compulsory for 16 and 17-year-olds to join the National Citizen Service programme.",
+      question_zh: "16和17歲的人必須加入國家公民服務計劃。",
+      options: ["True", "False"],
+      correctAnswers: [1],
+      explanation: "It is not compulsory for 16 and 17-year-olds to join the National Citizen Service programme.",
+      explanation_zh: "16和17歲的人不一定要加入國家公民服務計劃。",
+      category: "Education",
+      isMultipleChoice: false
+    },
+    {
+      id: 309,
+      question: "What is the name of the tour guides that tell visitors stories about the Tower of London’s history?",
+      question_zh: "給遊客講述倫敦塔歷史故事的導遊叫什麼名字？",
+      options: ["Knights", "Beefeaters", "Suffragettes", "Chartists"],
+      correctAnswers: [1],
+      explanation: "Beefeaters are the name of the tour guides that tell visitors stories about the Tower of London’s history.",
+      explanation_zh: "Beefeaters是給遊客講述倫敦塔歷史故事的導遊的名字。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 310,
+      question: "Which two countries developed the Concorde, the world’s only supersonic commercial airliner?",
+      question_zh: "哪兩個國家開發了世界上唯一的超音速商用飛機 Concorde？",
+      options: ["France", "Italy", "Germany", "United Kingdom"],
+      correctAnswers: [0, 3],
+      explanation: "The Concorde was developed by France and the United Kingdom.",
+      explanation_zh: "Concorde是法國和英國開發的。",
+      category: "History",
+      isMultipleChoice: true
+    },
+    {
+      id: 311,
+      question: "Where is Snowdonia located?",
+      question_zh: "雪登尼亞(Snowdonia)位於哪裡？",
+      options: ["Scotland", "England", "Northern Ireland", "Wales"],
+      correctAnswers: [3],
+      explanation: "Snowdonia is located in Wales.",
+      explanation_zh: "雪登尼亞(Snowdonia)位於威爾士。",
+      category: "Geography",
+      isMultipleChoice: false
+    },
+    {
+      id: 312,
+      question: "Who wrote Sherlock Holmes?",
+      question_zh: "誰寫了Sherlock Holmes？",
+      options: ["Agatha Christie", "H.G. Wells", "Arthur Conan Doyle", "J.K. Rowling"],
+      correctAnswers: [2],
+      explanation: "Arthur Conan Doyle wrote Sherlock Holmes.",
+      explanation_zh: "Arthur Conan Doyle寫了Sherlock Holmes。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 313,
+      question: "Which country was invaded by Germany in 1939?",
+      question_zh: "哪個國家在1939年被德國入侵？",
+      options: ["France", "Italy", "Germany", "Poland"],
+      correctAnswers: [3],
+      explanation: "Germany invaded Poland in 1939.",
+      explanation_zh: "德國在1939年入侵波蘭。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 314,
+      question: "Who is the patron Saint of Wales?",
+      question_zh: "威爾斯的守護聖人是誰？",
+      options: ["St. David", "St. George", "St. Patrick", "St. Andrew"],
+      correctAnswers: [0],
+      explanation: "St. David is the patron Saint of Wales.",
+      explanation_zh: "St. David是威爾士的守護聖人。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 315,
+      question: "Lake District is the largest national park of England.",
+      question_zh: "Lake District是英國最大的國家公園。",
+      options: ["False", "True"],
+      correctAnswers: [1],
+      explanation: "Lake District is the largest national park of England.",
+      explanation_zh: "Lake District是英國最大的國家公園。",
+      category: "Geography",
+      isMultipleChoice: false
+    },
+    {
+      id: 316,
+      question: "What is the name of the area in London where famous theatres are located?",
+      question_zh: "倫敦哪個區域集中了許多著名劇院？",
+      options: ["Soho", "Theatreland", "Westminster", "Hyde Park"],
+      correctAnswers: [1],
+      explanation: "Theatreland is the name of the area in London where famous theatres are located.",
+      explanation_zh: "Theatreland是倫敦集中許多著名劇院的區域。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 317,
+      question: "Which two of the following are key roles of school governors?",
+      question_zh: "以下哪兩個是學校董事會的關鍵角色？",
+      options: ["Giving awards to the best students of the school", "Setting the strategic direction of the school", "Monitoring and evaluating school performance", "Monitoring student’s behaviour"],
+      correctAnswers: [1, 2],
+      explanation: "Setting the strategic direction of the school and Monitoring and evaluating school performance are key roles of school governors.",
+      explanation_zh: "制定學校的策略方向以及監督和評估學校的辦學績效是學校理事的主要職責。",
+      category: "Education",
+      isMultipleChoice: true
+    },
+    {
+      id: 318,
+      question: "What led the American colonies to want their independence from Britain?",
+      question_zh: "什麼讓美洲殖民地想要獨立？",
+      options: ["The British government wanted to control their borders", "They were running out of resources", "The British government wanted to tax them", "There were not enough jobs for the local people"],
+      correctAnswers: [2],
+      explanation: "The British government wanted to tax them led the American colonies to want their independence from Britain.",
+      explanation_zh: "英國政府想要向他們徵稅，這導緻美洲殖民地想要脫離英國獨立。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 319,
+      question: "When did the Black Death take place?",
+      question_zh: "黑死病是什麼時候發生的？",
+      options: ["The Golden Age", "The Middle Ages", "The Stone Age", "The Iron Age"],
+      correctAnswers: [1],
+      explanation: "The Black Death took place in the Middle Ages.",
+      explanation_zh: "瘟疫是在中世紀發生的。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 320,
+      question: "Who was the leader of the suffragettes, the group that campaigned for women’s rights to vote?",
+      question_zh: "誰是爭取婦女投票權的婦女參政運動的領導人？",
+      options: ["Mary Wollstonecraft", " Mary Wollstonecraft", " Mary Wollstonecraft","Emmeline Pankhurst"],
+      correctAnswers: [3],
+      explanation: "Emmeline Pankhurst was the leader of the suffragettes, the group that campaigned for women’s rights to vote.",
+      explanation_zh: " Emmeline Pankhurst是爭取婦女投票權的婦女參政運動的領導人。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 321,
+      question: "Cardiff is the capital city of which country?",
+      question_zh: "卡迪夫(Cardiff)是哪個國家的首都？",
+      options: ["Northern Ireland", "Scotland", "Wales", "England"],
+      correctAnswers: [2],
+      explanation: "Cardiff is the capital city of Wales.",
+      explanation_zh: "卡迪夫(Cardiff)是威爾士的首都。",
+      category: "Geography",
+      isMultipleChoice: false
+    },
+    {
+      id: 322,
+      question: "During the Great Depression in the 1930s which industry was badly affected?",
+      question_zh: "在1930年代的大蕭條時期，哪些行業受到嚴重影響？",
+      options: ["Aviation", "Agriculture", "Shipbuilding", "Tourism"],
+      correctAnswers: [2],
+      explanation: "Shipbuilding was badly affected during the Great Depression in the 1930s.",
+      explanation_zh: "在1930年代的大蕭條時期，造船業受到了嚴重影響。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 323,
+      question: "Who was the first man in the world to run 1 mile in under 4 minutes?",
+      question_zh: "誰是世界上第一位在4分鐘以內跑完一英里的人？",
+      options: ["John Landy", "Mo Farah", "Hicham El Guerrouj", "Roger Bannister"],
+      correctAnswers: [3],
+      explanation: "Roger Bannister was the first man in the world to run 1 mile in under 4 minutes.",
+      explanation_zh: "Roger Bannister是世界上第一位在4分鐘以內跑完一英里的人。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 324,
+      question: "Which festival celebrates the end of Ramadan, when Muslims have fasted for a month?",
+      question_zh: "哪個節日慶祝穆斯林齋戒月結束，齋戒月期間穆斯林禁食了一個月？",
+      options: ["Vaisakhi", "Eid al-Fitr", "Hannukah", "Diwali"],
+      correctAnswers: [1],
+      explanation: "Eid al-Fitr celebrates the end of Ramadan, when Muslims have fasted for a month.",
+      explanation_zh: "Eid al-Fitr慶祝穆斯林齋戒月結束，齋戒月期間穆斯林禁食了一個月。",
+      category: "Culture",
+      isMultipleChoice: false
+    }
+  ],
+  4: [
+    {
+      id: 401,
+      question: "What was the last battle between Great Britain and France?",
+      question_zh: "英國與法國之間發生的最後一場戰役是什麼？",
+      options: ["Battle of Waterloo", "Battle of Trafalgar", "Battle of Hastings", "Battle of Culloden"],
+      correctAnswers: [0],
+      explanation: "In 1815, the French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo.",
+      explanation_zh: "1815年，法蘭西戰爭以拿破崙皇帝在滑鐵盧戰役(Battle of Waterloo)中被威靈頓公爵擊敗而告終。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 402,
+      question: "Which flower is associated with Wales?",
+      question_zh: "哪個花朵與威爾士有關？",
+      options: ["Rose", "Thistle", "Daffodil", "Shamrock"],
+      correctAnswers: [2],
+      explanation: "The daffodil is a flower associated with Wales.",
+      explanation_zh: "水仙花是與威爾士相關的花朵。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 403,
+      question: "During the reign of Charles II parts of London were destroyed, what was the cause of this destruction?",
+      question_zh: "查理二世統治期間，倫敦的部分地區被毀，這是什麼原因造成的？",
+      options: ["A war", "A plague", "A fire", "A flood"],
+      correctAnswers: [2],
+      explanation: "The Great Fire of London destroyed much of the city in 1666.",
+      explanation_zh: "1666年的倫敦大火摧毀了倫敦的大部分地區。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 404,
+      question: "How often are general elections held in the UK?",
+      question_zh: "英國大選多久舉行一次？",
+      options: ["Every 3 years", "Every 4 years", "Every 6 years", "Every 5 years"],
+      correctAnswers: [3],
+      explanation: "General elections are held every 5 years.",
+      explanation_zh: "大選每五年舉行一次。",
+      category: "Government",
+      isMultipleChoice: false
+    },
+    {
+      id: 405,
+      question: "Scotland has its own banknotes, which are valid everywhere in the UK.",
+      question_zh: "蘇格蘭有自己的鈔票，在英國各地都有效。",
+      options: ["True", "False"],
+      correctAnswers: [0],
+      explanation: "Scotland has its own banknotes, which are valid everywhere in the UK.",
+      explanation_zh: "蘇格蘭有自己的鈔票，在英國各地都有效。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 406,
+      question: "What charity works to preserve important buildings, coastline and countryside in the UK?",
+      question_zh: "哪個慈善機構致力於保護英國重要的建築、海岸線和鄉村？",
+      options: ["National Trust", "British Heart Foundation", "Cancer Research UK", "Royal National Lifeboat Institution"],
+      correctAnswers: [0],
+      explanation: "The National Trust works to preserve important buildings, coastline and countryside in the UK.",
+      explanation_zh: "National Trust 致力於保護英國重要的建築、海岸線和鄉村。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 407,
+      question: "Great Britain refers only to England, Wales and Scotland.",
+      question_zh: "大不列顛僅指英格蘭、威爾士和蘇格蘭。",
+      options: ["False", "True"],
+      correctAnswers: [1],
+      explanation: "Great Britain refers only to England, Wales and Scotland.",
+      explanation_zh: "大不列顛僅指英格蘭、威爾士和蘇格蘭。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 408,
+      question: "Who was the tribal leader who fought against the Romans?",
+      question_zh: "誰是反抗羅馬人的部落領袖？",
+      options: ["William the Conqueror", "King Arthur", "Boudicca", "Alfred the Great"],
+      correctAnswers: [2],
+      explanation: "One of the tribal leaders who fought against the Romans was Boudicca, the queen of the Iceni in what is now eastern England.",
+      explanation_zh: "反抗羅馬人的部落領袖之一是布狄卡（Boudicca），她是現今英格蘭東部地區伊西尼族（Iceni）的女王。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 409,
+      question: "Who was voted the greatest Briton of all time in 2002?",
+      question_zh: "誰在2002年被評為史上最偉大的英國人？",
+      options: ["William Shakespeare", "Winston Churchill","Isaac Newton", "Charles Darwin"],
+      correctAnswers: [1],
+      explanation: "In 2002, Winston Churchill was voted the greatest Briton of all time.",
+      explanation_zh: "2002年，溫斯頓·丘吉爾(Winston Churchill)被評為史上最偉大的英國人。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 410,
+      question: "Which two houses form the UK Parliament?",
+      question_zh: "哪兩個議院組成英國議會？",
+      options: ["The House of Commons","The House of Members","The House of Lords","The House of People"],
+      correctAnswers: [0,2],
+      explanation: "The UK Parliament is made up of two houses: the House of Commons and the House of Lords.",
+      explanation_zh: "英國議會由兩個議院組成：下議院和上議院。",
+      category: "Government",
+      isMultipleChoice: false
+    },
+    {
+      id: 411,
+      question: "When did women get the right to vote at the same age as men?",
+      question_zh: "女性在什麼時候獲得了與男性相同的投票年齡？",
+      options: ["1918","1928","1938","1948"],
+      correctAnswers: [1],
+      explanation: "Women got the right to vote at the same age as men in 1928.",
+      explanation_zh: "女性在1928年獲得了與男性相同的投票年齡。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 412,
+      question: "Who is the head of the Church of England?",
+      question_zh: "英格蘭教會的領袖是誰？",
+      options: ["The Pope","The Archbishop of Canterbury","The Monarch","The Prime Minister"],
+      correctAnswers: [2],
+      explanation: "The Monarch is the head of the Church of England.",
+      explanation_zh: "君主是英格蘭教會的領袖。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 413,
+      question: "What sort of event is the Grand National?",
+      question_zh: "大國民賽（Grand National）是哪種活動？",
+      options: ["A car race","A boat race","A running race","A horse race"],
+      correctAnswers: [3],
+      explanation: "The Grand National is a horse race.",
+      explanation_zh: "大國民賽是一場賽馬。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 414,
+      question: "What type of literature are the Canterbury Tales?",
+      question_zh: "《坎特伯雷故事集》是哪種文學作品？",
+      options: ["Novels","Poems","Plays","Short stories"],
+      correctAnswers: [1],
+      explanation: "Geoffrey Chaucer wrote a series of poems in English about a group of people going to Canterbury on a pilgrimage. This collection of poems is called The Canterbury Tales.",
+      explanation_zh: "喬叟（Geoffrey Chaucer）用英語寫了一系列關於一群人前往坎特伯雷朝聖的詩歌。這本詩集被稱為《坎特伯雷故事集》。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 415,
+      question: "When is Christmas Day?",
+      question_zh: "聖誕節是哪一天？",
+      options: ["25th December","26th December","1st January","2nd January"],
+      correctAnswers: [0],
+      explanation: "Christmas Day is on 25th December.",
+      explanation_zh: "聖誕節是12月25日。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 416,
+      question: "Who supported King Charles I during the Civil War?",
+      question_zh: "內戰期間誰支持查理一世國王？",
+      options: ["The Roundheads","The Parliamentarians","The Cavaliers","The Royalists"],
+      correctAnswers: [2],
+      explanation: "During the civil war between the king and Parliament the country split into those who supported the king (the Cavaliers) and those who supported Parliament (the Roundheads).",
+      explanation_zh: "在國王與議會的內戰期間，國家分裂為支持國王的人（保皇黨）和支持議會的人（圓顱黨）。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 417,
+      question: "What battle is commemorated in the Bayeux Tapestry?",
+      question_zh: "貝葉斯掛毯（Bayeux Tapestry）紀念的是哪場戰役？",
+      options: ["The Battle of Trafalgar","The Battle of Waterloo","The Battle of Culloden","The Battle of Hastings"],
+      correctAnswers: [3],
+      explanation: "The Bayeux Tapestry commemorates the Battle of Hastings in 1066.",
+      explanation_zh: "貝葉斯掛毯紀念的是1066年的黑斯廷斯戰役。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 418,
+      question: "Where was Anne Boleyn, the wife of Henry VIII, executed?",
+      question_zh: "亨利八世的妻子安妮·博林在哪裡被處決？",
+      options: ["Hampton Court Palace","Windsor Castle","Buckingham Palace","Tower of London"],
+      correctAnswers: [3],
+      explanation: "Anne Boleyn was executed at the Tower of London.",
+      explanation_zh: "安妮·博林在倫敦塔被處決。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 419,
+      question: "Racial crime and smoking in public places are examples of:",
+      question_zh: "種族犯罪和在公共場所吸煙都是以下方面的例子：",
+      options: ["Civil offences","Criminal offences"],
+      correctAnswers: [1],
+      explanation: "Racial crime and smoking in public places are examples of criminal offences.",
+      explanation_zh: "種族犯罪和在公共場所吸煙都是刑事犯罪的例子。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 420,
+      question: "What type of character was played by Charlie Chaplin?",
+      question_zh: "查理·卓別林演的是什麼類型的人物？",
+      options: ["A brandit","A tramp","A politician","A scientist"],
+      correctAnswers: [1],
+      explanation: "Sir Charles (Charlie) Chaplin became famous in silent movies for his tramp character and was one of many British actors to make a career in Hollywood.",
+      explanation_zh: "查理·卓別林爵士以在無聲電影中扮演的流浪漢角色而聞名，他是許多在好萊塢發展事業的英國演員之一。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 421,
+      question: "You have to be at least 21 years old to stand as MP.",
+      question_zh: "要成為議員，你至少要年滿21歲。",
+      options: ["True","False"],
+      correctAnswers: [1],
+      explanation: "This statement is false. Anyone aged 18 or over can stand for election as an MP but they are unlikely to win unless they have been nominated to represent one of the major political parties. These are the Conservative Party, the Labour Party, the Liberal Democrats, or one of the parties representing Scottish, Welsh or Northern Irish interests.",
+      explanation_zh: "這種說法是錯誤的。任何年滿18歲的人都可以競選國會議員，但除非獲得主要政黨之一的提名，否則他們不太可能當選。這些主要政黨包括保守黨、工黨、自由民主黨，以及代表蘇格蘭、威爾斯或北愛爾蘭利益的政黨之一。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 422,
+      question: "Who developed the radar?",
+      question_zh: "誰開發了雷達？",
+      options: ["John Logie Baird","Sir Frank Whittle","Robert Watson-Watt","Christopher Chataway"],
+      correctAnswers: [2],
+      explanation: "Robert Watson-Watt developed the radar.",
+      explanation_zh: "羅伯特·沃森·瓦特開發了雷達。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 423,
+      question: "Where is the official home of the Prime Minister?",
+      question_zh: "首相的官方住所是什麼？",
+      options: ["10 Downing Street","11 Downing Street","12 Downing Street","13 Downing Street"],
+      correctAnswers: [0],
+      explanation: "The official home of the Prime Minister is 10 Downing Street.",
+      explanation_zh: "首相的官方住所是10 Downing Street。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 424,
+      question: "By law, which TWO types of media have to give a balanced coverage of all political parties and equal time to rival viewpoints before an election?",
+      question_zh: "根據法律規定，哪兩種媒體必須在選舉前對所有政黨進行平衡報道，並給予不同觀點同等的報道時間？",
+      options: ["Radio","Magazines","Newspapers","Television"],
+      correctAnswers: [0,3],
+      explanation: "Radio and Television have to give a balanced coverage of all political parties and equal time to rival viewpoints before an election.",
+      explanation_zh: "選舉前，廣播和電視必須對所有政黨進行平衡報道，並給予不同觀點同等的報道時間。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    }
+  ],
+  5: [
+    {
+      id: 501,
+      question: "When does Easter take place?",
+      question_zh: "復活節是什麼時候？",
+      options: ["Novermber or December","March or April","January or February","May or June"],
+      correctAnswers: [1],
+      explanation: "Easter takes place in March or April.",
+      explanation_zh: "復活節在3月或4月。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 502,
+      question: "Which of the following is not a valid UK coin?",
+      question_zh: "以下哪一枚不是有效的英國硬幣？",
+      options: ["5p","10p","25p","£1"],
+      correctAnswers: [2],
+      explanation: "There are no 25p coins in the UK currency.",
+      explanation_zh: "在英國貨幣中沒有25p的硬幣。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 503,
+      question: "Where is the Eden Project located?",
+      question_zh: "愛登(Eden)項目位於何處？",
+      options: ["Edinburgh","Dorset","Devon","Cornwall"],
+      correctAnswers: [3],
+      explanation: "The Eden Project is located in Cornwall.",
+      explanation_zh: "愛登(Eden)項目位於康沃尔。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 504,
+      question: "St Helena and the Falkland Islands are part of Great Britain.",
+      question_zh: "聖赫勒拿(St Helena)和福克蘭群島(Falkland Islands)是大不列颠的一部分。",
+      options: ["True","False"],
+      correctAnswers: [1],
+      explanation: "St Helena and the Falkland Islands are not part of Great Britain.",
+      explanation_zh: "聖赫勒拿(St Helena)和福克蘭群島(Falkland Islands)不是大不列颠的一部分。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 505,
+      question: "Which two of the following are fundamental principles of British life?",
+      question_zh: "以下哪兩個是英國生活的基本原則？",
+      options: ["Monarchy","Democracy","Join a trade union","The rule of law"],
+      correctAnswers: [1,3],
+      explanation: "The fundamental principles of British life include: democracy, the rule of law, individual liberty, tolerance of those with different faiths and beliefs and participation in community life.",
+      explanation_zh: "英國生活的基本原則包括：民主、法治、個人自由、對不同信念和信念的寬容以及參與社區生活。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 506,
+      question: "Where should you register if you want to become part of a jury?",
+      question_zh: "如果想成為陪審團成員，應該到哪裡註冊？",
+      options: ["The British Embassy", "The electoral register", "The NHS", "Your local council"],
+      correctAnswers: [1],
+      explanation: "People on the electoral register are randomly selected to serve on a jury. Therefore, if you want to be selected to form part of a jury you have to be on the electoral register and be between 18 to 70 years old.",
+      explanation_zh: "選民登記冊上的人會被隨機選中擔任陪審員。因此，如果你想被選中成為陪審員，你必須在選民登記冊上登記，並且年齡在18歲至70歲之間。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 507,
+      question: "What sort of church is the Church of Scotland?",
+      question_zh: "蘇格蘭教會是什麼類型的教會？",
+      options: ["Catholic", "Baptist","Free Church","Presbyterian"],
+      correctAnswers: [3],
+      explanation: "In Scotland, the national Church is the Church of Scotland, which is a Presbyterian Church.",
+      explanation_zh: "在蘇格蘭，國家教堂是蘇格蘭 Presbyterian 教會。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 508,
+      question: "Where does golf come from?",
+      question_zh: "高爾夫起源於哪裡？",
+      options: ["Wales","Australia","Scotland","Northern Ireland"],
+      correctAnswers: [2],
+      explanation: "The modern game of golf can be traced back to 15th century Scotland.",
+      explanation_zh: "現代高爾夫起源于15世紀的蘇格蘭。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 509,
+      question: "When do the television and newspapers have stories that are jokes until midday?",
+      question_zh: "電視和報紙什麼時候才會播出中午前都是笑話的新聞？",
+      options: ["Valentine's Day","New Year's Day","Christmas Day","April Fool's Day"],
+      correctAnswers: [3],
+      explanation: "On April Fool’s Day, the 1st of April the television and newspapers often have stories that are April Fool jokes.",
+      explanation_zh: "在4月1日愚人節，電視和報紙通常會播出愚人節玩笑的新聞。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 510,
+      question: "What king was defeated by Oliver Cromwell during the Civil War and hid in an oak tree before escaping to Europe?",
+      question_zh: "誰在內戰中被 Oliver Cromwell 打敗，躲在橡樹樹中，最後逃到歐洲？",
+      options: ["Richard I", "Charles II", "James II", "Henry VIII"],
+      correctAnswers: [1],
+      explanation: "Charles II was defeated by Oliver Cromwell during the Civil War and hid in an oak tree before escaping to Europe.",
+      explanation_zh: "查爾斯二世在內戰中被 Oliver Cromwell 打敗，躲在橡樹樹中，最後逃到歐洲。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 511,
+      question: "Who was the father of Queen Elizabeth I?",
+      question_zh: "誰是女王伊麗莎白一世的父親？",
+      options: ["Henry VIII", "Edward I", "James II", "Henry VII"],
+      correctAnswers: [0],
+      explanation: "Henry VIII was the father of Queen Elizabeth I.",
+      explanation_zh: "亨利八世是女王伊麗莎白一世的父親。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 512,
+      question: "Complaints against the police can ONLY be made by writing to the Police Complaints Commissioner.",
+      question_zh: "對警方的投訴只能透過寫信給警察投訴專員的方式提出。",
+      options: ["True", "False"],
+      correctAnswers: [1],
+      explanation: "Anyone can make a complaint about the police by going to a police station and writing to the Chief Constable of the police force involved. Complaints can also be made to an independent body: the Independent Police Complaints Commission in England and Wales, the Police Complaints Commissioner for Scotland or the Police Ombudsman for Northern Ireland.",
+      explanation_zh: "任何人都可以前往警察局投訴警方，也可以寫信給相關警隊的警長。此外，也可以向獨立機構投訴：英格蘭和威爾斯的獨立警察投訴委員會、蘇格蘭的警察投訴專員或北愛爾蘭的警察監察專員。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 513,
+      question: "Who is the patron Saint of Northern Ireland?",
+      question_zh: "北愛爾蘭的守護聖人是誰？",
+      options: ["St. Columba", "St. Patrick", "St. Brigid", "St. Martin"],
+      correctAnswers: [1],
+      explanation: "The patron Saint of Northern Ireland is St Patrick.",
+      explanation_zh: "北愛爾蘭的守護聖人是聖派翠克(St. Patrick)。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 514,
+      question: "What is the name of the period when new ideas about politics, philosophy and science were developed?",
+      question_zh: "發展出關於政治、哲學和科學的新思想的時期是什麼？",
+      options: ["The Renaissance", "The Industrial Revolution", "The Scientific Revolution", "The Enlightenment"],
+      correctAnswers: [3],
+      explanation: "During the 18th century, new ideas about politics, philosophy and science were developed. This is often called ‘the Enlightenment’.",
+      explanation_zh: "18世紀期間，政治、哲學和科學領域湧現許多新思想。這通常被稱為“啟蒙運動”。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 515,
+      question: "Which of the following statements is TRUE:",
+      question_zh: "下列哪個陳述是正確的？",
+      options: ["Mary Stuart (‘Mary, Queen of Scots’) was a Protestant", "Mary Stuart (‘Mary, Queen of Scots’) was a Catholic"],
+      correctAnswers: [1],
+      explanation: "Mary Stuart (Mary, Queen of Scots) was a Catholic.",
+      explanation_zh: "瑪麗·斯圖亞特（“蘇格蘭女王瑪麗”）是一名天主教徒。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 516,
+      question: "Which of the following is an example of civil law?",
+      question_zh: "下列哪個是民事法的範例？",
+      options: ["To carry a weapon of any kind, even if it is for self-defence", "Discrimination in the workplace", "To own a pet dog", "To buy alcohol for people who are under the age of 18"],
+      correctAnswers: [1],
+      explanation: "Discrimination in the workplace is an example of civil law.",
+      explanation_zh: "在工作場所的歧視是民事法的範例。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 517,
+      question: "In which battle did Admiral Nelson die?",
+      question_zh: "納爾遜海軍上將(Admiral Nelson)在哪一場戰役中陣亡？",
+      options: ["The Battle of Waterloo", "The Battle of Hastings", "The Battle of Bosworth Field","The Battle of Trafalgar"],
+      correctAnswers: [3],
+      explanation: "Admiral Nelson was in charge of the British fleet at the Battle of Trafalgar and was killed in the battle.",
+      explanation_zh: "納爾遜海軍上將(Admiral Nelson)在特拉法加海戰中陣亡。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 518,
+      question: "William of Orange was asked by Protestants to invade England and proclaim himself king. But, when William reached England, there was no resistance and he took over the throne. This event was later known as:",
+      question_zh: "奧蘭治威廉(William of Orange)受新教徒之託入侵英格蘭並自立為王。然而，當威廉抵達英格蘭時，並未遇到任何抵抗，他隨即奪取了王位。這事件後來被稱為：",
+      options: ["The Glorious Revolution", "The Battle of Hastings", "The Battle of Bosworth Field","The Battle of Trafalgar"],
+      correctAnswers: [0],
+      explanation: "William of Orange was asked by Protestants to invade England and proclaim himself king. But, when William reached England, there was no resistance and he took over the throne. This event was later known as: The Glorious Revolution.",
+      explanation_zh: "威廉·奧蘭治(William of Orange)受新教徒之託入侵英格蘭並自立為王。然而，當威廉抵達英格蘭時，並未遇到任何抵抗，他隨即奪取了王位。這事件後來被稱為「光榮革命」。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 519,
+      question: "What sort of charity is ‘Friends of the Earth’?",
+      question_zh: "「Friends of the Earth」是什麼樣的慈善團體？",
+      options: ["A charity working with older people", "A charity working with pets", "An environmental charity", "A medical research charity"],
+      correctAnswers: [2],
+      explanation: "Friends of the Earth is an environmental charity.",
+      explanation_zh: "Friends of the Earth是環境慈善團體。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 520,
+      question: "If a husband forces his wife to have sex he can be charged with rape.",
+      question_zh: "如果丈夫強迫妻子發生性行為，他可以被控告強姦。",
+      options: ["True", "False"],
+      correctAnswers: [0],
+      explanation: "If a husband forces his wife to have sex he can be charged with rape.",
+      explanation_zh: "如果丈夫強迫妻子發生性行為，他可以被控告強姦。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 521,
+      question: "In which country of the British Empire did the Boer War (1899-1902) take place?",
+      question_zh: "布爾戰爭（1899-1902）發生在英帝國的哪個國家？",
+      options: ["Zimbabwe", "Namibia", "South Africa", "Zambia"],
+      correctAnswers: [2],
+      explanation: "The Boer War of 1899 to 1902 took place in South Africa with settlers from the Netherlands called the Boers.",
+      explanation_zh: "布爾戰爭（1899-1902）發生在南非，由荷蘭移民組成的布爾人（Boers）參與。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 522,
+      question: "Which of the following actions is known as “canvassing”?",
+      question_zh: "下列哪個行為被稱為“ canvassing”？",
+      options: ["Volunteering for an environmental charity", "Donating blood to help people", "Persuading people to vote for a political party", "Caring for animals at a local rescue shelter"],
+      correctAnswers: [2],
+      explanation: "Persuading people to vote for a political party is known as canvassing.",
+      explanation_zh: "說服人們投票給某個政黨的行為稱為拉票。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 523,
+      question: "Which novel written by JRR Tolkien was voted the country’s best-loved novel in 2003?",
+      question_zh: "哪本由JRR Tolkien所寫的小說在2003年被選為英國最愛的小說？",
+      options: ["The Hobbit", "The Silmarillion", "The Children of Húrin", "The Lord of the Rings"],
+      correctAnswers: [3],
+      explanation: "The Lord of the Rings was voted the country’s best-loved novel in 2003.",
+      explanation_zh: "2003年，JRR Tolkien的《魔戒》被評為英國最受歡迎的小說。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 524,
+      question: "When did Germany invade Poland?",
+      question_zh: "德國是什麼時候入侵波蘭？",
+      options: ["1941", "1942", "1939", "1944"],
+      correctAnswers: [2],
+      explanation: "Germany invaded Poland in 1939.",
+      explanation_zh: "德國在1939年入侵波蘭。",
+      category: "History",
+      isMultipleChoice: false
+    },
+  ],
+  
+}
