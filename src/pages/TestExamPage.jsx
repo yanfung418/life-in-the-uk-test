@@ -43,11 +43,24 @@ const TestExamPage = () => {
 
   const handleSelectOption = (idx) => {
     if (submitted[currentQuestionIdx]) return;
-    setUserAnswers(prev => ({ ...prev, [currentQuestionIdx]: idx }));
+    
+    setUserAnswers(prev => {
+      const current = prev[currentQuestionIdx] || [];
+      if (currentQuestion.isMultipleChoice) {
+        if (current.includes(idx)) {
+          return { ...prev, [currentQuestionIdx]: current.filter(i => i !== idx) };
+        } else {
+          return { ...prev, [currentQuestionIdx]: [...current, idx] };
+        }
+      } else {
+        return { ...prev, [currentQuestionIdx]: [idx] };
+      }
+    });
   };
 
   const handleCheckAnswer = () => {
-    if (userAnswers[currentQuestionIdx] === undefined) return;
+    const selected = userAnswers[currentQuestionIdx];
+    if (!selected || selected.length === 0) return;
     setSubmitted(prev => ({ ...prev, [currentQuestionIdx]: true }));
   };
 
@@ -59,8 +72,9 @@ const TestExamPage = () => {
     let incorrectAnswers = [];
 
     questions.forEach((q, qIdx) => {
-      const selected = userAnswers[qIdx];
-      const isCorrect = selected !== undefined && q.correctAnswers.includes(selected);
+      const selected = userAnswers[qIdx] || [];
+      const isCorrect = q.correctAnswers.length === selected.length && 
+                        q.correctAnswers.every(val => selected.includes(val));
       
       if (isCorrect) {
         correctCount++;
@@ -70,13 +84,14 @@ const TestExamPage = () => {
           questionIdx: qIdx,
           question: q.question,
           question_zh: q.question_zh,
-          userAnswer: selected !== undefined ? q.options[selected] : "Not answered",
-          correctAnswer: q.options[q.correctAnswers[0]],
+          userAnswer: selected.length > 0 ? selected.map(i => q.options[i]).join(", ") : "Not answered",
+          correctAnswer: q.correctAnswers.map(i => q.options[i]).join(", "),
           explanation: q.explanation,
           explanation_zh: q.explanation_zh,
           options: q.options,
           options_zh: q.options_zh,
           correctAnswers: q.correctAnswers,
+          isMultipleChoice: q.isMultipleChoice,
           selectedIdx: selected
         });
       }
@@ -116,8 +131,9 @@ const TestExamPage = () => {
   // Calculate statuses for QuestionGrid
   const statuses = Object.keys(submitted).reduce((acc, qIdx) => {
     const q = questions[qIdx];
-    const selected = userAnswers[qIdx];
-    const isCorrect = q.correctAnswers.includes(selected);
+    const selected = userAnswers[qIdx] || [];
+    const isCorrect = q.correctAnswers.length === selected.length && 
+                      q.correctAnswers.every(val => selected.includes(val));
     acc[parseInt(qIdx) + 1] = isCorrect ? 'correct' : 'incorrect';
     return acc;
   }, {});
@@ -134,7 +150,7 @@ const TestExamPage = () => {
   }
 
   const isCurrentSubmitted = submitted[currentQuestionIdx];
-  const selectedOptionIdx = userAnswers[currentQuestionIdx];
+  const selectedIndices = userAnswers[currentQuestionIdx] || [];
 
   return (
     <div className="min-h-screen bg-gray-50/50 pb-20">
@@ -195,7 +211,7 @@ const TestExamPage = () => {
             
             <div className="space-y-4">
               {currentQuestion.options.map((option, idx) => {
-                const isSelected = selectedOptionIdx === idx;
+                const isSelected = selectedIndices.includes(idx);
                 const isCorrect = currentQuestion.correctAnswers.includes(idx);
                 
                 let optionStyle = "w-full text-left p-5 rounded-xl border-2 transition-all duration-200 flex items-center gap-4 ";
@@ -223,10 +239,10 @@ const TestExamPage = () => {
                     onClick={() => handleSelectOption(idx)}
                     className={optionStyle}
                   >
-                    <div className={`w-6 h-6 rounded-full border-2 flex-shrink-0 flex items-center justify-center transition-colors ${
+                    <div className={`${currentQuestion.isMultipleChoice ? 'w-6 h-6 rounded-md' : 'w-6 h-6 rounded-full'} border-2 flex-shrink-0 flex items-center justify-center transition-colors ${
                       isSelected ? 'border-blue-600' : 'border-gray-200'
                     }`}>
-                      {isSelected && <div className="w-3 h-3 rounded-full bg-blue-600" />}
+                      {isSelected && <div className={`${currentQuestion.isMultipleChoice ? 'w-3 h-3 rounded-sm' : 'w-3 h-3 rounded-full'} bg-blue-600`} />}
                     </div>
                     <div className="flex flex-col text-left">
                       <span className="font-semibold">{option}</span>
@@ -242,7 +258,8 @@ const TestExamPage = () => {
             {isCurrentSubmitted && (
               <div className="mt-10 p-6 bg-blue-50/50 rounded-2xl border border-blue-100">
                 <div className="flex items-center gap-3 mb-4">
-                  {currentQuestion.correctAnswers.includes(selectedOptionIdx) ? (
+                  {(currentQuestion.correctAnswers.length === selectedIndices.length && 
+                    currentQuestion.correctAnswers.every(val => selectedIndices.includes(val))) ? (
                     <>
                       <span className="text-3xl">✓</span>
                       <h3 className="text-green-700 font-bold text-xl">Correct!</h3>
@@ -285,7 +302,7 @@ const TestExamPage = () => {
                   
                   {!isCurrentSubmitted ? (
                     <button 
-                      disabled={selectedOptionIdx === undefined}
+                      disabled={selectedIndices.length === 0}
                       onClick={handleCheckAnswer}
                       className="flex-1 sm:flex-none px-10 py-3 rounded-full bg-blue-600 text-white font-bold hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-blue-200 transition-all"
                     >
