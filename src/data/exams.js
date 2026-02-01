@@ -755,7 +755,7 @@ export const examQuestions = {
       id: 320,
       question: "Who was the leader of the suffragettes, the group that campaigned for women’s rights to vote?",
       question_zh: "誰是爭取婦女投票權的婦女參政運動的領導人？",
-      options: ["Mary Wollstonecraft", " Mary Wollstonecraft", " Mary Wollstonecraft","Emmeline Pankhurst"],
+      options: ["Florence Nightingale", "Queen Victoria", "Mary Wollstonecraft","Emmeline Pankhurst"],
       correctAnswers: [3],
       explanation: "Emmeline Pankhurst was the leader of the suffragettes, the group that campaigned for women’s rights to vote.",
       explanation_zh: " Emmeline Pankhurst是爭取婦女投票權的婦女參政運動的領導人。",
@@ -1070,7 +1070,7 @@ export const examQuestions = {
       explanation: "Radio and Television have to give a balanced coverage of all political parties and equal time to rival viewpoints before an election.",
       explanation_zh: "選舉前，廣播和電視必須對所有政黨進行平衡報道，並給予不同觀點同等的報道時間。",
       category: "General Knowledge",
-      isMultipleChoice: false
+      isMultipleChoice: true
     }
   ],
   5: [
@@ -1339,5 +1339,271 @@ export const examQuestions = {
       isMultipleChoice: false
     },
   ],
-  
+  6: [
+    {
+      id: 601,
+      question: "As a British citizen what are your responsibilities (choose two answers)?",
+      question_zh: "作為英國公民，你的責任有哪些（選擇兩個答案）？",
+      options: ["To look after yourself and your family", "To walk your day only during the day", "To respect and obey the law", "To go to church on Sunday"],
+      correctAnswers: [0, 2],
+      explanation: "If you wish to be a permanent resident or citizen of the UK, you should: respect and obey the law, look after yourself and your family, respect the rights of others, including their right to their own opinions, treat others with fairness and look after the area in which you live and the environment.",
+      explanation_zh: "如果你想成為英國的永久居民或公民，你應該：尊重並遵守法律，照顧好自己和家人，尊重他人的權利，包括他們表達自己意見的權利，公平地對待他人，並愛護你居住的地區和環境。",
+      category: "General Knowledge",
+      isMultipleChoice: true
+    },
+    {
+      id: 602,
+      question: "Who made the first coins to be minted in Britain?",
+      question_zh: "誰製造了第一枚在英國鑄造的硬幣？",
+      options: ["The Romans", "The Anglo-Saxons", "The people of the Stone Age", "The people of the Iron Age"],
+      correctAnswers: [3],
+      explanation: "The people of the Iron Age made the first coins to be minted in Britain, some inscribed with the names of Iron Age kings. This marks the beginnings of British history.",
+      explanation_zh: "鐵器時代的人製造了第一枚在英國鑄造的硬幣，一些硬幣上刻有鐵器時代君主的名字。這標誌著英國歷史的開始。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 603,
+      question: "Who built the Tower of London?",
+      question_zh: "誰建造了倫敦塔？",
+      options: ["Oliver Cromwell", "William the Conqueror", "Queen Elizabeth I", "Queen Victoria"],
+      correctAnswers: [1],
+      explanation: "The Tower of London was built by William the Conqueror.",
+      explanation_zh: "倫敦塔是由威廉征服者建造的。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 604,
+      question: "There are 15 national parks in England, Wales and Scotland. What are national parks?",
+      question_zh: "英格蘭、威爾斯和蘇格蘭共有15個國家公園。什麼是國家公園？",
+      options: ["Medieval buildings", "Protected areas of countryside", "Giant greenhouses", "Land formations of columns made from volcanic lava"],
+      correctAnswers: [1],
+      explanation: "National Parks are areas of protected countryside that everyone can visit, and where people live, work and look after the landscape.",
+      explanation_zh: "國家公園是受保護的鄉村地區，任何人都可以參觀，人們在那裡生活、工作並保護景觀。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 605,
+      question: "Northern Ireland has its own established church.",
+      question_zh: "北愛爾蘭有自己的國教教堂。",
+      options: ["True", "False"],
+      correctAnswers: [1],
+      explanation: "There is no established Church in Wales or Northern Ireland.",
+      explanation_zh: "威爾斯和北愛爾蘭沒有自己的官方教堂。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 606,
+      question: "Which three territories form Great Britain?",
+      question_zh: "哪三個領土組成大不列颠(Great Britain)?",
+      options: ["Scotland", "Northern Ireland", "Wales", "England"],
+      correctAnswers: [0,2,3],
+      explanation: "‘Great Britain’ refers only to England, Scotland and Wales, not to Northern Ireland.",
+      explanation_zh: "大不列颠只包括英格蘭、蘇格蘭和威爾斯，不包括北愛爾蘭。",
+      category: "General Knowledge",
+      isMultipleChoice: true
+    },
+    {
+      id: 607,
+      question: "How often are Prime Minister’s Questions held in the parliament?",
+      question_zh: "首相質詢在議會多久舉行一次？",
+      options: ["Every day", "Every week", "Every two weeks", "Every month"],
+      correctAnswers: [1],
+      explanation: "Prime Minister’s Questions are held every week.",
+      explanation_zh: "首相質詢每周舉行一次。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 608,
+      question: "Which king was executed in 1649?",
+      question_zh: "哪位君主在1649年被處決？",
+      options: ["James II", "Charles III", "Charles I", "James IV"],
+      correctAnswers: [2],
+      explanation: "Charles I was executed in 1649.",
+      explanation_zh: "查爾斯一世在1649年被處決。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 609,
+      question: "Where was William Shakespeare born?",
+      question_zh: "威廉·莎士比亞在哪裡出生？",
+      options: ["London", "Birmingham", "Manchester","Stratford-upon-Avon"],
+      correctAnswers: [3],
+      explanation: "William Shakespeare was born in Stratford-upon-Avon.",
+      explanation_zh: "莎士比亞出生於英國斯特拉特福鎮。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 610,
+      question: "Which two of the following are famous British Paralympians?",
+      question_zh: "以下哪兩個是著名的英國殘疾奧運選手？",
+      options: ["Jayne Torvill", "Ellie Simmonds", "Dame Kelly Holmes", "Baroness Tanni Grey-Thompson"],
+      correctAnswers: [1,3],
+      explanation: "Baroness Tanni Grey-Thompson and Ellie Simmonds are famous British Paralympians.",
+      explanation_zh: "Baroness Tanni Grey-Thompson 和 Ellie Simmonds是英國著名的殘疾奧運選手。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 611,
+      question: "Who was reigning in England when English settlers first began to colonise the eastern coast of America?",
+      question_zh: "當英國殖民者開始在美洲東海岸定居時，英國的統治者是誰？",
+      options: ["Queen Victoria", "Henry VIII", "Elizabeth I", "Charles I"],
+      correctAnswers: [2],
+      explanation: "In Elizabeth I’s time, English settlers first began to colonise the eastern coast of America.",
+      explanation_zh: "在伊莉莎白一世時期，英國殖民者開始在美洲東海岸進行殖民活動。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 612,
+      question: "Scotland and Wales use a system called ‘individual registration’ where all those entitled to vote must complete their own registration form.",
+      question_zh: "蘇格蘭和威爾斯使用一種稱為‘個人注冊’的系統，所有有權投票的人都必須完成自己的注冊表。",
+      options: ["True", "False"],
+      correctAnswers: [1],
+      explanation: "Northern Ireland uses a system called ‘individual registration’ and all those entitled to vote must complete their own registration form.",
+      explanation_zh: "北愛爾蘭採用「個人登記」制度，所有有權投票的人都必須填寫自己的登記表。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 613,
+      question: "On what day is the birth of Jesus Christ celebrated?",
+      question_zh: "基督誕生是什麼時候？",
+      options: ["Boxing Day", "New Year's Day", "Christmas Day", "Easter Sunday"],
+      correctAnswers: [2],
+      explanation: "Christmas Day is celebrated on December 25th.",
+      explanation_zh: "基督誕生是12月25日。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 614,
+      question: "What sort of battle was the ’Battle of Britain’, fought between Germany and Britain in the summer of 1940?",
+      question_zh: "1940 年夏天，德國和英國之間爆發了“不列顛之戰”，這是一場什麼樣的戰役？",
+      options: ["A battle without rifles", "A battle in the mountains", "An aerial battle", "A battle in the sea"],
+      correctAnswers: [2],
+      explanation: "‘The Battle of Britain’ was a crucial aerial battle fought between Germany and Britain in the summer of 1940.",
+      explanation_zh: "不列顛之戰是1940年夏天德國和英國之間爆發的一場關鍵空軍戰役。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 615,
+      question: "Where is Swansea located?",
+      question_zh: "斯旺西(Swansea)位於哪裡？",
+      options: ["Wales", "England", "Scotland", "Northern Ireland"],
+      correctAnswers: [0],
+      explanation: "Swansea is located in Wales.",
+      explanation_zh: "斯旺西(Swansea)位於威爾斯。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 616,
+      question: "Which two political parties formed a coalition in 2010?",
+      question_zh: "2010年，哪兩個政治黨派組成了一個聯盟？",
+      options: ["The Labour Party", "The Conservative Party", "The Liberal Democrat Party", "The SNP"],
+      correctAnswers: [1,2],
+      explanation: "In May 2010 the Conservative and Liberal Democrat parties formed a coalition and the leader of the Conservative Party, David Cameron, became Prime Minister.",
+      explanation_zh: "2010 年 5 月，保守黨和自由民主黨組成聯合政府，保守黨領袖戴維·卡梅倫出任首相。",
+      category: "General Knowledge",
+      isMultipleChoice: true
+    },
+    {
+      id: 617,
+      question: "Who established the Church of England?",
+      question_zh: "誰建立了英國國教？",
+      options: ["William of Orange", "Winston Churchill", "Henry VIII", "Oliver Cromwell"],
+      correctAnswers: [2],
+      explanation: "Henry VIII established the Church of England.",
+      explanation_zh: "亨利八世建立了英國國教。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 618,
+      question: "In 1348, one third of the population in England, Wales and Scotland died as a result of which disease?",
+      question_zh: "1348年，英格蘭、威爾斯和蘇格蘭三分之一的人口死於哪一種疾病？",
+      options: ["The black death", "The flu", "The measles", "The cold"],
+      correctAnswers: [0],
+      explanation: "The black death killed one third of the population in England, Wales and Scotland in 1348.",
+      explanation_zh: "瘟疫在1348年使英格蘭、威爾斯和蘇格蘭三分之一的人口死亡。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 619,
+      question: "Haggis is a traditional food from which area?",
+      question_zh: "哈吉斯(Haggis)是從哪個地區的传统食物？",
+      options: ["Wales", "England","Scotland", "Northern Ireland"],
+      correctAnswers: [2],
+      explanation: "Haggis is a traditional food from Scotland.",
+      explanation_zh: "哈吉斯(Haggis)是蘇格蘭的傳統食物。",
+      category: "Culture",
+      isMultipleChoice: false
+    },
+    {
+      id: 620,
+      question: "Which court deals with minor criminal offences in Scotland?",
+      question_zh: "蘇格蘭處理輕微刑事犯罪的法院是什麼？",
+      options: ["The Sheriff Court", "The Justice of the Peace Court", "The Court of Session", "The Court of Appeal"],
+      correctAnswers: [1],
+      explanation: "The Justice of the Peace Court deals with minor criminal offences in Scotland.",
+      explanation_zh: "蘇格蘭處理輕微刑事犯罪的法院是 Justice of the Peace Court。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    },
+    {
+      id: 621,
+      question: "Which two of the following records give us information about England during the reign of William I?",
+      question_zh: "以下哪兩項記錄提供了有關威廉一世統治時期英格蘭的資訊？",
+      options: ["The Bayeux Tapestry", "The Magna Carta", "The Canterbury Tales", "The Domesday Book"],
+      correctAnswers: [0, 3],
+      explanation: "The Bayeux Tapestry and The Domesday Book give us information about England during the reign of William I.",
+      explanation_zh: "The Bayeux Tapestry和 TheDomesday Book 提供了威廉一世統治時期英格蘭的資訊。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 622,
+      question: "In 1913, the British government promised ‘Home Rule’ for Ireland, why were changes in Ireland delayed until 1921?",
+      question_zh: "1913年，英國政府承諾為愛爾蘭提供「自治權」，為什麼愛爾蘭的改革要等到1921年才開始？",
+      options: ["Due to the outbreak of the Black Death", "Due to the outbreak of the Second World War", "Due to the outbreak of the First World War", "Because there was not a king on the British throne"],
+      correctAnswers: [2],
+      explanation: "The outbreak of the First World War delayed changes in Ireland until 1921.",
+      explanation_zh: "第一次世界大戰使愛爾蘭的改革延遲到1921年。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 623,
+      question: "Which of the following statements is true?",
+      question_zh: "以下哪一個陳述是正確的？",
+      options: ["Elizabeth I was a Protestant and she succeeded in finding a balance between the views of the Catholics and the more extreme Protestants.", "Elizabeth I was a Catholic and she succeeded in finding a balance between the views of the Catholics and the more extreme Protestants."],
+      correctAnswers: [0],
+      explanation: "Elizabeth I was a Protestant and she succeeded in finding a balance between the views of the Catholics and the more extreme Protestants.",
+      explanation_zh: "伊莉莎白一世是新教徒，她成功地在天主教徒和較為激進的新教徒的觀點之間找到了平衡。",
+      category: "History",
+      isMultipleChoice: false
+    },
+    {
+      id: 624,
+      question: "Which two documents do you need to apply for a National Insurance number?",
+      question_zh: "申請國民保險號碼需要哪些文件？",
+      options: ["Documents that prove your identity", "A contract from your employer", "A letter from your doctor", "Documents that prove that you have permission to work in the UK"],
+      correctAnswers: [0, 3],
+      explanation: "Documents that prove your identity and Documents that prove that you have permission to work in the UK are required to apply for a National Insurance number.",
+      explanation_zh: "申請國民保險號碼需要提供身份證明文件和證明您有權在英國工作的文件。",
+      category: "General Knowledge",
+      isMultipleChoice: false
+    }
+
+  ]
 }
