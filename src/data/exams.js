@@ -1604,6 +1604,383 @@ export const examQuestions = {
       category: "General Knowledge",
       isMultipleChoice: false
     }
-
+  ],
+  7: [
+      {
+        "id": 701,
+        "question": "As a British citizen, you should:",
+        "question_zh": "作為英國公民，您應該：",
+        "options": [
+            "Respect and obey the law",
+            "Vote in all elections",
+            "Take part in religious activities",
+            "Look after the area in which you live and the environment"
+        ],
+        "correctAnswers": [0, 3],
+        "explanation": "As a British citizen you should respect and obey the law and look after the area in which you live and the environment are the correct answers.",
+        "explanation_zh": "作為英國公民，你應該尊重和遵守法律，愛護你所居住的地區和環境，這是正確的答案。",
+        "category": "General Knowledge",
+        "isMultipleChoice": true
+    },
+    {
+        "id": 702,
+        "question": "When is Halloween celebrated?",
+        "question_zh": "萬聖節什麼時候慶祝？",
+        "options": [
+            "5th of November",
+            "11th of November",
+            "31st of October",
+            "1st of April"
+        ],
+        "correctAnswers": [2],
+        "explanation": "Halloween is celebrated on the 31st of October .",
+        "explanation_zh": "10 月 31 日慶祝萬聖節。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 703,
+        "question": "The Bill of Rights in 1689 gave women the right to vote.",
+        "question_zh": "1689 年的《權利法案》賦予婦女投票權。",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswers": [1],
+        "explanation": "The Bill of Rights, 1689, confirmed the rights of Parliament and the limits of the king’s power.",
+        "explanation_zh": "1689 年的《權利法案》確認了議會的權利和國王權力的限制。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 704,
+        "question": "What is the name of the most famous cricket competition played between England and Australia?",
+        "question_zh": "英格蘭和澳大利亞之間最著名的板球比賽的名稱是什麼？",
+        "options": [
+            "The Ashes",
+            "The Six Nations Championship",
+            "The Grand National",
+            "The Australian Open"
+        ],
+        "correctAnswers": [0],
+        "explanation": "The most famous cricket competition is the Ashes , which is a series of Test matches played between England and Australia.",
+        "explanation_zh": "最著名的板球比賽是灰燼杯，這是英格蘭和澳大利亞之間進行的一系列測試賽。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 705,
+        "question": "What was the biggest source of employment during the 18th century?",
+        "question_zh": "18世紀最大的就業來源是什麼？",
+        "options": [
+            "Fishing",
+            "Teaching",
+            "Aircraft industry",
+            "Manufacturing"
+        ],
+        "correctAnswers": [3],
+        "explanation": "During the 18th century, manufacturing jobs became the main source of employment in Britain.",
+        "explanation_zh": "18世紀，製造業工作成為英國就業的主要來源。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 706,
+        "question": "In 1314 the Scottish, led by Robert the Bruce, defeated the English at the battle of Bannockburn, and Scotland remained unconquered by the English.",
+        "question_zh": "1314年，羅伯特·布魯斯領導的蘇格蘭人在班諾克本戰役中擊敗了英國人，蘇格蘭至今仍未被英國人征服。",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswers": [0],
+        "explanation": "This statement is true .",
+        "explanation_zh": "這句話是正確的。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 707,
+        "question": "Which of the following is an example of criminal offence?",
+        "question_zh": "以下哪項是刑事犯罪的例子？",
+        "options": [
+            "A dispute between the landlord and the tenants who have not paid the rent",
+            "Disputes about faulty goods or services",
+            "Disputes about an unfair dismissal in the workplace",
+            "Smoking in public places where it is not allowed"
+        ],
+        "correctAnswers": [3],
+        "explanation": "Smoking in public places. It is against the law to smoke tobacco products in nearly every enclosed public place in the UK. There are signs displayed to tell you where you cannot smoke.",
+        "explanation_zh": "在公共場所吸煙。在英國幾乎所有封閉的公共場所吸食煙草製品都是違法的。有標誌告訴您哪裡不能吸煙。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 708,
+        "question": "Which Scottish clan was killed for not taking the oath?",
+        "question_zh": "哪個蘇格蘭氏族因未宣誓而被殺害？",
+        "options": [
+            "The MacLaine of Lochbuie",
+            "The McDowalls of Garthland",
+            "The MacDonalds of Glencoe",
+            "The Macpherson of Cluny"
+        ],
+        "correctAnswers": [2],
+        "explanation": "The correct answer is the MacDonalds of Glencoe .",
+        "explanation_zh": "正確答案是格倫科麥當勞(MacDonalds of Glencoe)。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 709,
+        "question": "Which two issues can the devolved administrations pass laws on?",
+        "question_zh": "權力下放的政府可以就哪兩個問題通過法律？",
+        "options": [
+            "Defence",
+            "Social security",
+            "Health",
+            "Education"
+        ],
+        "correctAnswers": [2, 3],
+        "explanation": "Policy and laws governing defence, foreign affairs, immigration, taxation and social security all remain under central UK government control. However, many other public services, such as health and education , are controlled by the devolved administrations.",
+        "explanation_zh": "有關國防、外交、移民、稅收和社會保障的政策和法律仍然處於英國中央政府的控制之下。然而，許多其他公共服務，例如衛生和教育，由權力下放的政府控制。",
+        "category": "General Knowledge",
+        "isMultipleChoice": true
+    },
+    {
+        "id": 710,
+        "question": "The assassination of the Archduke Franz Ferdinand of Austria in 1914 led to which of the following wars?",
+        "question_zh": "1914 年奧地利大公弗朗茨·費迪南德遇刺導致了以下哪場戰爭？",
+        "options": [
+            "The Crimean War",
+            "The First World War",
+            "The Civil War",
+            "The Second World War"
+        ],
+        "correctAnswers": [1],
+        "explanation": "On 28 June 1914, Archduke Franz Ferdinand of Austria was assassinated. This set off a chain of events leading to the First World War (1914-18).",
+        "explanation_zh": "1914年6月28日，奧地利大公弗朗茨·費迪南大公被暗殺。這引發了導致第一次世界大戰（1914-18）的一系列事件。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 711,
+        "question": "What is the capital city of Scotland?",
+        "question_zh": "蘇格蘭的首都是哪座城市？",
+        "options": [
+            "Edinburgh",
+            "Glasgow",
+            "St Andrews",
+            "Aberdeen"
+        ],
+        "correctAnswers": [0],
+        "explanation": "The capital city of Scotland is Edinburgh.",
+        "explanation_zh": "蘇格蘭的首都是愛丁堡。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 712,
+        "question": "In 1833 the Emancipation Act abolished slavery throughout the British Empire.",
+        "question_zh": "1833年，《解放奴隸法》廢除了整個大英帝國的奴隸制。",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswers": [0],
+        "explanation": "This statement is true .",
+        "explanation_zh": "這句話是正確的。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 713,
+        "question": "What is the name of the process by which many Scottish landlords destroyed individual small farms (known as ‘crofts’) to make space for large flocks of sheep and cattle?",
+        "question_zh": "許多蘇格蘭地主摧毀了個別小農場（稱為“小農場”），為大群羊和牛騰出空間，這一過程的名稱是什麼？",
+        "options": [
+            "The Black Death",
+            "The Corn Removal",
+            "The Enlightenment",
+            "The Highland Clearances"
+        ],
+        "correctAnswers": [3],
+        "explanation": "A process began which became known as the ‘Highland Clearances’ . Many Scottish landlords destroyed individual small farms (known as ‘crofts’) to make space for large flocks of sheep and cattle.",
+        "explanation_zh": "一個被稱為“高地清理”的過程開始了。許多蘇格蘭地主摧毀了個別的小農場（稱為“小農場”），為大群羊和牛騰出空間。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 714,
+        "question": "The Falkland Islands are a British overseas territory and are part of the United Kingdom.",
+        "question_zh": "福克蘭群島是英國海外領土，是英國的一部分。",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswers": [1],
+        "explanation": "The Falkland Islands are a British overseas territory. They are also linked to the UK but are not part of it.",
+        "explanation_zh": "福克蘭群島是英國海外領土。它們也與英國有聯繫，但不屬於英國。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 715,
+        "question": "Which two of the following are Civil War Battles?",
+        "question_zh": "以下哪兩項是內戰？",
+        "options": [
+            "The Battle of Waterloo",
+            "The Battle of Naseby",
+            "The Battle of Marston Moor",
+            "The Battle of Agincourt"
+        ],
+        "correctAnswers": [1, 2],
+        "explanation": "The Battles of Marston Moor and the Battle of Naseby .",
+        "explanation_zh": "馬斯頓荒原和內斯比之戰。",
+        "category": "History",
+        "isMultipleChoice": true
+    },
+    {
+        "id": 716,
+        "question": "What was the name of the activist group who fought for the women‘s right to vote?",
+        "question_zh": "為婦女投票權而奮鬥的活動團體叫什麼名字？",
+        "options": [
+            "Quakers",
+            "Beefeaters",
+            "Suffragettes",
+            "Chartists"
+        ],
+        "correctAnswers": [2],
+        "explanation": "In the late 19th and early 20th centuries, an increasing number of women campaigned and demonstrated for greater rights and, in particular, the right to vote. They formed the women’s suffrage movement and became known as the ‘suffragettes’ .",
+        "explanation_zh": "在 19 世紀末和 20 世紀初，越來越多的婦女為爭取更大的權利，特別是投票權而進行競选和示威。他們發起了婦女選舉權運動，並被稱為“婦女參政論者”。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 717,
+        "question": "What UK landmark was voted as Britain’s favourite view in 2007?",
+        "question_zh": "2007 年，哪個英國地標被評為英國最受歡迎的景觀？",
+        "options": [
+            "The Big Ben",
+            "Snowdonia",
+            "The London Eye",
+            "Lake District"
+        ],
+        "correctAnswers": [3],
+        "explanation": "In 2007, television viewers voted Wastwater (Lake District) as Britain’s favourite view.",
+        "explanation_zh": "2007 年，電視觀眾將沃斯特沃特（湖區）評選為英國最受歡迎的景觀。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 718,
+        "question": "Who were the first people to live in Britain in what we call the Stone Age?",
+        "question_zh": "誰是第一批生活在我們所說的石器時代的英國的人？",
+        "options": [
+            "Farmers",
+            "Hunter-gatherers",
+            "Peasants",
+            "Pirates"
+        ],
+        "correctAnswers": [1],
+        "explanation": "The first people to live in Britain were hunter-gatherers .",
+        "explanation_zh": "第一批生活在英國的人是狩獵採集者。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 719,
+        "question": "What is the name of the movement against the authority of the Pope and the ideas of the Catholic Church that took place during the reign of Henry VIII?",
+        "question_zh": "亨利八世統治期間發生的反對教皇權威和天主教會思想的運動的名稱是什麼？",
+        "options": [
+            "The Reformation",
+            "The Enlightenment",
+            "The Glorious Revolution",
+            "The Renaissance"
+        ],
+        "correctAnswers": [0],
+        "explanation": "The Reformation was a movement against the authority of the Pope and the ideas of the Catholic Church that took place during the reign of Henry VIII.",
+        "explanation_zh": "宗教改革是一場反對教皇權威和天主教會思想的運動，發生在亨利八世統治期間。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 720,
+        "question": "What do you need to do to apply for a National Insurance Number?",
+        "question_zh": "您需要做什麼才能申請國民保險號碼？",
+        "options": [
+            "Contact the NHS",
+            "Contact the Department for Work and Pensions (DWP)",
+            "Contact your local MP",
+            "Ask you employer to get it for you"
+        ],
+        "correctAnswers": [1],
+        "explanation": "If you have permission to work in the UK, you will need to telephone the Department for Work and Pensions (DWP) to arrange to get a National Insurance number.",
+        "explanation_zh": "如果您擁有在英國工作的許可，您需要致電工作和退休金部 (DWP) 以安排獲取國民保險號碼。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 721,
+        "question": "Which of the following is a major horse-racing event in England?",
+        "question_zh": "以下哪項是英格蘭的主要賽馬活動？",
+        "options": [
+            "The Wimbledon Championship",
+            "The Open Championship",
+            "The Six Nations Championship",
+            "Royal Ascot"
+        ],
+        "correctAnswers": [3],
+        "explanation": "Royal Ascot is a five-day horse-racing event in Berkshire attended by members of the Royal Family.",
+        "explanation_zh": "皇家阿斯科特賽馬會是伯克郡舉行的為期五天的賽馬盛會，英國王室成員均會出席。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 722,
+        "question": "How many members form a jury in Scotland?",
+        "question_zh": "蘇格蘭的陪審團有多少名成員？",
+        "options": [
+            "12",
+            "14",
+            "15",
+            "20"
+        ],
+        "correctAnswers": [2],
+        "explanation": "In Scotland a jury has 15 members .",
+        "explanation_zh": "在蘇格蘭，陪審團有 15 名成員。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 723,
+        "question": "What is known as Lent?",
+        "question_zh": "什麼是四旬齋？",
+        "options": [
+            "The 40 days before Easter",
+            "The 40 days before Christmas",
+            "The 40 days after Easter",
+            "The 40 days after Christmas"
+        ],
+        "correctAnswers": [0],
+        "explanation": "The 40 days before Easter are known as Lent.",
+        "explanation_zh": "復活節前的 40 天被稱為四旬期。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 724,
+        "question": "When was the last successful foreign invasion of England?",
+        "question_zh": "外國上次成功入侵英格蘭是什麼時候？",
+        "options": [
+            "1415",
+            "1314",
+            "1066",
+            "1200"
+        ],
+        "correctAnswers": [2],
+        "explanation": "The Norman Conquest was the last successful foreign invasion of England in 1066 .",
+        "explanation_zh": "諾曼征服是 1066 年最後一次成功的外國入侵英格蘭。",
+        "category": "History",
+        "isMultipleChoice": false
+    }
   ]
 }
