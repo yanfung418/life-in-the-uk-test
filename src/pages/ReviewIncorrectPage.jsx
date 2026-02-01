@@ -22,22 +22,51 @@ const ReviewIncorrectPage = () => {
 
   const handleSelectOption = (idx) => {
     if (submitted[currentQuestionIdx]) return;
-    setUserAnswers(prev => ({ ...prev, [currentQuestionIdx]: idx }));
+    
+    setUserAnswers(prev => {
+      const current = prev[currentQuestionIdx] || [];
+      const isMulti = currentQuestion.isMultipleChoice || (currentQuestion.correctAnswers && currentQuestion.correctAnswers.length > 1);
+      
+      if (isMulti) {
+        if (current.includes(idx)) {
+          return { ...prev, [currentQuestionIdx]: current.filter(i => i !== idx) };
+        } else {
+          return { ...prev, [currentQuestionIdx]: [...current, idx] };
+        }
+      } else {
+        return { ...prev, [currentQuestionIdx]: [idx] };
+      }
+    });
   };
 
   const handleCheckAnswer = () => {
-    if (userAnswers[currentQuestionIdx] === undefined) return;
+    const selected = userAnswers[currentQuestionIdx] || [];
+    if (selected.length === 0) return;
     
-    const isCorrect = currentQuestion.correctAnswers.includes(userAnswers[currentQuestionIdx]);
+    const isCorrect = currentQuestion.correctAnswers.length === selected.length && 
+                      currentQuestion.correctAnswers.every(val => selected.includes(val));
     
-    // If correct, we can optionally remove it from storage so they don't have to practice it again
-    // But maybe better to let them finish the session first? 
-    // Let's remove it if correct to show progress.
-    if (isCorrect) {
-      removeIncorrectAnswer(currentQuestion.question);
-    }
-
     setSubmitted(prev => ({ ...prev, [currentQuestionIdx]: true }));
+  };
+
+  const handleUnflag = () => {
+    if (window.confirm("Remove this question from your incorrect list?")) {
+      removeIncorrectAnswer(currentQuestion.question);
+      const newQuestions = questions.filter((_, idx) => idx !== currentQuestionIdx);
+      setQuestions(newQuestions);
+      
+      // Adjust index if we removed the last item
+      if (currentQuestionIdx >= newQuestions.length && newQuestions.length > 0) {
+        setCurrentQuestionIdx(newQuestions.length - 1);
+      }
+      
+      // Clear current answer state for the new current question
+      // This is slightly complex because userAnswers uses original indices, 
+      // but let's just reset the state for simplicity or skip if it causes issues.
+      // Re-fetching or simple state reset is safer.
+      setUserAnswers({});
+      setSubmitted({});
+    }
   };
 
   const handleNext = () => {
@@ -62,8 +91,9 @@ const ReviewIncorrectPage = () => {
   // Calculate statuses for QuestionGrid
   const statuses = Object.keys(submitted).reduce((acc, qIdx) => {
     const q = questions[qIdx];
-    const selected = userAnswers[qIdx];
-    const isCorrect = q.correctAnswers.includes(selected);
+    const selected = userAnswers[qIdx] || [];
+    const isCorrect = q.correctAnswers.length === selected.length && 
+                      q.correctAnswers.every(val => selected.includes(val));
     acc[parseInt(qIdx) + 1] = isCorrect ? 'correct' : 'incorrect';
     return acc;
   }, {});
@@ -89,7 +119,7 @@ const ReviewIncorrectPage = () => {
   }
 
   const isCurrentSubmitted = submitted[currentQuestionIdx];
-  const selectedOptionIdx = userAnswers[currentQuestionIdx];
+  const selectedIndices = userAnswers[currentQuestionIdx] || [];
 
   return (
     <div className="min-h-screen bg-gray-50/50 pb-20">
@@ -146,7 +176,7 @@ const ReviewIncorrectPage = () => {
             
             <div className="space-y-4">
               {currentQuestion.options.map((option, idx) => {
-                const isSelected = selectedOptionIdx === idx;
+                const isSelected = selectedIndices.includes(idx);
                 const isCorrect = currentQuestion.correctAnswers.includes(idx);
                 
                 let optionStyle = "w-full text-left p-5 rounded-xl border-2 transition-all duration-200 flex items-center gap-4 ";
@@ -174,10 +204,10 @@ const ReviewIncorrectPage = () => {
                     onClick={() => handleSelectOption(idx)}
                     className={optionStyle}
                   >
-                    <div className={`w-6 h-6 rounded-full border-2 flex-shrink-0 flex items-center justify-center transition-colors ${
+                    <div className={`${(currentQuestion.isMultipleChoice || (currentQuestion.correctAnswers && currentQuestion.correctAnswers.length > 1)) ? 'w-6 h-6 rounded-md' : 'w-6 h-6 rounded-full'} border-2 flex-shrink-0 flex items-center justify-center transition-colors ${
                       isSelected ? 'border-blue-600' : 'border-gray-200'
                     }`}>
-                      {isSelected && <div className="w-3 h-3 rounded-full bg-blue-600" />}
+                      {isSelected && <div className={`${(currentQuestion.isMultipleChoice || (currentQuestion.correctAnswers && currentQuestion.correctAnswers.length > 1)) ? 'w-3 h-3 rounded-sm' : 'w-3 h-3 rounded-full'} bg-blue-600`} />}
                     </div>
                     <div className="flex flex-col text-left">
                       <span className="font-semibold">{option}</span>
@@ -193,7 +223,8 @@ const ReviewIncorrectPage = () => {
             {isCurrentSubmitted && (
               <div className="mt-10 p-6 bg-blue-50/50 rounded-2xl border border-blue-100">
                 <div className="flex items-center gap-3 mb-4">
-                  {currentQuestion.correctAnswers.includes(selectedOptionIdx) ? (
+                  {(currentQuestion.correctAnswers.length === selectedIndices.length && 
+                    currentQuestion.correctAnswers.every(val => selectedIndices.includes(val))) ? (
                     <>
                       <span className="text-3xl">✓</span>
                       <h3 className="text-green-700 font-bold text-xl">Correct!</h3>
@@ -221,7 +252,14 @@ const ReviewIncorrectPage = () => {
 
             <div className="mt-10 pt-8 border-t border-gray-100">
               <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-                <div className="flex gap-3 w-full sm:w-auto ml-auto">
+                <button 
+                  onClick={handleUnflag}
+                  className="text-red-500 font-bold hover:text-red-700 transition-colors uppercase tracking-wider text-sm flex items-center gap-2"
+                >
+                  <span className="text-lg">⚐</span> Unflag Question
+                </button>
+                
+                <div className="flex gap-3 w-full sm:w-auto">
                   <button 
                     disabled={currentQuestionIdx === 0}
                     onClick={handlePrevious}
@@ -232,7 +270,7 @@ const ReviewIncorrectPage = () => {
                   
                   {!isCurrentSubmitted ? (
                     <button 
-                      disabled={selectedOptionIdx === undefined}
+                      disabled={selectedIndices.length === 0}
                       onClick={handleCheckAnswer}
                       className="flex-1 sm:flex-none px-10 py-3 rounded-full bg-blue-600 text-white font-bold hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-blue-200 transition-all"
                     >
