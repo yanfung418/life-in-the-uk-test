@@ -144,7 +144,9 @@ const ExamResultsPage = () => {
 
                   <div className="space-y-3 mb-6">
                     {item.options.map((option, optIdx) => {
-                      const isUserAnswer = optIdx === item.selectedIdx;
+                      const isUserAnswer = Array.isArray(item.selectedIdx) 
+                        ? item.selectedIdx.includes(optIdx)
+                        : optIdx === item.selectedIdx;
                       const isCorrectAnswer = item.correctAnswers.includes(optIdx);
                       
                       let optionStyle = "p-4 rounded-xl border-2 flex items-center gap-3 ";
