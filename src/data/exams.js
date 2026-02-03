@@ -2736,5 +2736,383 @@ export const examQuestions = {
       "category": "History",
       "isMultipleChoice": false
     }
+  ],
+  10: [
+    {
+      "id": 1001,
+      "question": "Who is England's patron saint?",
+      "question_zh": "誰是英格蘭的守護聖人？",
+      "options": [
+        "St Patrick",
+        "St David",
+        "St George",
+        "St Andrew"
+      ],
+      "correctAnswers": [2],
+      "explanation": "St George is the patron saint of England.",
+      "explanation_zh": "聖喬治是英格蘭的守護聖人。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1002,
+      "question": "In which country is Loch Lomond and the Trossachs National Park?",
+      "question_zh": "洛蒙德湖和特羅薩克斯國家公園在哪個國家？",
+      "options": [
+        "England",
+        "Northern Ireland",
+        "Wales",
+        "Scotland"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Loch Lomond and the Trossachs National Park is in western Scotland.",
+      "explanation_zh": "洛蒙德湖和特羅薩克斯國家公園位於蘇格蘭西部。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1003,
+      "question": "Wales has an official state church.",
+      "question_zh": "威爾斯有官方國家教會。",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswers": [1],
+      "explanation": "This is incorrect. Wales and Northern Ireland do not have official state churches.",
+      "explanation_zh": "這是不正確的。威爾士和北愛爾蘭沒有官方國家教會。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1004,
+      "question": "Which work is Geoffrey Chaucer famous for writing?",
+      "question_zh": "杰弗裡·喬叟以哪部作品聞名？",
+      "options": [
+        "The London Tales",
+        "The Cambridge Tales",
+        "The Canterbury Tales",
+        "The Eastbourne Tales"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Chaucer wrote The Canterbury Tales, a collection of poems about pilgrims traveling to Canterbury.",
+      "explanation_zh": "喬叟創作了《坎特伯雷故事集》，這是一部關於前往坎特伯雷的朝聖者的詩集。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1005,
+      "question": "On what date is Boxing Day?",
+      "question_zh": "節禮日是哪一天？",
+      "options": [
+        "24th December",
+        "01st January",
+        "26th December",
+        "31st October"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Boxing Day is December 26th, the day following Christmas, and is a public holiday.",
+      "explanation_zh": "節禮日是 12 月 26 日，即聖誕節後的第二天，是公眾假期。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1006,
+      "question": "What are the public holidays called when banks and businesses close?",
+      "question_zh": "銀行和企業關閉的公眾假期叫什麼？",
+      "options": [
+        "Business Holidays",
+        "Credit Holidays",
+        "Branch Holidays",
+        "Bank Holidays"
+      ],
+      "correctAnswers": [3],
+      "explanation": "These public holidays are called bank holidays.",
+      "explanation_zh": "這些公眾假期稱為銀行假期。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1007,
+      "question": "Why did women gain voting rights in 1918?",
+      "question_zh": "為什麼女性在 1918 年獲得投票權？",
+      "options": [
+        "In recognition of the contribution women made to the war effort during the Civil War",
+        "In recognition of the contribution women made to the war effort during the First World War",
+        "In recognition of the contribution women made to the war effort during the Crimean War",
+        "In recognition of the contribution women made to the war effort during the Second World War"
+      ],
+      "correctAnswers": [1],
+      "explanation": "Women over 30 received voting rights in 1918, partly recognizing their contributions during World War I.",
+      "explanation_zh": "30 歲以上的女性在 1918 年獲得投票權，部分原因是認可她們在第一次世界大戰期間的貢獻。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1008,
+      "question": "What must you have to drive on UK public roads?",
+      "question_zh": "在英國公共道路上駕駛必須擁有什麼？",
+      "options": [
+        "An 'R' plate",
+        "A National Insurance Number",
+        "A valid driving licence",
+        "An 'L' plate"
+      ],
+      "correctAnswers": [2],
+      "explanation": "You must hold a valid driving licence to drive on public roads in the UK.",
+      "explanation_zh": "您必須持有有效的駕駛執照才能在英國公共道路上駕駛。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1009,
+      "question": "Which city hosts the Fringe festival?",
+      "question_zh": "哪個城市舉辦「the Fringe藝術節」？",
+      "options": [
+        "St Andrews",
+        "Edinburgh",
+        "Inverness",
+        "Fraserburgh"
+      ],§
+      "correctAnswers": [],
+      "explanation": "The Edinburgh Festival Fringe takes place every summer in Edinburgh, Scotland, and is the largest arts festival of its kind.",
+      "explanation_zh": "愛丁堡the Fringe藝術節每年夏天在蘇格蘭愛丁堡舉行，是同類藝術節中規模最大的。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1010,
+      "question": "How many members are in the Welsh Parliament (Senedd)?",
+      "question_zh": "威爾斯議會（Senedd）有多少名成員？",
+      "options": [
+        "150",
+        "90",
+        "120",
+        "60"
+      ],
+      "correctAnswers": [3],
+      "explanation": "The Welsh Parliament has 60 members, elected every four years using proportional representation.",
+      "explanation_zh": "威爾士議會有 60 名成員，每四年通過比例代表制選舉產生。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1011,
+      "question": "The names and photos of young people convicted of crimes can be published in newspapers.",
+      "question_zh": "被定罪的青少年的姓名和照片可以在報紙上發表。",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswers": [1],
+      "explanation": "This is incorrect. Youth Courts are closed to the public, and names or photos of young defendants cannot be published.",
+      "explanation_zh": "這是不正確的。青少年法庭不對公眾開放，不能公佈年輕被告的姓名或照片。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1012,
+      "question": "What was Sir Edward Elgar's profession?",
+      "question_zh": "愛德華·埃爾加爵士的職業是什麼？",
+      "options": [
+        "He was an actor",
+        "He was a tennis player",
+        "He was a musician",
+        "He was a comedian"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Edward Elgar (1857-1934) was a composer, best known for his Pomp and Circumstance Marches.",
+      "explanation_zh": "愛德華·埃爾加（1857-1934）是一位作曲家，以其《威風凜凜進行曲》最為著名。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1013,
+      "question": "Which denomination is NOT a British banknote?",
+      "question_zh": "哪種面額不是英國紙幣？",
+      "options": [
+        "£5",
+        "£25",
+        "£50",
+        "£20"
+      ],
+      "correctAnswers": [1],
+      "explanation": "The UK does not issue £25 banknotes.",
+      "explanation_zh": "英國不發行 25 英鎊紙幣。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1014,
+      "question": "Where is the Scottish Grand National horse race held?",
+      "question_zh": "蘇格蘭國家大賽賽馬在哪裡舉行？",
+      "options": [
+        "Edinburgh",
+        "St Andrews",
+        "Ayr",
+        "Fife"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The Scottish Grand National takes place at Ayr racecourse.",
+      "explanation_zh": "蘇格蘭國家大賽在艾爾賽馬場舉行。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1015,
+      "question": "What type of government began after the Glorious Revolution?",
+      "question_zh": "光榮革命後開始了什麼類型的政府？",
+      "options": [
+        "Constitutional republic",
+        "Constitutional monarchy"
+      ],
+      "correctAnswers": [1],
+      "explanation": "The laws following the Glorious Revolution established a constitutional monarchy in Britain.",
+      "explanation_zh": "光榮革命後的法律在英國建立了君主立憲制。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1016,
+      "question": "Which country sent a fleet to invade England and restore Catholicism during Elizabeth I's reign?",
+      "question_zh": "伊麗莎白一世統治期間，哪個國家派艦隊入侵英格蘭並恢復天主教？",
+      "options": [
+        "Portugal",
+        "Italy",
+        "Spain",
+        "France"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Spain sent the Armada in 1588 to conquer England and restore Catholicism, but it was defeated.",
+      "explanation_zh": "西班牙在 1588 年派遣無敵艦隊征服英格蘭並恢復天主教，但被擊敗。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1017,
+      "question": "What right did the Habeas Corpus Act of 1679 establish?",
+      "question_zh": "1679 年的《人身保護令法》確立了什麼權利？",
+      "options": [
+        "Measures to improve the conditions of workers",
+        "Financial help for the unemployed, old-age pensions and free school meals",
+        "A salary for members of Parliament (MPs)",
+        "That every prisoner has a right to a court hearing"
+      ],
+      "correctAnswers": [3],
+      "explanation": "The Habeas Corpus Act guaranteed that no one could be imprisoned unlawfully and that every prisoner has the right to a court hearing.",
+      "explanation_zh": "《人身保護令法》保證任何人都不會被非法監禁，每個囚犯都有權接受法庭審理。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1018,
+      "question": "What did Emmeline Pankhurst fight for?",
+      "question_zh": "艾米琳·潘克赫斯特為什麼而戰？",
+      "options": [
+        "Freedom of expression",
+        "The right for women to vote",
+        "The right to liberty and security",
+        "The right to a fair trial"
+      ],
+      "correctAnswers": [1],
+      "explanation": "Emmeline Pankhurst founded the Women's Social and Political Union in 1903 and campaigned for women's voting rights.",
+      "explanation_zh": "艾米琳·潘克赫斯特於 1903 年創立了婦女社會和政治聯盟，並為女性投票權而奮鬥。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1019,
+      "question": "What is the Proms?",
+      "question_zh": "什麼是「逍遙音樂節」？",
+      "options": [
+        "Light-hearted plays with music and comedy",
+        "An annual event that gives awards in a range of categories, such as best British group and best British solo artist",
+        "An eight-week summer season of daily orchestral classical music concerts",
+        "An annual cultural festival which includes music, dance, art and original performances largely in Welsh"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The Proms is an eight-week summer season of orchestral classical music held at various venues including the Royal Albert Hall.",
+      "explanation_zh": "逍遙音樂節是為期八週的夏季管弦樂古典音樂季，在包括皇家阿爾伯特音樂廳在內的多個場地舉行。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1020,
+      "question": "What scientific discovery is Isaac Newton famous for?",
+      "question_zh": "艾薩克·牛頓以什麼科學發現聞名？",
+      "options": [
+        "The discovery of steam power",
+        "The discovery of gravity",
+        "The discovery of penicillin",
+        "The discovery of insulin"
+      ],
+      "correctAnswers": [1],
+      "explanation": "Newton is famous for his work on gravity, published in Principia Mathematica, which explained how gravity affects the universe.",
+      "explanation_zh": "牛頓以其在《自然哲學的數學原理》中發表的重力研究而聞名，該研究解釋了重力如何影響宇宙。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1021,
+      "question": "In what year did World War I end?",
+      "question_zh": "第一次世界大戰在哪一年結束？",
+      "options": [
+        "In 1945",
+        "In 1918",
+        "In 1922",
+        "In 1943"
+      ],
+      "correctAnswers": [1],
+      "explanation": "World War I ended in 1918.",
+      "explanation_zh": "第一次世界大戰於 1918 年結束。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1022,
+      "question": "Which Roman Emperor built a wall in northern England to keep out the Picts?",
+      "question_zh": "哪位羅馬皇帝在英格蘭北部建造城牆以阻擋皮克特人？",
+      "options": [
+        "Julius Caesar",
+        "Emperor Claudius",
+        "Emperor Hadrian",
+        "Boudicca"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Emperor Hadrian ordered the construction of Hadrian's Wall to defend against the Picts, ancestors of the Scottish people.",
+      "explanation_zh": "哈德良皇帝下令建造哈德良長城以抵禦皮克特人（蘇格蘭人的祖先）。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1023,
+      "question": "Which two universities compete in the annual rowing race on the River Thames?",
+      "question_zh": "哪兩所大學在泰晤士河上參加年度賽艇比賽？",
+      "options": [
+        "The University of Oxford",
+        "The University of Cambridge",
+        "The University of Warwick",
+        "The University of Manchester"
+      ],
+      "correctAnswers": [0, 1],
+      "explanation": "Oxford and Cambridge Universities compete in a famous annual rowing race on the Thames.",
+      "explanation_zh": "牛津大學和劍橋大學在泰晤士河上參加著名的年度賽艇比賽。",
+      "category": "General Knowledge",
+      "isMultipleChoice": true
+    },
+    {
+      "id": 1024,
+      "question": "Does the UK have a written constitution?",
+      "question_zh": "英國有成文憲法嗎？",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correctAnswers": [1],
+      "explanation": "No. The British constitution is not written in a single document, so it is described as unwritten.",
+      "explanation_zh": "沒有。英國憲法沒有寫在單一文件中，因此被稱為不成文憲法。",
+      "category": "Government",
+      "isMultipleChoice": false
+    }
   ]
 }
