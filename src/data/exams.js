@@ -1982,5 +1982,383 @@ export const examQuestions = {
         "category": "History",
         "isMultipleChoice": false
     }
+  ],
+  8: [
+    {
+        "id": 801,
+        "question": "World War II started as a result of Germany invading which country?",
+        "question_zh": "第二次世界大戰因德國入侵哪個國家而爆發？",
+        "options": [
+          "France",
+          "Poland",
+          "Russia",
+          "Austria"
+        ],
+        "correctAnswers": [1],
+        "explanation": "The Second World War started when Hitler invaded Poland in 1939. Britain and France declared war in order to stop his aggression.",
+        "explanation_zh": "1939年希特勒入侵波蘭，第二次世界大戰爆發。英法兩國為製止侵略而宣戰。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 802,
+        "question": "Which flower is associated with Scotland?",
+        "question_zh": "哪種花與蘇格蘭有關？",
+        "options": [
+            "The Shamrock",
+            "The Rose",
+            "The Daffodil",
+            "The Thistle"
+        ],
+        "correctAnswers": [3],
+        "explanation": "The flower associated with Scotland is the thistle .",
+        "explanation_zh": "與蘇格蘭相關的花是薊。",
+        "category": "Culture",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 803,
+        "question": "Police complaints can only be made by writing to the Chief Constable of the police force involved.",
+        "question_zh": "警方投訴只能通過寫信給相關警察部隊的警察局長提出。",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswers": [1],
+        "explanation": "Anyone can make a complaint about the police by going to a police station and writing to the Chief Constable of the police force involved. Complaints can also be made to an independent body: the Independent Police Complaints Commission in England and Wales, the Police Complaints Commissioner for Scotland or the Police Ombudsman for Northern Ireland .",
+        "explanation_zh": "任何人都可以前往警察局並寫信給相關警察部隊的警察局長來投訴警察。投訴也可以向獨立機構提出：英格蘭和威爾士的獨立警察投訴委員會、蘇格蘭的警察投訴專員或北愛爾蘭的警察監察員。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 804,
+        "question": "Which of the following is a responsibility of the Home Secretary?",
+        "question_zh": "以下哪項是內政大臣的職責？",
+        "options": [
+            "Economy",
+            "Education",
+            "Defence",
+            "Crime"
+        ],
+        "correctAnswers": [3],
+        "explanation": "The Home Secretary is responsible for crime, policing and immigration .",
+        "explanation_zh": "內政大臣負責犯罪、治安和移民。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 805,
+        "question": "When is St David’s day celebrated?",
+        "question_zh": "聖大衛節什麼時候慶祝？",
+        "options": [
+            "1st March",
+            "17th March",
+            "23rd April",
+            "17th April"
+        ],
+        "correctAnswers": [0],
+        "explanation": "St  David’s day, patron of Wales, is celebrated on the 1st of March .",
+        "explanation_zh": "3 月 1 日是威爾士的守護神聖大衛節。",
+        "category": "Culture",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 806,
+        "question": "What happened to ‘Mary, Queen of Scots’ after she spent 20 years in prison?",
+        "question_zh": "“蘇格蘭女王瑪麗”入獄20年後怎麼樣了？",
+        "options": [
+          "She became Queen of England",
+          "She was executed",
+          "She was sent to France",
+          "She escaped to Denmark"
+        ],
+        "correctAnswers": [1],
+        "explanation": "Mary was eventually executed , accused of plotting against Elizabeth I.",
+        "explanation_zh": "瑪麗最終因被指控密謀反對伊麗莎白一世而被處決。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 807,
+        "question": "What did Francis Crick discover?",
+        "question_zh": "弗朗西斯·克里克(Francis Crick)發現了什麼？",
+        "options": [
+            "The MRI (magnetic resonance imaging) scanner",
+            "The jet engine",
+            "The structure of the DNA molecule",
+            "The IVF (in-vitro fertilisation) therapy"
+        ],
+        "correctAnswers": [2],
+        "explanation": "Francis Crick discovered the structure of the DNA molecule .",
+        "explanation_zh": "弗朗西斯·克里克(Francis Crick)發現了 DNA 分子的結構。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 808,
+        "question": "Northern Ireland and Scotland have their own banknotes, which are valid everywhere in the UK.",
+        "question_zh": "北愛爾蘭和蘇格蘭有自己的紙幣，在英國各地都有效。",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswers": [0],
+        "explanation": "This statement is true .",
+        "explanation_zh": "這句話是正確的。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 809,
+        "question": "How many national parks are there in England, Wales and Scotland?",
+        "question_zh": "英格蘭、威爾士和蘇格蘭有多少個國家公園？",
+        "options": [
+            "15",
+            "18",
+            "25",
+            "42"
+        ],
+        "correctAnswers": [0],
+        "explanation": "There are 15 national parks in England, Wales and Scotland.",
+        "explanation_zh": "英格蘭、威爾士和蘇格蘭有 15 個國家公園。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 810,
+        "question": "Is Northern Ireland part of Great Britain?",
+        "question_zh": "北愛爾蘭是英國的一部分嗎？",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "correctAnswers": [1],
+        "explanation": "‘Great Britain’ refers only to England, Scotland and Wales, not to Northern Ireland.",
+        "explanation_zh": "“大不列顛”僅指英格蘭、蘇格蘭和威爾士，而不是北愛爾蘭。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 811,
+        "question": "If you are a dog owner, which two things should your dog’s collar have when you go out for a walk?",
+        "question_zh": "如果你是狗主人，外出散步時你的狗的項圈應該有哪兩樣東西？",
+        "options": [
+            "The owner’s address",
+            "The dog’s breed",
+            "The owner’s name",
+            "The dog’s name"
+        ],
+        "correctAnswers": [0, 2],
+        "explanation": "All dogs in public places must wear a collar showing the name and address of the owner .",
+        "explanation_zh": "公共場所的所有狗都必須佩戴顯示主人姓名和地址的項圈。",
+        "category": "General Knowledge",
+        "isMultipleChoice": true
+    },
+    {
+        "id": 812,
+        "question": "What day relates to the death of Jesus Christ?",
+        "question_zh": "哪一天與耶穌基督的死有關？",
+        "options": [
+          "Easter Sunday",
+          "Easter Monday",
+          "Good Friday",
+          "Ash Wednesday"
+        ],
+        "correctAnswers": [2],
+        "explanation": "Easter takes place in March or April. It marks the death of Jesus Christ on Good Friday and his rising from the dead on Easter Sunday.",
+        "explanation_zh": "復活節在三月或四月舉行。它標誌著耶穌基督在耶穌受難日的死亡和復活節星期日的複活。",
+        "category": "Culture",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 813,
+        "question": "A responsibility of the MPs is to represent everyone in their _______.",
+        "question_zh": "國會議員的責任是代表他們_______中的每個人。",
+        "options": [
+            "County",
+            "Estate",
+            "District",
+            "Constituency"
+        ],
+        "correctAnswers": [3],
+        "explanation": "A responsibility of the MPs is to represent everyone in their constituency .",
+        "explanation_zh": "議員的責任是代表其選區的每個人。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 814,
+        "question": "What was achieved with the Magna Carta?",
+        "question_zh": "《大憲章》取得了什麼成果？",
+        "options": [
+          "It increased the King’s power",
+          "It restricted the King’s power",
+          "It restricted the rights of the farmers",
+          "It increased women’s power"
+        ],
+        "correctAnswers": [1],
+        "explanation": "The Magna Carta established the idea that even the king was subject to the law. It protected the rights of the nobility and restricted the king’s power to collect taxes or to make and change laws. In future, the king would need to involve his noblemen in decisions.",
+        "explanation_zh": "《大憲章》確立了即使國王也必須遵守法律的觀念。它保護貴族的權利，並限制國王徵稅或製定和修改法律的權力。將來，國王需要讓他的貴族參與決策。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 815,
+        "question": "Female genital mutilation (FGM) or taking a girl or woman abroad for FGM is illegal in the UK and it is a criminal offence.",
+        "question_zh": "在英國，女性生殖器切割 (FGM) 或將女孩或婦女帶到國外進行女性生殖器切割是非法的，並且屬於刑事犯罪。",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswers": [0],
+        "explanation": "This statement is true .",
+        "explanation_zh": "這句話是正確的。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 816,
+        "question": "What year were women given the right to vote?",
+        "question_zh": "哪一年婦女被賦予投票權？",
+        "options": [
+            "1914",
+            "1918",
+            "1925",
+            "1949"
+        ],
+        "correctAnswers": [1],
+        "explanation": "In 1918 , women over the age of 30 were given voting rights and the right to stand for Parliament, partly in recognition of the contribution women made to the war effort during the First World War.",
+        "explanation_zh": "1918年，30歲以上的女性被賦予投票權和代表議會的權利，部分是為了表彰女性在第一次世界大戰期間為戰爭做出的貢獻。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 817,
+        "question": "Which two of the following are British overseas territories?",
+        "question_zh": "以下哪兩個是英國海外領土？",
+        "options": [
+            "St Helena",
+            "Solomon Islands",
+            "Mauritius",
+            "The Falkland Islands"
+        ],
+        "correctAnswers": [0, 3],
+        "explanation": "There are several British overseas territories, such as St Helena and the Falkland Islands . They are linked to the UK but are not part of it.",
+        "explanation_zh": "有幾個英國海外領土，例如聖赫勒拿島和福克蘭群島。它們與英國有聯繫，但不屬於英國。",
+        "category": "General Knowledge",
+        "isMultipleChoice": true
+    },
+    {
+        "id": 818,
+        "question": "Who did the English defeat in 1588?",
+        "question_zh": "1588年英國人打敗了誰？",
+        "options": [
+            "The Normans",
+            "The Romans",
+            "The Saxons",
+            "The Spanish Armada"
+        ],
+        "correctAnswers": [3],
+        "explanation": "In 1588 the English defeated the Spanish Armada (a large fleet of ships).",
+        "explanation_zh": "1588 年，英國人擊敗了西班牙無敵艦隊。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 819,
+        "question": "Who designed the Cenotaph?",
+        "question_zh": "誰設計了和平紀念碑？",
+        "options": [
+            "Sir Norman Foster",
+            "Sir Edwin Lutyens",
+            "Lancelot ‘Capability’ Brown",
+            "Isambard Kingdom Brunel"
+        ],
+        "correctAnswers": [1],
+        "explanation": "Sir Edwin Lutyens was responsible for designing many war memorials throughout the world, including the Cenotaph in Whitehall.",
+        "explanation_zh": "埃德溫·勒琴斯爵士負責設計世界各地的許多戰爭紀念館，包括白廳的和平紀念碑。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 820,
+        "question": "How often are the members of the Welsh government elected?",
+        "question_zh": "威爾斯政府成員多久選舉一次？",
+        "options": [
+            "Every 5 years",
+            "Every 2 years",
+            "Every 3 years",
+            "Every 4 years"
+        ],
+        "correctAnswers": [3],
+        "explanation": "There are 60 members of the Welsh government or members of the Senedd (SMs) and elections are held every four years using a form of proportional representation.",
+        "explanation_zh": "威爾斯政府有 60 名成員或參議院 (SM) 成員，每四年舉行一次選舉，採用比例代表制形式。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 821,
+        "question": "During which period did the Beatles become popular and social laws were liberalised?",
+        "question_zh": "Beatles樂隊在哪個時期開始流行，社會法律也變得自由化？",
+        "options": [
+            "1950s",
+            "1960s",
+            "1970s",
+            "1980s"
+        ],
+        "correctAnswers": [1],
+        "explanation": "The decade of the 1960s was a period of significant social change. It was known as the ‘swinging sixties’. There was growth in British fashion, cinema and popular music. Two well-known pop music groups at the time were The Beatles and The Rolling Stones. It was also a time when social laws were liberalised, for example in relation to divorce and to abortion in England, Wales and Scotland. The position of women in the workplace also improved.",
+        "explanation_zh": "20世紀60年代是社會發生重大變革的時期。它被稱為“搖擺的六十年代”。英國時尚、電影和流行音樂都有增長。當時兩個著名的流行音樂團體是披頭士樂隊和滾石樂隊。這也是社會法律自由化的時期，例如英格蘭、威爾士和蘇格蘭的離婚和墮胎問題。女性在職場中的地位也有所提高。",
+        "category": "Culture",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 822,
+        "question": "The Man Booker Prize is awarded in which of the following categories?",
+        "question_zh": "布克獎頒發給以下哪個類別？",
+        "options": [
+            "Films",
+            "Sport",
+            "Literature",
+            "Music"
+        ],
+        "correctAnswers": [2],
+        "explanation": "The Man Booker Prize for Fiction is awarded annually for the best fiction novel (literature) written by an author from the Commonwealth, Ireland or Zimbabwe. It has been awarded since 1968. Past winners include Ian McEwan, Hilary Mantel and Julian Barnes.",
+        "explanation_zh": "曼布克小說獎每年頒發給來自英聯邦、愛爾蘭或津巴布韋的作家所寫的最佳小說（文學）。該獎項自 1968 年開始頒發。過去的獲獎者包括伊恩·麥克尤恩 (Ian McEwan)、希拉里·曼特爾 (Hilary Mantel) 和朱利安·巴恩斯 (Julian Barnes)。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 823,
+        "question": "What sort of election takes place when a member of the Parliament (MP) dies or resigns?",
+        "question_zh": "當國會議員（MP）去世或辭職時，會進行什麼樣的選舉？",
+        "options": [
+            "By-election",
+            "Coalition",
+            "Pre-selection",
+            "Random selection"
+        ],
+        "correctAnswers": [0],
+        "explanation": "If an MP dies or resigns, there will be a fresh election, called a by-election , in his or her constituency.",
+        "explanation_zh": "如果國會議員去世或辭職，他或她的選區將舉行新的選舉，稱為補選。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 824,
+        "question": "What is the Turner Prize?",
+        "question_zh": "什麼是特納獎(Turner Prize)？",
+        "options": [
+          "A literature award",
+          "A contemporary art award",
+          "A music award",
+          "A theatre award"
+        ],
+        "correctAnswers": [1],
+        "explanation": "The Turner Prize was established in 1984 and celebrates contemporary art . The Turner Prize is recognised as one of the most prestigious visual art awards in Europe.",
+        "explanation_zh": "特納獎(Turner Prize)成立於 1984 年，旨在表彰當代藝術。特納獎被公認為歐洲最負盛名的視覺藝術獎項之一。",
+        "category": "Culture",
+        "isMultipleChoice": false
+    }
   ]
 }
