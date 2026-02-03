@@ -2873,8 +2873,8 @@ export const examQuestions = {
         "Edinburgh",
         "Inverness",
         "Fraserburgh"
-      ],§
-      "correctAnswers": [],
+      ],
+      "correctAnswers": [1],
       "explanation": "The Edinburgh Festival Fringe takes place every summer in Edinburgh, Scotland, and is the largest arts festival of its kind.",
       "explanation_zh": "愛丁堡the Fringe藝術節每年夏天在蘇格蘭愛丁堡舉行，是同類藝術節中規模最大的。",
       "category": "Culture",
@@ -3114,5 +3114,383 @@ export const examQuestions = {
       "category": "Government",
       "isMultipleChoice": false
     }
-  ]
+  ],
+  11: [
+    {
+      "id": 1101,
+      "question": "Is St Helena considered part of the UK?",
+      "question_zh": "聖赫勒拿島被視為英國的一部分嗎？",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correctAnswers": [1],
+      "explanation": "No. British overseas territories like St Helena and the Falkland Islands are connected to the UK but are not part of it.",
+      "explanation_zh": "不是。像聖赫勒拿島和福克蘭群島這樣的英國海外領土與英國有聯繫，但不是其一部分。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1102,
+      "question": "Where is Theatreland located?",
+      "question_zh": "劇院區位於哪裡？",
+      "options": [
+        "London's South End",
+        "Docklands",
+        "London's West End",
+        "London's East End"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Theatreland is located in London's West End, which is famous for its many theatres.",
+      "explanation_zh": "劇院區位於倫敦西區，以其眾多劇院而聞名。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1103,
+      "question": "What currency is used in the UK?",
+      "question_zh": "英國使用什麼貨幣？",
+      "options": [
+        "Dollar",
+        "Pound Sterling",
+        "Euro",
+        "Peso"
+      ],
+      "correctAnswers": [1],
+      "explanation": "The UK uses the pound sterling (£).",
+      "explanation_zh": "英國使用英鎊（£）。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1104,
+      "question": "What is another name for Diwali?",
+      "question_zh": "排燈節的另一個名稱是什麼？",
+      "options": [
+        "Easter Monday",
+        "Good Friday",
+        "The Festival of Lights",
+        "Ash Wednesday"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Diwali is also known as the Festival of Lights.",
+      "explanation_zh": "排燈節也被稱為燈節。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1105,
+      "question": "What was the Enlightenment?",
+      "question_zh": "什麼是啟蒙運動？",
+      "options": [
+        "A period of economic recovery after the Second World War",
+        "A period when new ideas about politics, philosophy and science were developed",
+        "A period of total peace in England",
+        "A period when England became the largest empire the world had ever seen"
+      ],
+      "correctAnswers": [1],
+      "explanation": "The Enlightenment was an 18th-century period when new ideas emerged in politics, philosophy, and science.",
+      "explanation_zh": "啟蒙運動是 18 世紀的一個時期，當時政治、哲學和科學領域出現了新思想。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1106,
+      "question": "Which charity focuses on environmental issues?",
+      "question_zh": "哪個慈善機構專注於環境問題？",
+      "options": [
+        "Crisis",
+        "NSPCC",
+        "Shelter",
+        "Friends of the Earth"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Friends of the Earth is an environmental charity organization.",
+      "explanation_zh": "地球之友是一個環保慈善組織。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1107,
+      "question": "Which major air battle was fought between Germany and Britain in World War II?",
+      "question_zh": "二戰期間德國和英國之間發生了哪場重大空戰？",
+      "options": [
+        "The Battle of Dunbar",
+        "The Battle of Worcester",
+        "The Battle of Britain",
+        "The Battle of Marston Moor"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The Battle of Britain was a crucial air campaign during WWII.",
+      "explanation_zh": "不列顛之戰是二戰期間一場關鍵的空中戰役。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1108,
+      "question": "What achievement is Margaret Thatcher known for?",
+      "question_zh": "瑪格麗特·撒切爾以什麼成就而聞名？",
+      "options": [
+        "She was the founder of modern nursing",
+        "She was the first woman Prime Minister of the UK",
+        "She fought for the right to vote for women",
+        "She set up the women's Franchise League"
+      ],
+      "correctAnswers": [1],
+      "explanation": "Margaret Thatcher became the UK's first female Prime Minister.",
+      "explanation_zh": "瑪格麗特·撒切爾成為英國第一位女首相。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1109,
+      "question": "Which two languages merged to form English?",
+      "question_zh": "哪兩種語言合併形成了英語？",
+      "options": [
+        "Anglo-Saxon",
+        "Norman French",
+        "Proto-Celtic",
+        "Latin"
+      ],
+      "correctAnswers": [0, 1],
+      "explanation": "After the Norman Conquest, Anglo-Saxon (spoken by peasants) and Norman French (spoken by nobles) gradually combined to form English.",
+      "explanation_zh": "諾曼征服後，盎格魯-撒克遜語（農民使用）和諾曼法語（貴族使用）逐漸合併形成英語。",
+      "category": "History",
+      "isMultipleChoice": true
+    },
+    {
+      "id": 1110,
+      "question": "Radio and TV coverage of political parties must be balanced, giving equal time to different viewpoints.",
+      "question_zh": "廣播和電視對政黨的報導必須平衡，給予不同觀點平等的時間。",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswers": [0],
+      "explanation": "This is correct. By law, political coverage must be balanced.",
+      "explanation_zh": "這是正確的。根據法律，政治報導必須保持平衡。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1111,
+      "question": "Which country sent the Spanish Armada?",
+      "question_zh": "哪個國家派遣了西班牙無敵艦隊？",
+      "options": [
+        "South America",
+        "France",
+        "Italy",
+        "Spain"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Spain sent the Armada in 1588 to conquer England and restore Catholicism, but it was defeated.",
+      "explanation_zh": "西班牙在 1588 年派遣無敵艦隊征服英格蘭並恢復天主教，但被擊敗。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1112,
+      "question": "What is the name of the war memorial in Whitehall?",
+      "question_zh": "白廳的戰爭紀念碑叫什麼名字？",
+      "options": [
+        "Cenotaph",
+        "Dumfries",
+        "The White Tower",
+        "Royal Crescent"
+      ],
+      "correctAnswers": [0],
+      "explanation": "The Cenotaph is the war memorial located in Whitehall.",
+      "explanation_zh": "和平紀念碑是位於白廳的戰爭紀念碑。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1113,
+      "question": "The UK government has never suspended the Northern Ireland Assembly.",
+      "question_zh": "英國政府從未中止過北愛爾蘭議會。",
+      "options": [
+        "True",
+        "False" 
+      ],
+      "correctAnswers": [1],
+      "explanation": "This is incorrect. The Northern Ireland Assembly has been suspended several times.",
+      "explanation_zh": "這是不正確的。北愛爾蘭議會已多次被中止。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1114,
+      "question": "What type of church did Scotland establish in 1560?",
+      "question_zh": "蘇格蘭在 1560 年建立了什麼類型的教會？",
+      "options": [
+        "A Catholic church",
+        "A Protestant church"
+      ],
+      "correctAnswers": [1],
+      "explanation": "In 1560, Scotland established a Protestant Church with elected leadership, though it was not a state church like in England.",
+      "explanation_zh": "1560 年，蘇格蘭建立了一個由選舉產生領導層的新教教會，儘管它不像英格蘭那樣是國家教會。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1115,
+      "question": "When was the Domesday Book created?",
+      "question_zh": "《末日審判書》是什麼時候創建的？",
+      "options": [
+        "After the Anglo-Saxon invasion",
+        "After the Viking invasion",
+        "After the Norman conquest",
+        "After the last Roman invasion"
+      ],
+      "correctAnswers": [2],
+      "explanation": "William the Conqueror commissioned the Domesday Book after the Norman Conquest to record towns, villages, landowners, and livestock.",
+      "explanation_zh": "征服者威廉在諾曼征服後委託編纂《末日審判書》，以記錄城鎮、村莊、地主和牲畜。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1116,
+      "question": "Which two areas cannot the Northern Ireland Assembly make decisions on?",
+      "question_zh": "北愛爾蘭議會不能就哪兩個領域做出決定？",
+      "options": [
+        "Defence",
+        "Education",
+        "Immigration",
+        "Agriculture"
+      ],
+      "correctAnswers": [0, 2],
+      "explanation": "The Northern Ireland Assembly can decide on education, agriculture, environment, and health, but not immigration or defence.",
+      "explanation_zh": "北愛爾蘭議會可以就教育、農業、環境和衛生做出決定，但不能就移民或國防做出決定。",
+      "category": "General Knowledge",
+      "isMultipleChoice": true
+    },
+    {
+      "id": 1117,
+      "question": "What are two ways to file a complaint about the police?",
+      "question_zh": "投訴警察的兩種方式是什麼？",
+      "options": [
+        "Go to the Police station directly",
+        "Write to your MP",
+        "Write to the Chief Constable of the police force involved",
+        "Write a complaint letter to the House of Commons"
+      ],
+      "correctAnswers": [0, 2],
+      "explanation": "You can complain by visiting a police station or writing to the Chief Constable. Complaints can also be made to independent bodies like the Independent Police Complaints Commission.",
+      "explanation_zh": "您可以通過訪問警察局或寫信給警察局長來投訴。投訴也可以向獨立機構（如獨立警察投訴委員會）提出。",
+      "category": "General Knowledge",
+      "isMultipleChoice": true
+    },
+    {
+      "id": 1118,
+      "question": "Which flower did William Wordsworth write a famous poem about?",
+      "question_zh": "威廉·華茲華斯寫了一首關於哪種花的著名詩歌？",
+      "options": [
+        "Shamrock",
+        "Rose",
+        "Thistle",
+        "Daffodil"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Wordsworth wrote the famous poem 'The Daffodils'.",
+      "explanation_zh": "華茲華斯寫了著名的詩歌《水仙花》。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1119,
+      "question": "When is St Andrew's Day?",
+      "question_zh": "聖安德魯日是什麼時候？",
+      "options": [
+        "1st March",
+        "17th April",
+        "30th November",
+        "31st December"
+      ],
+      "correctAnswers": [2],
+      "explanation": "St Andrew's Day, Scotland's patron saint day, is celebrated on November 30th.",
+      "explanation_zh": "聖安德魯日，蘇格蘭的守護神日，在 11 月 30 日慶祝。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1120,
+      "question": "Who designed the new St Paul's Cathedral after the Great Fire of 1666?",
+      "question_zh": "1666 年大火後誰設計了新的聖保羅大教堂？",
+      "options": [
+        "Dame Zaha Hadid",
+        "Sir Christopher Wren",
+        "Robert Adam",
+        "Sir Norman Foster"
+      ],
+      "correctAnswers": [1],
+      "explanation": "Sir Christopher Wren designed the new St Paul's Cathedral that was built after the Great Fire destroyed the original.",
+      "explanation_zh": "克里斯托弗·雷恩爵士設計了在大火摧毀原建築後建造的新聖保羅大教堂。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1121,
+      "question": "In which period were the first British coins made?",
+      "question_zh": "英國第一批硬幣是在哪個時期鑄造的？",
+      "options": [
+        "The Middle Ages",
+        "The Bronze Age",
+        "The Iron Age",
+        "The Stone Age"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The first coins minted in Britain were made during the Iron Age.",
+      "explanation_zh": "英國鑄造的第一批硬幣是在鐵器時代製作的。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1122,
+      "question": "What was Emmeline Pankhurst known as?",
+      "question_zh": "艾米琳·潘克赫斯特被稱為什麼？",
+      "options": [
+        "A suffragette",
+        "A scientist",
+        "A nurse",
+        "A doctor"
+      ],
+      "correctAnswers": [0],
+      "explanation": "Emmeline Pankhurst founded the Women's Social and Political Union in 1903, becoming a leading suffragette in the fight for women's voting rights.",
+      "explanation_zh": "艾米琳·潘克赫斯特於 1903 年創立了婦女社會和政治聯盟，成為爭取女性投票權的主要婦女參政論者。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1123,
+      "question": "Which country was Britain's opponent in the Crimean War?",
+      "question_zh": "英國在克里米亞戰爭中的對手是哪個國家？",
+      "options": [
+        "Germany",
+        "Russia",
+        "Turkey",
+        "France"
+      ],
+      "correctAnswers": [1],
+      "explanation": "Britain fought alongside Turkey and France against Russia in the Crimean War from 1853 to 1856.",
+      "explanation_zh": "1853 年至 1856 年，英國與土耳其和法國並肩對抗俄羅斯進行克里米亞戰爭。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1124,
+      "question": "What is the legal age to purchase alcohol in the UK?",
+      "question_zh": "在英國購買酒精飲料的法定年齡是多少？",
+      "options": [
+        "20",
+        "17",
+        "19",
+        "18"
+      ],
+      "correctAnswers": [3],
+      "explanation": "You must be 18 or older to buy alcohol in the UK. It's illegal to sell alcohol to anyone under 18 or to buy it for them.",
+      "explanation_zh": "您必須年滿 18 歲才能在英國購買酒精飲料。向 18 歲以下的人出售酒精飲料或為他們購買酒精飲料是非法的。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    }
+]
 }
