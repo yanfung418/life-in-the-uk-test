@@ -2360,5 +2360,381 @@ export const examQuestions = {
         "category": "Culture",
         "isMultipleChoice": false
     }
+  ],
+  9: [
+    {
+      "id": 901,
+      "question": "What is the national flower symbol of Northern Ireland?",
+      "question_zh": "北愛爾蘭的國花象徵是什麼？",
+      "options": [
+        "The shamrock",
+        "The rose",
+        "The daffodil",
+        "The thistle"
+      ],
+      "correctAnswers": [0],
+      "explanation": "Northern Ireland's national flower symbol is the shamrock.",
+      "explanation_zh": "北愛爾蘭的國花象徵是三葉草。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 902,
+      "question": "The battle of Waterloo was the final military engagement between Britain and France.",
+      "question_zh": "滑鐵盧戰役是英法之間的最後一場軍事交鋒。",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswers": [0],
+      "explanation": "This is correct.",
+      "explanation_zh": "這是正確的。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 903,
+      "question": "£100 is the highest value note in circulation in the UK",
+      "question_zh": "英國目前流通的最高面額紙幣是 100 英鎊。",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswers": [1],
+      "explanation": "This is incorrect.",
+      "explanation_zh": "這是不正確的。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 904,
+      "question": "Where is the Lake District National Park located?",
+      "question_zh": "湖區國家公園位於哪個地方？",
+      "options": [
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "correctAnswers": [0],
+      "explanation": "The Lake District National Park is located in England.",
+      "explanation_zh": "湖區國家公園位於英格蘭。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 905,
+      "question": "Select two duties that British citizens are expected to fulfill.",
+      "question_zh": "選擇英國公民應履行的兩項義務。",
+      "options": [
+        "To respect the rights of others, including their right to their own opinions",
+        "To look after yourself and your family",
+        "To volunteer in a community project at least once a year",
+        "To buy food locally"
+      ],
+      "correctAnswers": [0, 1],
+      "explanation": "British citizens and permanent residents should: obey the law, care for themselves and their families, respect others' rights including their opinions, treat people fairly, and protect their local area and environment.",
+      "explanation_zh": "英國公民和永久居民應該：遵守法律、照顧自己和家人、尊重他人的權利（包括他們的意見）、公平對待他人、並保護當地地區和環境。",
+      "category": "General Knowledge",
+      "isMultipleChoice": true
+    },
+    {
+      "id": 906,
+      "question": "Which famous author's birthplace is Stratford-upon-Avon?",
+      "question_zh": "哪位著名作家的出生地是埃文河畔斯特拉特福？",
+      "options": [
+        "Thomas Hardy",
+        "Jane Austen",
+        "Charles Dickens",
+        "William Shakespeare"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Stratford-upon-Avon, England is the birthplace of William Shakespeare.",
+      "explanation_zh": "英國埃文河畔斯特拉特福是威廉·莎士比亞的出生地。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 907,
+      "question": "What makes 1928 a significant year for women's suffrage?",
+      "question_zh": "是什麼讓 1928 年成為女性選舉權的重要一年？",
+      "options": [
+        "Women were given the right to vote at the age of 30.",
+        "Women were given the right to vote at the age of 18, the same as men.",
+        "Women were given the right to vote at the age of 21, the same as men.",
+        "Women were given the right to vote at the age of 25."
+      ],
+      "correctAnswers": [2],
+      "explanation": "In 1928, women gained voting rights at age 21, equal to men.",
+      "explanation_zh": "1928 年，女性獲得了 21 歲的投票權，與男性相同。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 908,
+      "question": "What does the term Hogmanay refer to?",
+      "question_zh": "Hogmanay 這個詞指的是什麼？",
+      "options": [
+        "New Year's Eve in Wales",
+        "New Year's Eve in Scotland",
+        "Christmas Day in Wales",
+        "Christmas Day in Scotland"
+      ],
+      "correctAnswers": [1],
+      "explanation": "Hogmanay is the Scottish name for New Year's Eve, celebrated on December 31st.",
+      "explanation_zh": "Hogmanay 是蘇格蘭對除夕的稱呼，於 12 月 31 日慶祝。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 909,
+      "question": "Which city serves as the capital of Northern Ireland?",
+      "question_zh": "哪個城市是北愛爾蘭的首都？",
+      "options": [
+        "Belfast",
+        "Dublin",
+        "Cork",
+        "Edinburgh"
+      ],
+      "correctAnswers": [0],
+      "explanation": "Belfast is the capital of Northern Ireland.",
+      "explanation_zh": "貝爾法斯特是北愛爾蘭的首都。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 910,
+      "question": "What conflict occurred in South Africa from 1899 to 1902?",
+      "question_zh": "1899 年至 1902 年間在南非發生了什麼衝突？",
+      "options": [
+        "The Crimean War",
+        "The Hundred Years War",
+        "The Boer War",
+        "The First World War"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The Boer War took place from 1899 to 1902.",
+      "explanation_zh": "布爾戰爭發生於 1899 年至 1902 年。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 911,
+      "question": "In Northern Ireland, eligible voters must personally complete their own registration form under the 'individual registration' system.",
+      "question_zh": "在北愛爾蘭，合格選民必須根據「個人登記」制度親自填寫自己的登記表。",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswers": [0],
+      "explanation": "This is correct.",
+      "explanation_zh": "這是正確的。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 912,
+      "question": "Which two policy areas remain outside the control of devolved administrations?",
+      "question_zh": "哪兩個政策領域仍然不受權力下放政府的控制？",
+      "options": [
+        "Health",
+        "Immigration",
+        "Education",
+        "Defence"
+      ],
+      "correctAnswers": [1, 3],
+      "explanation": "The UK central government retains control over defence, foreign affairs, immigration, taxation, and social security. Devolved administrations manage areas like education and health.",
+      "explanation_zh": "英國中央政府保留對國防、外交、移民、稅收和社會保障的控制。權力下放的政府管理教育和衛生等領域。",
+      "category": "Government",
+      "isMultipleChoice": true
+    },
+    {
+      "id": 913,
+      "question": "What is the minimum age requirement for UK, Irish Republic, or Commonwealth citizens to stand for public office?",
+      "question_zh": "英國、愛爾蘭共和國或英聯邦公民競選公職的最低年齡要求是多少？",
+      "options": [
+        "16",
+        "18",
+        "21",
+        "25"
+      ],
+      "correctAnswers": [1],
+      "explanation": "Generally, UK, Irish, or Commonwealth citizens aged 18 and above may stand for public office, with certain exceptions including armed forces members, civil servants, and those convicted of specific crimes.",
+      "explanation_zh": "一般來說，年滿 18 歲及以上的英國、愛爾蘭或英聯邦公民可以競選公職，但某些例外情況除外，包括武裝部隊成員、公務員和被判犯有特定罪行的人。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 914,
+      "question": "How did Victorian-era governments advance free trade policies?",
+      "question_zh": "維多利亞時代的政府如何推進自由貿易政策？",
+      "options": [
+        "Abolishing a number of taxes on imported goods",
+        "Preventing the importation of cheap grain",
+        "Abolishing the exportation of local produce",
+        "Preventing the importation of cheap raw materials"
+      ],
+      "correctAnswers": [0],
+      "explanation": "Victorian governments promoted free trade by removing various import taxes. A notable example was repealing the Corn Laws in 1846, which had blocked cheap grain imports. These changes aided British industry by enabling affordable raw material imports.",
+      "explanation_zh": "維多利亞時代的政府通過取消各種進口稅來促進自由貿易。一個值得注意的例子是 1846 年廢除了阻止廉價穀物進口的《穀物法》。這些變化通過實現負擔得起的原材料進口來幫助英國工業。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 915,
+      "question": "What was Admiral Nelson's role?",
+      "question_zh": "納爾遜海軍上將的職責是什麼？",
+      "options": [
+        "A British general who established the authority of the English Parliament",
+        "One of the tribal leaders who fought against the Romans",
+        "A British officer in charge of the British army at the Battle of Waterloo",
+        "A British officer in charge of the British fleet at the Battle of Trafalgar against the Spanish fleet"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Admiral Nelson commanded the British naval forces at Trafalgar against Spain and died during the engagement.",
+      "explanation_zh": "納爾遜海軍上將在特拉法加指揮英國海軍部隊對抗西班牙，並在交戰中陣亡。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 916,
+      "question": "During the Middle Ages, who were the serfs?",
+      "question_zh": "中世紀時期，農奴是誰？",
+      "options": [
+        "Peasants who had a small area of their lord's agricultural land",
+        "A group of skilled people from Holland who came to England during the Middle Ages",
+        "Noblemen who formed part of the king's council of advisers",
+        "Soldiers who fought at the Battle of Trafalgar"
+      ],
+      "correctAnswers": [0],
+      "explanation": "Serfs were farm workers who cultivated small plots on their lord's estate.",
+      "explanation_zh": "農奴是在領主莊園上耕種小塊土地的農場工人。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 917,
+      "question": "Which technological advancement drove Britain's industrial growth in the 18th and 19th centuries?",
+      "question_zh": "哪項技術進步推動了 18 和 19 世紀英國的工業發展？",
+      "options": [
+        "The Turing Machine",
+        "The Radar",
+        "The Steam Power",
+        "The Jet Engine"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Britain's Industrial Revolution during the 18th and 19th centuries was powered by machinery development and steam energy, making it the first nation to industrialize on a large scale.",
+      "explanation_zh": "18 和 19 世紀英國的工業革命是由機械發展和蒸汽能源推動的，使其成為第一個大規模工業化的國家。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 918,
+      "question": "The only way to contact MPs is through postal mail.",
+      "question_zh": "聯繫國會議員的唯一方式是通過郵寄。",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswers": [1],
+      "explanation": "Incorrect. MPs can be reached by letter or phone at constituency or House of Commons offices. Many also hold local surgeries where constituents can discuss concerns in person.",
+      "explanation_zh": "不正確。可以通過信件或電話在選區或下議院辦公室聯繫議員。許多人還舉行當地諮詢會，選民可以在那裡親自討論問題。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 919,
+      "question": "What movement challenged the authority of the Pope?",
+      "question_zh": "哪個宗教運動挑戰了教皇的權威？",
+      "options": [
+        "The Enlightenment",
+        "The Swinging Sixties",
+        "The Reformation",
+        "The Suffragettes"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The Reformation challenged papal authority and Roman Catholic Church doctrines and practices.",
+      "explanation_zh": "宗教改革挑戰了教皇權威和羅馬天主教會的教義和實踐。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 920,
+      "question": "Which English monarch introduced the Domesday Book?",
+      "question_zh": "哪位英國君主引入了《末日審判書》？",
+      "options": [
+        "William the Conqueror",
+        "Harold, the Saxon king of England",
+        "King Henry V",
+        "King Henry IV"
+      ],
+      "correctAnswers": [0],
+      "explanation": "William the Conqueror ordered a comprehensive survey of England's towns, villages, landowners, residents, and livestock, resulting in the Domesday Book.",
+      "explanation_zh": "征服者威廉下令對英格蘭的城鎮、村莊、地主、居民和牲畜進行全面調查，從而產生了《末日審判書》。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 921,
+      "question": "What educational reform did 'the Butler Act' establish in 1944?",
+      "question_zh": "1944 年「巴特勒法案」建立了什麼教育改革？",
+      "options": [
+        "Free primary and secondary education in England, Wales and Scotland",
+        "Free secondary education in England and Wales",
+        "Free primary education in England, Wales and Scotland",
+        "Free university fees in England, Wales, Scotland and Northern Ireland"
+      ],
+      "correctAnswers": [1],
+      "explanation": "Richard Austen Butler, a Conservative MP from 1923, oversaw the 1944 Education Act (the Butler Act) which provided free secondary schooling in England and Wales.",
+      "explanation_zh": "1923 年起擔任保守黨議員的理查德·奧斯汀·巴特勒監督了 1944 年教育法（巴特勒法案），該法案在英格蘭和威爾士提供免費中學教育。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 922,
+      "question": "What is the small claims procedure?",
+      "question_zh": "小額索賠程序是什麼？",
+      "options": [
+        "An informal way of helping people to settle minor disputes without spending a lot of time and money using a lawyer",
+        "A procedure that helps people to make small home insurance claims in certain circumstances"
+      ],
+      "correctAnswers": [0],
+      "explanation": "The small claims procedure provides an accessible method for resolving minor disputes without significant legal expenses or time commitment.",
+      "explanation_zh": "小額索賠程序提供了一種無需大量法律費用或時間承諾即可解決小額糾紛的便捷方法。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 923,
+      "question": "What building was constructed in Hyde Park to hold the Great Exhibition of 1851?",
+      "question_zh": "海德公園的哪座建築舉辦了 1851 年世界博覽會？",
+      "options": [
+        "Apsley House",
+        "Buckingham Palace",
+        "Kensington Palace",
+        "The Crystal Palace"
+      ],
+      "correctAnswers": [3],
+      "explanation": "The 1851 Great Exhibition took place in the Crystal Palace, an impressive steel and glass structure in Hyde Park featuring exhibits from industrial machinery to handcrafted items.",
+      "explanation_zh": "1851 年世界博覽會在水晶宮舉行，這是海德公園一座令人印象深刻的鋼鐵和玻璃結構，展出了從工業機械到手工藝品的展品。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 924,
+      "question": "What was Florence Nightingale's profession?",
+      "question_zh": "弗洛倫斯·南丁格爾的職業是什麼？",
+      "options": [
+        "A poet",
+        "An economist",
+        "A nurse",
+        "A painter"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Florence Nightingale worked as a nurse and is widely considered the founder of modern nursing practice.",
+      "explanation_zh": "弗洛倫斯·南丁格爾擔任護士，被廣泛認為是現代護理實踐的創始人。",
+      "category": "History",
+      "isMultipleChoice": false
+    }
   ]
 }
