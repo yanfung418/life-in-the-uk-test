@@ -3492,5 +3492,381 @@ export const examQuestions = {
       "category": "General Knowledge",
       "isMultipleChoice": false
     }
-]
+  ],
+  12:[
+    {
+      "id": 1201,
+      "question": "Which of these is a Crown Dependency but not part of the UK?",
+      "question_zh": "以下哪個是皇家屬地但不是英國的一部分？",
+      "options": [
+        "Anglesey",
+        "Isle of Wight",
+        "Isle of Man",
+        "Shetland"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The Isle of Man and the Channel Islands are Crown dependencies - they're closely linked to the UK but have their own governments and are not part of it.",
+      "explanation_zh": "馬恩島和海峽群島是皇家屬地——它們與英國聯繫密切，但有自己的政府，不是其一部分。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1202,
+      "question": "Is the BBC controlled by the government?",
+      "question_zh": "BBC 是否由政府控制？",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correctAnswers": [1],
+      "explanation": "No. The BBC is the world's largest broadcaster and the only fully state-funded media organization that operates independently of government.",
+      "explanation_zh": "不。BBC 是世界上最大的廣播公司，也是唯一一家完全由國家資助但獨立於政府運作的媒體組織。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1203,
+      "question": "How many elected members are in the Northern Ireland Assembly?",
+      "question_zh": "北愛爾蘭議會有多少名民選議員？",
+      "options": [
+        "108",
+        "12",
+        "90",
+        "60"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The Northern Ireland Assembly has 90 elected members called MLAs (Members of the Legislative Assembly).",
+      "explanation_zh": "北愛爾蘭議會有 90 名民選議員，稱為 MLAs（立法議會成員）。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1204,
+      "question": "Who commanded the British fleet at the Battle of Trafalgar?",
+      "question_zh": "誰指揮了特拉法加海戰中的英國艦隊？",
+      "options": [
+        "The Duke of Wellington",
+        "Robert the Bruce",
+        "Oliver Cromwell",
+        "Admiral Nelson"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Admiral Nelson commanded the British fleet at Trafalgar and died in the battle.",
+      "explanation_zh": "納爾遜海軍上將指揮了特拉法加的英國艦隊，並在戰鬥中陣亡。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1205,
+      "question": "What appeared on the first coins minted in Britain during the Iron Age?",
+      "question_zh": "鐵器時代在英國鑄造的第一批硬幣上出現了什麼？",
+      "options": [
+        "The names of Iron Age kings",
+        "The names of animals",
+        "The names of Iron Age Gods",
+        "The names of trees"
+      ],
+      "correctAnswers": [0],
+      "explanation": "The first British coins were made during the Iron Age, and some were inscribed with the names of Iron Age kings.",
+      "explanation_zh": "英國第一批硬幣是在鐵器時代製作的，其中一些刻有鐵器時代國王的名字。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1206,
+      "question": "UK towns, cities, and rural areas are governed by government-appointed officials.",
+      "question_zh": "英國的城鎮、城市和農村地區由政府任命的官員管理。",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswers": [1],
+      "explanation": "This is incorrect. Towns, cities, and rural areas in the UK are governed by democratically elected councils, often called local authorities.",
+      "explanation_zh": "這是不正確的。英國的城鎮、城市和農村地區由民主選舉產生的議會（通常稱為地方當局）管理。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1207,
+      "question": "In which city are the Tate galleries located?",
+      "question_zh": "泰特美術館位於哪個城市？",
+      "options": [
+        "Belfast",
+        "Glasgow",
+        "London",
+        "Cardiff"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Both Tate Britain and Tate Modern are located in London.",
+      "explanation_zh": "泰特英國美術館和泰特現代美術館都位於倫敦。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1208,
+      "question": "What is King James I's Bible translation called?",
+      "question_zh": "詹姆斯一世國王的聖經翻譯叫什麼？",
+      "options": [
+        "Authorised version",
+        "Unique version",
+        "Approved version",
+        "Reformed version"
+      ],
+      "correctAnswers": [0],
+      "explanation": "King James I commissioned a new English Bible translation known as the 'King James Version' or 'Authorised Version'.",
+      "explanation_zh": "詹姆斯一世國王委託製作了一個新的英語聖經翻譯，稱為「詹姆斯國王版」或「授權版」。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1209,
+      "question": "What was the 1960s known for in Britain?",
+      "question_zh": "1960 年代在英國以什麼而聞名？",
+      "options": [
+        "A blockage of social laws",
+        "A growth in British fashion and pop music",
+        "A downgrade in manufacturing",
+        "A shortage of water"
+      ],
+      "correctAnswers": [1],
+      "explanation": "The 1960s, known as the 'Swinging Sixties', was a period of major social change with growth in British fashion, cinema, and popular music.",
+      "explanation_zh": "1960 年代被稱為「搖擺的六十年代」，是一個重大社會變革時期，英國時尚、電影和流行音樂蓬勃發展。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1210,
+      "question": "From which country did the Huguenot refugees come between 1680 and 1720?",
+      "question_zh": "1680 年至 1720 年間，胡格諾派難民來自哪個國家？",
+      "options": [
+        "India",
+        "Germany",
+        "Pakistan",
+        "France"
+      ],
+      "correctAnswers": [3],
+      "explanation": "The Huguenots were refugees who came from France between 1680 and 1720.",
+      "explanation_zh": "胡格諾派是 1680 年至 1720 年間從法國來的難民。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1211,
+      "question": "What is the UK's most famous tennis tournament?",
+      "question_zh": "英國最著名的網球錦標賽是什麼？",
+      "options": [
+        "The Aegon Championships",
+        "Wimbledon",
+        "The Queen's Club Championships",
+        "Roland Garros"
+      ],
+      "correctAnswers": [1],
+      "explanation": "The Wimbledon Championships, held annually at the All England Lawn Tennis and Croquet Club, is the UK's most famous tennis tournament.",
+      "explanation_zh": "每年在全英草地網球和槌球俱樂部舉行的溫布爾登錦標賽是英國最著名的網球錦標賽。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1212,
+      "question": "MPs can only be contacted at their House of Commons office.",
+      "question_zh": "只能在下議院辦公室聯繫議員。",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswers": [1],
+      "explanation": "This is incorrect. You can contact MPs at their constituency office or House of Commons office by letter or phone. Many also hold local surgeries for in-person meetings.",
+      "explanation_zh": "這是不正確的。您可以通過信件或電話在選區辦公室或下議院辦公室聯繫議員。許多人還舉行當地諮詢會進行面對面會議。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1213,
+      "question": "On which day do newspapers and TV broadcast jokes and pranks?",
+      "question_zh": "報紙和電視在哪一天播放笑話和惡作劇？",
+      "options": [
+        "April Fool's Day",
+        "Valentine's Day",
+        "Boxing Day",
+        "Halloween"
+      ],
+      "correctAnswers": [0],
+      "explanation": "April Fool's Day (April 1st) is when people play jokes on each other until midday, and media outlets often publish joke stories.",
+      "explanation_zh": "愚人節（4 月 1 日）是人們互相開玩笑直到中午的日子，媒體通常會發布笑話故事。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1214,
+      "question": "Which Scottish king won the Battle of Bannockburn against England?",
+      "question_zh": "哪位蘇格蘭國王在班諾克本戰役中戰勝了英格蘭？",
+      "options": [
+        "Admiral Nelson",
+        "King James I",
+        "Robert the Bruce",
+        "King Charles I"
+      ],
+      "correctAnswers": [2],
+      "explanation": "In 1314, Robert the Bruce led the Scots to victory over England at the Battle of Bannockburn, keeping Scotland unconquered.",
+      "explanation_zh": "1314 年，羅伯特·布魯斯率領蘇格蘭人在班諾克本戰役中戰勝英格蘭，使蘇格蘭保持未被征服。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1215,
+      "question": "Who created the World Wide Web?",
+      "question_zh": "誰創建了萬維網？",
+      "options": [
+        "Sir Robert Edwards",
+        "Sir Ian Wilmot",
+        "Sir Tim Berners-Lee",
+        "Sir Peter Mansfield"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Sir Tim Berners-Lee invented the World Wide Web.",
+      "explanation_zh": "蒂姆·伯納斯·李爵士發明了萬維網。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1216,
+      "question": "How are civil servants selected and what is their political position?",
+      "question_zh": "公務員如何選拔，他們的政治立場是什麼？",
+      "options": [
+        "They are chosen randomly and are politically neutral",
+        "They are chosen randomly and form part of the Conservative party",
+        "They are chosen on merit and form part of the Liberal Democrats party",
+        "They are chosen on merit and are politically neutral"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Civil servants are selected based on merit and remain politically neutral - they are not political appointees.",
+      "explanation_zh": "公務員根據績效選拔，保持政治中立——他們不是政治任命者。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1217,
+      "question": "What does the Dunkirk spirit refer to?",
+      "question_zh": "「敦刻爾克精神」指的是什麼？",
+      "options": [
+        "When the German air force bombed London and other British cities at night-time",
+        "The evacuation of Allied soldiers from France during World War II",
+        "When new social classes appeared after the Black Death",
+        "The period when many refugees called Huguenots came from France"
+      ],
+      "correctAnswers": [1],
+      "explanation": "The Dunkirk spirit refers to the WWII evacuation of over 300,000 British and French soldiers from Dunkirk beaches, aided by civilian volunteers in small boats.",
+      "explanation_zh": "敦刻爾克精神指的是二戰期間從敦刻爾克海灘撤離超過 30 萬名英國和法國士兵，由駕駛小船的平民志願者協助。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1218,
+      "question": "You must be at least 21 to serve on a jury.",
+      "question_zh": "您必須至少 21 歲才能擔任陪審員。",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswers": [1],
+      "explanation": "This is incorrect. Anyone on the electoral register aged 18 to 70 can serve on a jury.",
+      "explanation_zh": "這是不正確的。任何年齡在 18 至 70 歲之間且在選民登記冊上的人都可以擔任陪審員。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1219,
+      "question": "To become a UK permanent resident or citizen, you should (choose TWO):",
+      "question_zh": "要成為英國永久居民或公民，您應該（選擇兩個）：",
+      "options": [
+        "Respect the rights of others, including their right to their own opinions",
+        "Marry a British citizen",
+        "Look after yourself and your family",
+        "Buy a house in the UK"
+      ],
+      "correctAnswers": [0, 2],
+      "explanation": "To be a UK permanent resident or citizen, you should respect others' rights including their opinions, care for yourself and your family, obey the law, treat others fairly, and protect your local environment.",
+      "explanation_zh": "要成為英國永久居民或公民，您應該尊重他人的權利（包括他們的意見）、照顧自己和家人、遵守法律、公平對待他人並保護當地環境。",
+      "category": "General Knowledge",
+      "isMultipleChoice": true
+    },
+    {
+      "id": 1220,
+      "question": "Which major sporting event did the UK host in 2012?",
+      "question_zh": "英國在 2012 年主辦了哪項重大體育賽事？",
+      "options": [
+        "The Eurocup Basketball",
+        "The Football World Cup",
+        "The Rugby World Cup",
+        "The Olympic games"
+      ],
+      "correctAnswers": [3],
+      "explanation": "The UK hosted the Olympic Games in 2012, having previously hosted them in 1908 and 1948.",
+      "explanation_zh": "英國在 2012 年主辦了奧運會，此前曾在 1908 年和 1948 年主辦過奧運會。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1221,
+      "question": "Because Charles I believed in the 'Divine Right of Kings', he tried to:",
+      "question_zh": "因為查理一世相信「君權神授」，他試圖：",
+      "options": [
+        "To restore Catholicism in Britain",
+        "To raise money for the Parliament",
+        "To rule without the Parliament",
+        "To rule with the approval of the Parliament"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Charles I believed in the 'Divine Right of Kings' - that God appointed him to rule. He thought he should govern without Parliament's approval and tried to rule without it.",
+      "explanation_zh": "查理一世相信「君權神授」——上帝任命他統治。他認為他應該在沒有議會批准的情況下統治，並試圖在沒有議會的情況下統治。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1222,
+      "question": "What is the Union Jack?",
+      "question_zh": "什麼是英國國旗？",
+      "options": [
+        "The Flag of the United Kingdom",
+        "A trade union to protect workers rights",
+        "The Flag of the Commonwealth",
+        "The shield used by British Knights"
+      ],
+      "correctAnswers": [0],
+      "explanation": "The Union Jack is another name for the Union Flag, the national flag of the United Kingdom.",
+      "explanation_zh": "英國國旗是聯合旗的另一個名稱，即英國的國旗。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1223,
+      "question": "Who was voted the greatest Briton of all time in a 2002 poll?",
+      "question_zh": "在 2002 年的民意調查中，誰被選為有史以來最偉大的英國人？",
+      "options": [
+        "Clement Attlee",
+        "Admiral Nelson",
+        "Winston Churchill",
+        "Mo Farah"
+      ],
+      "correctAnswers": [2],
+      "explanation": "In a 2002 public poll, Winston Churchill was voted the greatest Briton of all time.",
+      "explanation_zh": "在 2002 年的公眾投票中，溫斯頓·丘吉爾被選為有史以來最偉大的英國人。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1224,
+      "question": "Which statement is correct:",
+      "question_zh": "哪個陳述是正確的：",
+      "options": [
+        "Women in Britain today make up about half of the workforce.",
+        "Women in Britain today make up about one quarter of the workforce."
+      ],
+      "correctAnswers": [0],
+      "explanation": "Women make up approximately half of the British workforce today.",
+      "explanation_zh": "如今，女性約佔英國勞動力的一半。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    }
+  ]
 }
