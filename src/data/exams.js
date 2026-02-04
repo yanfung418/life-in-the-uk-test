@@ -3868,5 +3868,767 @@ export const examQuestions = {
       "category": "General Knowledge",
       "isMultipleChoice": false
     }
+  ],
+  13: [
+    {
+      "id": 1301,
+      "question": "When is St George's Day celebrated?",
+      "question_zh": "聖喬治日是什麼時候慶祝？",
+      "options": [
+        "1st March",
+        "30th November",
+        "23rd April",
+        "17th March"
+      ],
+      "correctAnswers": [2],
+      "explanation": "St George's Day, the patron saint day of England, is celebrated on April 23rd.",
+      "explanation_zh": "聖喬治日，英格蘭的守護神日，在 4 月 23 日慶祝。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1302,
+      "question": "What is England's largest national park?",
+      "question_zh": "英格蘭最大的國家公園是什麼？",
+      "options": [
+        "The Giant's Causeway",
+        "Snowdonia",
+        "Loch Lomond and the Trossachs National Park",
+        "The Lake District"
+      ],
+      "correctAnswers": [3],
+      "explanation": "The Lake District is the largest national park in England.",
+      "explanation_zh": "湖區是英格蘭最大的國家公園。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1303,
+      "question": "Which invaders did the tribal leader Boudicca fight against?",
+      "question_zh": "部落首領布迪卡與哪些入侵者作戰？",
+      "options": [
+        "The Anglo-Saxons",
+        "The Romans",
+        "The Vikings",
+        "The Normans"
+      ],
+      "correctAnswers": [1],
+      "explanation": "Boudicca, queen of the Iceni tribe, was one of the leaders who fought against the Romans.",
+      "explanation_zh": "艾西尼部落的女王布迪卡是對抗羅馬人的領袖之一。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1304,
+      "question": "Which poem tells the story of pilgrims traveling to Canterbury?",
+      "question_zh": "哪首詩講述了朝聖者前往坎特伯雷的故事？",
+      "options": [
+        "The Canterbury Tales",
+        "Great Expectations",
+        "A Midsummer Night's dream",
+        "All the world's a stage"
+      ],
+      "correctAnswers": [0],
+      "explanation": "Geoffrey Chaucer wrote The Canterbury Tales, a collection of poems about pilgrims traveling to Canterbury and the stories they told along the way.",
+      "explanation_zh": "杰弗裡·喬叟創作了《坎特伯雷故事集》，這是一部關於前往坎特伯雷的朝聖者以及他們沿途講述的故事的詩集。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1305,
+      "question": "What are public holidays in the UK called?",
+      "question_zh": "英國的公眾假期叫什麼？",
+      "options": [
+        "Bank Holidays",
+        "Summer Holidays",
+        "Business Holidays",
+        "Workers Holidays"
+      ],
+      "correctAnswers": [0],
+      "explanation": "Public holidays in the UK are called bank holidays, when banks and many businesses close for the day.",
+      "explanation_zh": "英國的公眾假期稱為銀行假期，銀行和許多企業在這一天關閉。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1306,
+      "question": "How did Charles II escape to Europe after the Civil War?",
+      "question_zh": "查理二世在內戰後如何逃往歐洲？",
+      "options": [
+        "Swimming",
+        "Riding a horse",
+        "Hiding in an oak tree",
+        "Hiding in a farmer's house"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Charles II escaped from Worcester, famously hiding in an oak tree during his escape, before eventually fleeing to Europe.",
+      "explanation_zh": "查理二世從伍斯特逃脫，在逃亡期間躲在一棵橡樹中，最終逃往歐洲。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1307,
+      "question": "Which king united the Anglo-Saxon kingdoms and defeated the Vikings?",
+      "question_zh": "哪位國王統一了盎格魯-撒克遜王國並擊敗了維京人？",
+      "options": [
+        "King Arthur",
+        "Edward I of England",
+        "King Alfred the Great",
+        "Harold"
+      ],
+      "correctAnswers": [2],
+      "explanation": "King Alfred the Great united the Anglo-Saxon kingdoms in England and defeated the Vikings.",
+      "explanation_zh": "阿爾弗雷德大帝統一了英格蘭的盎格魯-撒克遜王國並擊敗了維京人。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1308,
+      "question": "What was William Caxton known for?",
+      "question_zh": "威廉·卡克斯頓以什麼聞名？",
+      "options": [
+        "The inventor of the television",
+        "The first person in England to print books using a printing press",
+        "A poet who wrote about a group of people going to Canterbury on a pilgrimage",
+        "The first person to sail singlehanded around the world"
+      ],
+      "correctAnswers": [1],
+      "explanation": "William Caxton was the first person in England to use a printing press to print books.",
+      "explanation_zh": "威廉·卡克斯頓是英格蘭第一個使用印刷機印刷書籍的人。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1309,
+      "question": "Where do the Beefeaters work as tour guides?",
+      "question_zh": "禦林軍在哪裡擔任導遊？",
+      "options": [
+        "The Tower of London",
+        "The Big Ben",
+        "The Houses of the Parliament",
+        "The O2"
+      ],
+      "correctAnswers": [0],
+      "explanation": "The Beefeaters (Yeoman Warders) work as tour guides at the Tower of London.",
+      "explanation_zh": "禦林軍（倫敦塔衛兵）在倫敦塔擔任導遊。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1310,
+      "question": "Which Scottish region supported Bonnie Prince Charlie during the clan rebellion?",
+      "question_zh": "在氏族叛亂期間，蘇格蘭哪個地區支持邦妮王子查理？",
+      "options": [
+        "Edinburgh",
+        "Galloway",
+        "Glasgow",
+        "The Highlands"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Charles Edward Stuart (Bonnie Prince Charlie) was supported by clansmen from the Scottish Highlands.",
+      "explanation_zh": "查爾斯·愛德華·斯圖爾特（邦妮王子查理）得到了來自蘇格蘭高地的氏族成員的支持。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1311,
+      "question": "What was Elizabeth I's religion?",
+      "question_zh": "伊麗莎白一世的宗教是什麼？",
+      "options": [
+        "She was a Protestant",
+        "She was a Catholic"
+      ],
+      "correctAnswers": [0],
+      "explanation": "Elizabeth I was a Protestant.",
+      "explanation_zh": "伊麗莎白一世是新教徒。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1312,
+      "question": "Which actor became famous for playing a tramp in silent films?",
+      "question_zh": "哪位演員因在無聲電影中扮演流浪漢而出名？",
+      "options": [
+        "Richard Burton",
+        "David Niven",
+        "Charlie Chaplin",
+        "Sir Rex Harrison"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Charlie Chaplin became famous for his iconic tramp character in silent movies.",
+      "explanation_zh": "查理·卓別林因其在無聲電影中的標誌性流浪漢角色而出名。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1313,
+      "question": "Which military force fought in the Battle of Britain?",
+      "question_zh": "哪支軍事力量參加了不列顛之戰？",
+      "options": [
+        "The Naval Service",
+        "The Police Force",
+        "The Royal Air Force",
+        "The Royal Navy"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The Royal Air Force (RAF) fought in the Battle of Britain.",
+      "explanation_zh": "英國皇家空軍（RAF）參加了不列顛之戰。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1314,
+      "question": "You must be 21 to vote in a UK general election.",
+      "question_zh": "您必須年滿 21 歲才能在英國大選中投票。",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswers": [1],
+      "explanation": "This is incorrect. The voting age is 18, set in 1969. With few exceptions, all UK-born and naturalized adult citizens can vote.",
+      "explanation_zh": "這是不正確的。投票年齡為 18 歲，於 1969 年設定。除少數例外，所有在英國出生和入籍的成年公民都可以投票。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1315,
+      "question": "Which poet was known for being inspired by nature?",
+      "question_zh": "哪位詩人以受大自然啟發而聞名？",
+      "options": [
+        "William Wordsworth",
+        "Siegfried Sassoon",
+        "Wilfred Owen",
+        "John Masefield"
+      ],
+      "correctAnswers": [0],
+      "explanation": "William Wordsworth and other British poets were inspired by nature in their work.",
+      "explanation_zh": "威廉·華茲華斯和其他英國詩人在他們的作品中受到大自然的啟發。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1316,
+      "question": "Which nation did Britain fight at the Battle of Waterloo?",
+      "question_zh": "英國在滑鐵盧戰役中與哪個國家作戰？",
+      "options": [
+        "Spain",
+        "Italy",
+        "France",
+        "Germany"
+      ],
+      "correctAnswers": [2],
+      "explanation": "In 1815, the Duke of Wellington defeated Emperor Napoleon of France at the Battle of Waterloo, ending the French Wars.",
+      "explanation_zh": "1815 年，威靈頓公爵在滑鐵盧戰役中擊敗了法國的拿破崙皇帝，結束了法國戰爭。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1317,
+      "question": "What was William Wilberforce's profession?",
+      "question_zh": "威廉·威爾伯福斯的職業是什麼？",
+      "options": [
+        "A musician",
+        "A sportsman",
+        "A politician",
+        "A poet"
+      ],
+      "correctAnswers": [2],
+      "explanation": "William Wilberforce was a politician and Member of Parliament who, as an evangelical Christian and abolitionist, helped turn public opinion against the slave trade.",
+      "explanation_zh": "威廉·威爾伯福斯是一位政治家和議會議員，作為福音派基督徒和廢奴主義者，他幫助扭轉了公眾對奴隸貿易的看法。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1318,
+      "question": "Who is the spiritual leader of the Church of England?",
+      "question_zh": "英國國教會的精神領袖是誰？",
+      "options": [
+        "The Archbishop of Manchester",
+        "The Archbishop of London",
+        "The Archbishop of Birmingham",
+        "The Archbishop of Canterbury"
+      ],
+      "correctAnswers": [3],
+      "explanation": "The Archbishop of Canterbury is the spiritual leader of the Church of England.",
+      "explanation_zh": "坎特伯雷大主教是英國國教會的精神領袖。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1319,
+      "question": "Which country's king was James I before he became King of England?",
+      "question_zh": "詹姆斯一世在成為英格蘭國王之前是哪個國家的國王？",
+      "options": [
+        "France",
+        "Scotland",
+        "Ireland",
+        "Wales"
+      ],
+      "correctAnswers": [1],
+      "explanation": "James I was King James VI of Scotland before becoming King of England, Wales, and Ireland when Elizabeth I died.",
+      "explanation_zh": "詹姆斯一世在伊麗莎白一世去世後成為英格蘭、威爾士和愛爾蘭國王之前是蘇格蘭的詹姆斯六世國王。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1320,
+      "question": "Which statement is correct about UK shop opening hours?",
+      "question_zh": "關於英國商店營業時間，哪個陳述是正確的？",
+      "options": [
+        "Most shops in the UK open seven days a week.",
+        "All shops in the UK close on Sundays and bank holidays."
+      ],
+      "correctAnswers": [0],
+      "explanation": "Most UK shops open seven days a week, though trading hours on Sundays and public holidays are usually reduced.",
+      "explanation_zh": "大多數英國商店每週營業七天，但周日和公眾假期的營業時間通常會縮短。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1321,
+      "question": "Which country sent an Armada to England in 1588?",
+      "question_zh": "1588 年哪個國家向英格蘭派遣了無敵艦隊？",
+      "options": [
+        "Italy",
+        "Germany",
+        "France",
+        "Spain"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Spain sent the Armada in 1588 to conquer England and restore Catholicism, but it was defeated by the English.",
+      "explanation_zh": "西班牙在 1588 年派遣無敵艦隊征服英格蘭並恢復天主教，但被英國人擊敗。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1322,
+      "question": "Where can you find the National Horseracing Museum?",
+      "question_zh": "國家賽馬博物館在哪裡？",
+      "options": [
+        "Aintree near Liverpool",
+        "St Andrews, Scotland",
+        "Newmarket, Suffolk",
+        "Edinburgh, Scotland"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The National Horseracing Museum is located in Newmarket, Suffolk.",
+      "explanation_zh": "國家賽馬博物館位於薩福克郡的紐馬基特。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1323,
+      "question": "Which castle is in Scotland?",
+      "question_zh": "哪座城堡在蘇格蘭？",
+      "options": [
+        "Crathes Castle",
+        "Powis Castle",
+        "Bodiam Castle",
+        "Caernarfon Castle"
+      ],
+      "correctAnswers": [0],
+      "explanation": "Crathes Castle is located in Scotland.",
+      "explanation_zh": "克拉斯城堡位於蘇格蘭。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1324,
+      "question": "Who was a renowned Art Deco ceramic designer?",
+      "question_zh": "誰是著名的裝飾藝術陶瓷設計師？",
+      "options": [
+        "Mary Quant",
+        "Thomas Chippendale",
+        "Clarice Cliff",
+        "Alexander McQueen"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Clarice Cliff was a famous Art Deco ceramic designer, among Britain's many great designers spanning from Thomas Chippendale to Sir Terence Conran.",
+      "explanation_zh": "克拉麗斯·克里夫是一位著名的裝飾藝術陶瓷設計師，是從托馬斯·奇彭代爾到特倫斯·康蘭爵士等英國眾多偉大設計師之一。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    }
+  ],
+  14: [
+    {
+        "id": 1401,
+        "question": "When is St Patrick’s day celebrated?",
+        "question_zh": "聖帕特里克節什麼時候慶祝？",
+        "options": [
+            "23rd April",
+            "30th November",
+            "1st April",
+            "17th March"
+        ],
+        "correctAnswers": [3],
+        "explanation": "St Patrick’s day, patron of Northern Ireland is celebrated on the 17th of March .",
+        "explanation_zh": "3 月 17 日是北愛爾蘭守護神聖帕特里克節。",
+        "category": "Culture",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1402,
+        "question": "How are the members of the Northern Ireland Parliament elected?",
+        "question_zh": "北愛爾蘭議會議員是如何選舉產生的？",
+        "options": [
+            "By a system of proportional representation",
+            "Using a system of ranked voting",
+            "Using the first past the post system",
+            "Using a runoff system"
+        ],
+        "correctAnswers": [0],
+        "explanation": "The Northern Ireland Assembly has 90 elected members, known as MLAs (members of the Legislative Assembly). They are elected with a form of proportional representation .",
+        "explanation_zh": "北愛爾蘭議會有 90 名民選議員，稱為 MLA（立法議會成員）。他們以比例代表制的形式選舉產生。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1403,
+        "question": "Who was the first British Prime Minister?",
+        "question_zh": "英國第一任首相是誰？",
+        "options": [
+            "Winston Churchill",
+            "Earl of Wilmington",
+            "Henry Pelham",
+            "Sir Robert Walpole"
+        ],
+        "correctAnswers": [3],
+        "explanation": "The most important minister in Parliament became known as the Prime Minister. The first man to be called this was Sir Robert Walpole , who was Prime Minister from 1721 to 1742.",
+        "explanation_zh": "議會中最重要的部長被稱為總理。第一個被稱為這個名字的人是羅伯特·沃波爾爵士 (Sir Robert Walpole)，他於 1721 年至 1742 年擔任首相。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1404,
+        "question": "Which of the following actresses has not won an Oscar?",
+        "question_zh": "以下哪一位女演員沒有獲得過奧斯卡獎？",
+        "options": [
+            "Tilda Swinton",
+            "Emily Watson",
+            "Dame Judi Dench",
+            "Kate Winslet"
+        ],
+        "correctAnswers": [1],
+        "explanation": "British actors to have won Oscars include Colin Firth, Sir Antony Hopkins, Dame Judi Dench, Kate Winslet and Tilda Swinton. Emily Watson has not won an Oscar yet .",
+        "explanation_zh": "獲得奧斯卡獎的英國演員包括科林·費爾斯、安東尼·霍普金斯爵士、朱迪·丹奇夫人、凱特·溫斯萊特和蒂爾達·斯文頓。艾米麗·沃森尚未獲得奧斯卡獎。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1405,
+        "question": "During the Enlightenment, Adam Smith developed ideas about:",
+        "question_zh": "在啟蒙運動期間，亞當·斯密提出了以下觀點：",
+        "options": [
+            "Physics",
+            "Economics",
+            "Science",
+            "Engineering"
+        ],
+        "correctAnswers": [1],
+        "explanation": "During ’the Enlightenment’ Adam Smith developed ideas about economics which are still referred to today.",
+        "explanation_zh": "在“啟蒙運動”期間，亞當·斯密提出了至今仍被提及的經濟學思想。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1406,
+        "question": "Who died at the Battle of Trafalgar?",
+        "question_zh": "誰在特拉法加海戰中陣亡？",
+        "options": [
+            "Admiral Nelson",
+            "Henry VIII",
+            "Oliver Cromwell",
+            "Napoleon"
+        ],
+        "correctAnswers": [0],
+        "explanation": "Admiral Nelson was in charge of the British fleet at Trafalgar and was killed in the battle.",
+        "explanation_zh": "納爾遜海軍上將在特拉法加指揮英國艦隊，並在戰鬥中陣亡。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1407,
+        "question": "When is Hogmanay celebrated?",
+        "question_zh": "什麼時候慶祝除夕節？",
+        "options": [
+            "25th of December",
+            "2nd of January",
+            "1st of January",
+            "31st of December"
+        ],
+        "correctAnswers": [3],
+        "explanation": "In Scotland, the 31st of December is called Hogmanay.",
+        "explanation_zh": "在蘇格蘭，12 月 31 日被稱為 Hogmanay。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1408,
+        "question": "Proceedings in Parliament are broadcast on television and published in official reports known as:",
+        "question_zh": "議會會議記錄在電視上播出並以官方報告形式發布，即：",
+        "options": [
+            "Canvassing",
+            "Hansard",
+            "Cabinets",
+            "Domesday Book"
+        ],
+        "correctAnswers": [1],
+        "explanation": "Proceedings in Parliament are broadcast on television and published in official reports called Hansard .",
+        "explanation_zh": "議會的會議記錄在電視上播出，並在名為《議事錄》的官方報告中發表。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1409,
+        "question": "Which of the following is a rugby competition?",
+        "question_zh": "以下哪項是橄欖球比賽？",
+        "options": [
+            "The Scottish Grand National",
+            "The Wimbledon Championships",
+            "The Ashes",
+            "The Six Nations Championship"
+        ],
+        "correctAnswers": [3],
+        "explanation": "The most famous rugby union competition is the Six Nations Championship between England, Ireland, Scotland, Wales, France and Italy.",
+        "explanation_zh": "最著名的橄欖球聯盟比賽是英格蘭、愛爾蘭、蘇格蘭、威爾士、法國和意大利之間的六國錦標賽。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1410,
+        "question": "Who appoints life peers in the House of Lords?",
+        "question_zh": "誰任命上議院終身貴族？",
+        "options": [
+            "The Speaker",
+            "The Archbishop of Canterbury",
+            "The Prime Minister",
+            "The monarch"
+        ],
+        "correctAnswers": [3],
+        "explanation": "Life peers are appointed by the monarch on the advice of the Prime Minister.",
+        "explanation_zh": "終身貴族由君主根據首相的建議任命。",
+        "category": "Government",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1411,
+        "question": "Who mapped the coast of Australia?",
+        "question_zh": "誰繪製了澳大利亞海岸地圖？",
+        "options": [
+            "James Cook",
+            "Admiral Nelson",
+            "Isaac Newton",
+            "Sake Dean Mahomet"
+        ],
+        "correctAnswers": [0],
+        "explanation": "Captain James Cook mapped the coast of Australia and a few colonies were established there.",
+        "explanation_zh": "詹姆斯·庫克船長繪製了澳大利亞海岸地圖，並在那裡建立了一些殖民地。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1412,
+        "question": "What was the first war to be extensively covered by the media?",
+        "question_zh": "第一次被媒體廣泛報導的戰爭是哪場戰爭？",
+        "options": [
+            "The Boer War",
+            "The First World War",
+            "The Second World War",
+            "The Crimean War"
+        ],
+        "correctAnswers": [3],
+        "explanation": "The Crimean War was the first war to be extensively covered by the media through news stories and photographs.",
+        "explanation_zh": "克里米亞戰爭是第一次被媒體通過新聞故事和照片廣泛報導的戰爭。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1413,
+        "question": "Which of the following monuments is located in Wiltshire?",
+        "question_zh": "以下哪座紀念碑位於威爾特郡？",
+        "options": [
+            "Hadrian’s Wall",
+            "St Paul’s Cathedral",
+            "Nelson’s Column",
+            "Stonehenge"
+        ],
+        "correctAnswers": [3],
+        "explanation": "Stonehenge stands in what is now the English county of Wiltshire.",
+        "explanation_zh": "巨石陣位於現在的英國威爾特郡。",
+        "category": "Culture",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1414,
+        "question": "Who was the first Archbishop of Canterbury?",
+        "question_zh": "誰是第一任坎特伯雷大主教？",
+        "options": [
+            "St Patrick",
+            "St Augustine",
+            "St Andrew",
+            "St Columba"
+        ],
+        "correctAnswers": [1],
+        "explanation": "St Augustine led missionaries from Rome, who spread Christianity in the south. St Augustine became the first Archbishop of Canterbury.",
+        "explanation_zh": "聖奧古斯丁帶領來自羅馬的傳教士，在南方傳播基督教。聖奧古斯丁成為第一任坎特伯雷大主教。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1415,
+        "question": "How old do you have to be to go into betting shops or gambling clubs?",
+        "question_zh": "您必須年滿多少歲才能進入投注店或賭博俱樂部？",
+        "options": [
+            "18",
+            "20",
+            "16",
+            "21"
+        ],
+        "correctAnswers": [0],
+        "explanation": "You have to be 18 to go into betting shops or gambling clubs.",
+        "explanation_zh": "您必須年滿 18 歲才能進入投注店或賭博俱樂部。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1416,
+        "question": "The system of government in the UK is a parliamentary democracy.",
+        "question_zh": "英國的政體是議會民主制。",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correctAnswers": [0],
+        "explanation": "This statement is true .",
+        "explanation_zh": "這句話是正確的。",
+        "category": "Government",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1417,
+        "question": "What is the traditional food of Northern Ireland?",
+        "question_zh": "北愛爾蘭的傳統食物是什麼？",
+        "options": [
+            "Haggis",
+            "Pancakes",
+            "Paella",
+            "Ulster Fry"
+        ],
+        "correctAnswers": [3],
+        "explanation": "Ulster fry is the correct answer.",
+        "explanation_zh": "阿爾斯特炸薯條是正確的答案。",
+        "category": "Culture",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1418,
+        "question": "Who was elected as British Prime Minister in 1945?",
+        "question_zh": "1945年誰當選為英國首相？",
+        "options": [
+            "Clement Attlee",
+            "Winston Churchill",
+            "Harold Wilson",
+            "Harold Macmillan"
+        ],
+        "correctAnswers": [0],
+        "explanation": "In 1945 the British people elected a Labour government. The new Prime Minister was Clement Attlee .",
+        "explanation_zh": "1945年，英國人民選舉了工黨政府。新任首相是克萊門特·艾德禮。",
+        "category": "History",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1419,
+        "question": "How many times has the UK hosted the Olympic games?",
+        "question_zh": "英國舉辦過多少次奧運會？",
+        "options": [
+            "5",
+            "3",
+            "4",
+            "8"
+        ],
+        "correctAnswers": [1],
+        "explanation": "The UK has hosted the Olympic games on three occasions: 1908, 1948 and 2012.",
+        "explanation_zh": "英國曾三次主辦奧運會：1908年、1948年和2012年。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1420,
+        "question": "Why were canals built during the Industrial Revolution?",
+        "question_zh": "為什麼工業革命期間要修建運河？",
+        "options": [
+            "To make space for the large fleet of British ships",
+            "To increase the number of water mills in the UK",
+            "To increase the amount of water in towns and cities",
+            "To link the factories to towns and cities and to the ports"
+        ],
+        "correctAnswers": [3],
+        "explanation": "Canals were built to link the factories to towns and cities and to the ports , particularly in the new industrial areas in the middle and north of England.",
+        "explanation_zh": "修建運河將工廠與城鎮和港口連接起來，特別是在英格蘭中部和北部的新工業區。",
+        "category": "Culture",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1421,
+        "question": "Are civil servants appointed by the government?",
+        "question_zh": "公務員是政府任命的嗎？",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "correctAnswers": [1],
+        "explanation": "Civil servants are accountable to ministers. They are chosen on merit and are politically neutral – they are not political appointees .",
+        "explanation_zh": "公務員對部長負責。他們是根據業績選拔的，並且在政治上保持中立——他們不是政治任命者。",
+        "category": "Government",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1422,
+        "question": "Which of the following countries helped Britain to develop the Concorde?",
+        "question_zh": "以下哪個國家幫助英國研製了協和式飛機？",
+        "options": [
+            "Germany",
+            "Norway",
+            "Italy",
+            "France"
+        ],
+        "correctAnswers": [3],
+        "explanation": "Britain and France developed the world’s only supersonic commercial airliner, Concorde.",
+        "explanation_zh": "英國和法國開發了世界上唯一的超音速商用客機——協和式客機。",
+        "category": "Culture",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1423,
+        "question": "Which invention led to the development of Britain during the Industrial Revolution?",
+        "question_zh": "工業革命期間哪項發明促進了英國的發展？",
+        "options": [
+            "Magnetic Resonance Imaging",
+            "Steam power",
+            "Radar",
+            "Hovercraft"
+        ],
+        "correctAnswers": [1],
+        "explanation": "The Industrial Revolution was the rapid development of industry in Britain in the 18th and 19th centuries. Britain was the first country to industrialise on a large scale. It happened because of the development of machinery and the use of steam power .",
+        "explanation_zh": "工業革命是18、19世紀英國工業的快速發展。英國是第一個大規模工業化的國家。這是由於機械的發展和蒸汽動力的使用而發生的。",
+        "category": "General Knowledge",
+        "isMultipleChoice": false
+    },
+    {
+        "id": 1424,
+        "question": "Who was the tribal leader who fought against the Romans?",
+        "question_zh": "與羅馬人作戰的部落首領是誰？",
+        "options": [
+            "Columba",
+            "Claudius",
+            "Hadrian",
+            "Boudicca"
+        ],
+        "correctAnswers": [3],
+        "explanation": "One of the tribal leaders who fought against the Romans was Boudicca .",
+        "explanation_zh": "布狄卡是與羅馬人作戰的部落首領之一。",
+        "category": "History",
+        "isMultipleChoice": false
+    }
   ]
 }
