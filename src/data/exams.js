@@ -5010,5 +5010,391 @@ export const examQuestions = {
       "category": "General Knowledge",
       "isMultipleChoice": false
     }
+  ],
+  16: [
+    {
+      "id": 1601,
+      "question": "When was the United Nations established?",
+      "question_zh": "聯合國是什麼時候成立的？",
+      "options": [
+        "Before the Second World War.",
+        "After the Second World War.",
+        "Before the First World War.",
+        "After the First World War."
+      ],
+      "correctAnswers": [1],
+      "explanation": "The UN was established after World War II to prevent war and promote international peace and security.",
+      "explanation_zh": "聯合國在第二次世界大戰後成立，旨在防止戰爭並促進國際和平與安全。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1602,
+      "question": "Where is the Giant's Causeway?",
+      "question_zh": "巨人堤道在哪裡？",
+      "options": [
+        "Wales",
+        "England",
+        "Northern Ireland",
+        "Scotland"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The Giant's Causeway is a volcanic rock formation on Northern Ireland's north-east coast, formed about 50 million years ago.",
+      "explanation_zh": "巨人堤道是北愛爾蘭東北海岸的火山岩層，形成於約 5000 萬年前。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1603,
+      "question": "What happened to Mary, Queen of Scots, after 20 years of imprisonment by Elizabeth I?",
+      "question_zh": "蘇格蘭女王瑪麗被伊麗莎白一世監禁 20 年後發生了什麼？",
+      "options": [
+        "She was executed.",
+        "She was sent to Scotland.",
+        "She got married.",
+        "She was sent to France."
+      ],
+      "correctAnswers": [0],
+      "explanation": "Mary was executed after being accused of plotting against Elizabeth I.",
+      "explanation_zh": "瑪麗被指控密謀反對伊麗莎白一世後被處決。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1604,
+      "question": "Which tribe invaded Britain from northern Europe after the Romans left in AD 410?",
+      "question_zh": "公元 410 年羅馬人離開後，哪個部落從北歐入侵英國？",
+      "options": [
+        "The Burgundians",
+        "The Frisians",
+        "The Gepids",
+        "The Jutes"
+      ],
+      "correctAnswers": [3],
+      "explanation": "After the Romans left, Britain was invaded by the Jutes, Angles, and Saxons from northern Europe.",
+      "explanation_zh": "羅馬人離開後，英國被來自北歐的朱特人、盎格魯人和撒克遜人入侵。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1605,
+      "question": "Which is one of the UK's highest-grossing film franchises?",
+      "question_zh": "英國票房最高的電影系列之一是什麼？",
+      "options": [
+        "James Bond",
+        "Superman",
+        "Star Wars",
+        "The Lord of the Rings"
+      ],
+      "correctAnswers": [0],
+      "explanation": "The UK has produced some of the most successful films ever, including the two highest-grossing franchises: Harry Potter and James Bond.",
+      "explanation_zh": "英國製作了一些有史以來最成功的電影，包括兩個票房最高的系列：哈利波特和詹姆斯邦德。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1606,
+      "question": "Who can hear Youth Court cases in England, Wales, and Northern Ireland? (choose TWO)",
+      "question_zh": "誰可以在英格蘭、威爾士和北愛爾蘭審理青年法庭案件？（選擇兩個）",
+      "options": [
+        "Specially trained magistrates.",
+        "District judges.",
+        "Members of the public.",
+        "Social workers."
+      ],
+      "correctAnswers": [0, 1],
+      "explanation": "Youth Court cases for 10-17 year olds are heard by up to three specially trained magistrates or a District Judge. Parents/carers must attend, and the public is not allowed.",
+      "explanation_zh": "10-17 歲青少年的青年法庭案件由最多三名受過專門訓練的治安法官或地區法官審理。父母/照顧者必須出席，公眾不得入內。",
+      "category": "General Knowledge",
+      "isMultipleChoice": true
+    },
+    {
+      "id": 1607,
+      "question": "Which monarch returned from exile in the Netherlands in 1660?",
+      "question_zh": "1660 年哪位君主從荷蘭流亡歸來？",
+      "options": [
+        "George II",
+        "Edward II",
+        "Charles II",
+        "William II"
+      ],
+      "correctAnswers": [2],
+      "explanation": "In 1660, Parliament invited Charles II to return from exile in the Netherlands, and he was crowned King of England, Wales, Scotland, and Ireland.",
+      "explanation_zh": "1660 年，議會邀請查理二世從荷蘭流亡歸來，他加冕為英格蘭、威爾士、蘇格蘭和愛爾蘭國王。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1608,
+      "question": "Who is eligible for the National Citizen Service programme?",
+      "question_zh": "誰有資格參加國家公民服務計劃？",
+      "options": [
+        "17- and 18-year-olds",
+        "14- and 15-year-olds",
+        "15- and 16-year-olds",
+        "16- and 17-year-olds"
+      ],
+      "correctAnswers": [3],
+      "explanation": "The National Citizen Service gives 16- and 17-year-olds opportunities for outdoor activities, skill development, and community projects.",
+      "explanation_zh": "國家公民服務為 16 歲和 17 歲的青少年提供戶外活動、技能發展和社區項目的機會。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1609,
+      "question": "Nick Park won four Oscars for animated films, three featuring which characters?",
+      "question_zh": "尼克·帕克因動畫電影獲得四項奧斯卡獎，其中三部以哪些角色為主角？",
+      "options": [
+        "Wallace and Gromit",
+        "Four Weddings and a Funeral",
+        "Women in Love",
+        "Chariots of Fire"
+      ],
+      "correctAnswers": [0],
+      "explanation": "Nick Park has won four Oscars for animated films, including three featuring Wallace and Gromit.",
+      "explanation_zh": "尼克·帕克因動畫電影獲得四項奧斯卡獎，其中三部以《超級無敵掌門狗》為主角。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1610,
+      "question": "Which British scientist co-discovered DNA's structure in the 1950s?",
+      "question_zh": "1950 年代哪位英國科學家共同發現了 DNA 的結構？",
+      "options": [
+        "James Watt",
+        "Francis Crick",
+        "Keith Campbell",
+        "Sir Ian Wilmot"
+      ],
+      "correctAnswers": [1],
+      "explanation": "Francis Crick co-discovered DNA's structure in 1953 at British universities in London and Cambridge, earning a Nobel Prize for this breakthrough.",
+      "explanation_zh": "弗朗西斯·克里克於 1953 年在倫敦和劍橋的英國大學共同發現了 DNA 的結構，因這一突破獲得諾貝爾獎。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1611,
+      "question": "What percentage of UK residents have a parent or grandparent born outside the UK?",
+      "question_zh": "有多少比例的英國居民的父母或祖父母在英國以外出生？",
+      "options": [
+        "Around 20%",
+        "Around 5%",
+        "Around 10%",
+        "Around 15%"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Nearly 10% of the UK population has a parent or grandparent born outside the UK.",
+      "explanation_zh": "近 10% 的英國人口的父母或祖父母在英國以外出生。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1612,
+      "question": "What is the minimum age to ride a moped in the UK?",
+      "question_zh": "在英國騎輕便摩托車的最低年齡是多少？",
+      "options": [
+        "16 years old",
+        "15 years old",
+        "18 years old",
+        "17 years old"
+      ],
+      "correctAnswers": [0],
+      "explanation": "You must be at least 16 to ride a moped in the UK. There are different age requirements and tests for larger vehicles.",
+      "explanation_zh": "在英國，您必須至少 16 歲才能騎輕便摩托車。較大的車輛有不同的年齡要求和測試。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1613,
+      "question": "Which Labour leader introduced the Scottish Parliament and Welsh Assembly?",
+      "question_zh": "哪位工黨領袖引入了蘇格蘭議會和威爾士議會？",
+      "options": [
+        "Gordon Brown",
+        "Clement Attlee",
+        "James Callaghan",
+        "Tony Blair"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Tony Blair's Labour government, elected in 1997, introduced the Scottish Parliament and Welsh Assembly.",
+      "explanation_zh": "托尼·布萊爾的工黨政府於 1997 年當選，引入了蘇格蘭議會和威爾士議會。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1614,
+      "question": "What is the maximum small claims limit in Scotland and Northern Ireland?",
+      "question_zh": "蘇格蘭和北愛爾蘭的最高小額索賠限額是多少？",
+      "options": [
+        "£10,000",
+        "£8,000",
+        "£5,000",
+        "£3,000"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The small claims procedure handles disputes under £10,000 in England and Wales, and under £5,000 in Scotland and Northern Ireland.",
+      "explanation_zh": "小額索賠程序處理英格蘭和威爾士 10,000 英鎊以下以及蘇格蘭和北愛爾蘭 5,000 英鎊以下的糾紛。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1615,
+      "question": "Which monument did William the Conqueror build?",
+      "question_zh": "征服者威廉建造了哪座紀念碑？",
+      "options": [
+        "Dumfries House",
+        "The Cenotaph",
+        "The White Tower",
+        "St Paul's Cathedral"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The White Tower in the Tower of London is a Norman castle keep built on William the Conqueror's orders.",
+      "explanation_zh": "倫敦塔中的白塔是根據征服者威廉的命令建造的諾曼城堡主樓。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1616,
+      "question": "Who succeeded Margaret Thatcher as Prime Minister and helped the Northern Ireland peace process?",
+      "question_zh": "誰繼瑪格麗特·撒切爾之後成為首相並幫助北愛爾蘭和平進程？",
+      "options": [
+        "John Major",
+        "Harold Wilson",
+        "James Callaghan",
+        "Tony Blair"
+      ],
+      "correctAnswers": [0],
+      "explanation": "John Major became Prime Minister after Margaret Thatcher and played an important role in the Northern Ireland peace process.",
+      "explanation_zh": "約翰·梅傑繼瑪格麗特·撒切爾之後成為首相，並在北愛爾蘭和平進程中發揮了重要作用。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1617,
+      "question": "Who should you contact to report terrorist activity?",
+      "question_zh": "報告恐怖活動應該聯繫誰？",
+      "options": [
+        "The Prime Minister.",
+        "Your local police force.",
+        "Your local MP.",
+        "Your local Council."
+      ],
+      "correctAnswers": [1],
+      "explanation": "If someone tries to recruit you for extremism or terrorism, notify your local police force.",
+      "explanation_zh": "如果有人試圖招募您從事極端主義或恐怖主義，請通知當地警察部門。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1618,
+      "question": "Which Paralympic swimmer won gold at the 2008, 2012, and 2016 Games?",
+      "question_zh": "哪位殘奧游泳運動員在 2008、2012 和 2016 年奧運會上獲得金牌？",
+      "options": [
+        "David Weir",
+        "Ellie Simmonds",
+        "Baroness Tanni Grey-Thompson",
+        "Sophie Christiansen"
+      ],
+      "correctAnswers": [1],
+      "explanation": "Ellie Simmonds won swimming gold medals at three consecutive Paralympic Games (2008, 2012, 2016) and holds several world records.",
+      "explanation_zh": "艾莉·西蒙茲在三屆連續殘奧會（2008、2012、2016）上獲得游泳金牌，並保持多項世界紀錄。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1619,
+      "question": "Which UK country is represented by the rose?",
+      "question_zh": "哪個英國國家由玫瑰代表？",
+      "options": [
+        "England",
+        "Scotland",
+        "Northern Ireland",
+        "Wales"
+      ],
+      "correctAnswers": [0],
+      "explanation": "Each UK country has a flower symbol: England - rose, Scotland - thistle, Wales - daffodil, Northern Ireland - shamrock.",
+      "explanation_zh": "每個英國國家都有一個花卉象徵：英格蘭 - 玫瑰，蘇格蘭 - 薊，威爾士 - 水仙花，北愛爾蘭 - 三葉草。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1620,
+      "question": "What was Isambard Kingdom Brunel known for?",
+      "question_zh": "伊桑巴德·金德姆·布魯內爾以什麼聞名？",
+      "options": [
+        "The discovery of insulin.",
+        "The construction of the Great Western Railway.",
+        "The construction of the Tower of London.",
+        "The invention of the television."
+      ],
+      "correctAnswers": [1],
+      "explanation": "Brunel was an engineer who built the Great Western Railway, Britain's first major railway, running from London to south-west England, the West Midlands, and Wales.",
+      "explanation_zh": "布魯內爾是一位工程師，他建造了大西部鐵路，這是英國第一條主要鐵路，從倫敦延伸到英格蘭西南部、西米德蘭茲和威爾士。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1621,
+      "question": "What is the Commonwealth?",
+      "question_zh": "什麼是英聯邦？",
+      "options": [
+        "An international organization that aims to prevent war and promote international peace and security.",
+        "A group of European and North American countries that have agreed to help each other if they come under attack.",
+        "An association of countries that support each other and work together towards shared goals in democracy and development.",
+        "An organization responsible for the protection and promotion of human rights in its member countries."
+      ],
+      "correctAnswers": [2],
+      "explanation": "The Commonwealth is an association of countries working together toward shared goals in democracy and development. Most members were once part of the British Empire.",
+      "explanation_zh": "英聯邦是一個為實現民主和發展的共同目標而共同努力的國家聯盟。大多數成員國曾經是大英帝國的一部分。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1622,
+      "question": "What was the movement against papal authority during Henry VIII's time called?",
+      "question_zh": "亨利八世時期反對教皇權威的運動叫什麼？",
+      "options": [
+        "The Enlightenment",
+        "The Holy Wars",
+        "The Spanish Inquisition",
+        "The Reformation"
+      ],
+      "correctAnswers": [3],
+      "explanation": "The Reformation was the movement against the Pope's authority and Roman Catholic Church practices.",
+      "explanation_zh": "宗教改革是反對教皇權威和羅馬天主教會實踐的運動。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1623,
+      "question": "What did Isaac Newton discover?",
+      "question_zh": "艾薩克·牛頓發現了什麼？",
+      "options": [
+        "Lightbulb",
+        "Insulin",
+        "Gravity",
+        "Penicillin"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Newton's famous work showed how gravity applies to the universe. He also discovered that white light is composed of rainbow colors.",
+      "explanation_zh": "牛頓的著名著作展示了重力如何應用於宇宙。他還發現白光是由彩虹顏色組成的。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1624,
+      "question": "What type of films did Oscar winner Nick Park specialize in?",
+      "question_zh": "奧斯卡獎得主尼克·帕克專攻哪種類型的電影？",
+      "options": [
+        "Animated movies",
+        "Horror movies",
+        "Thrillers",
+        "Action movies"
+      ],
+      "correctAnswers": [0],
+      "explanation": "Nick Park specializes in animated films and has won four Oscars, including three for Wallace and Gromit films.",
+      "explanation_zh": "尼克·帕克專攻動畫電影，已獲得四項奧斯卡獎，其中三項是《超級無敵掌門狗》電影。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    }
   ]
 }
