@@ -5778,5 +5778,387 @@ export const examQuestions = {
       "category": "Government",
       "isMultipleChoice": false
     }
+  ],
+  18: [
+    {
+      "id": 1801,
+      "question": "In which year were women given the right to vote at age 21?",
+      "question_zh": "女性在哪一年獲得21歲投票權？",
+      "options": [
+        "1918",
+        "1928",
+        "1945",
+        "1969"
+      ],
+      "correctAnswers": [1],
+      "explanation": "In 1928, women were given voting rights at age 21, equal to men.",
+      "explanation_zh": "1928年，女性獲得了21歲的投票權，與男性相同。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1802,
+      "question": "Which building did William the Conqueror construct?",
+      "question_zh": "征服者威廉建造了哪座建築？",
+      "options": [
+        "St Paul's Cathedral",
+        "Westminster Abbey",
+        "Edinburgh Castle",
+        "The White Tower"
+      ],
+      "correctAnswers": [3],
+      "explanation": "William the Conqueror built the White Tower in the Tower of London as a Norman castle keep.",
+      "explanation_zh": "征服者威廉在倫敦塔建造了白塔作為諾曼城堡主樓。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1803,
+      "question": "Can court orders protect someone from being forced into a relationship or marriage?",
+      "question_zh": "法院命令能否保護某人免受強迫關係或婚姻？",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correctAnswers": [0],
+      "explanation": "Yes. Court orders can be obtained to protect a person from forced marriage or to protect someone already in a forced marriage.",
+      "explanation_zh": "是的。可以獲得法院命令來保護某人免受強迫婚姻或保護已經處於強迫婚姻中的人。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1804,
+      "question": "Who is the patron saint of England?",
+      "question_zh": "誰是英格蘭的守護聖人？",
+      "options": [
+        "St Andrew",
+        "St Patrick",
+        "St George",
+        "St David"
+      ],
+      "correctAnswers": [2],
+      "explanation": "St George is the patron saint of England, celebrated on April 23rd.",
+      "explanation_zh": "聖喬治是英格蘭的守護聖人，在4月23日慶祝。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1805,
+      "question": "What are the fundamental rights of British people?",
+      "question_zh": "英國人的基本權利是什麼？",
+      "options": [
+        "The right to free housing and healthcare",
+        "The right to vote and own property only",
+        "The right to work without paying taxes",
+        "Freedom of speech and the right to a fair trial"
+      ],
+      "correctAnswers": [3],
+      "explanation": "British people have fundamental rights including freedom of speech, freedom of religion, the right to a fair trial, and the right to participate in free elections.",
+      "explanation_zh": "英國人擁有基本權利，包括言論自由、宗教自由、公平審判權和參加自由選舉的權利。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1806,
+      "question": "Where did the Armada that attacked England in 1588 come from?",
+      "question_zh": "1588年攻擊英格蘭的無敵艦隊來自哪裡？",
+      "options": [
+        "France",
+        "Spain",
+        "Portugal",
+        "Italy"
+      ],
+      "correctAnswers": [1],
+      "explanation": "The Spanish Armada was sent by Spain in 1588 to conquer England and restore Catholicism.",
+      "explanation_zh": "西班牙無敵艦隊於1588年由西班牙派遣以征服英格蘭並恢復天主教。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1807,
+      "question": "How many jurors are there in a Scottish criminal court jury?",
+      "question_zh": "蘇格蘭刑事法庭陪審團有多少名陪審員？",
+      "options": [
+        "12",
+        "15",
+        "10",
+        "8"
+      ],
+      "correctAnswers": [1],
+      "explanation": "In Scotland, criminal court juries have 15 members, unlike the 12-member juries in England, Wales, and Northern Ireland.",
+      "explanation_zh": "在蘇格蘭，刑事法庭陪審團有15名成員，不同於英格蘭、威爾士和北愛爾蘭的12名陪審員。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1808,
+      "question": "Which sport are Jackie Stewart, Jim Clark, and Damon Hill famous for?",
+      "question_zh": "傑基·斯圖爾特、吉姆·克拉克和戴蒙·希爾以哪項運動聞名？",
+      "options": [
+        "Cricket",
+        "Tennis",
+        "Rugby",
+        "Motor racing"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Jackie Stewart, Jim Clark, and Damon Hill are all famous British Formula One racing drivers.",
+      "explanation_zh": "傑基·斯圖爾特、吉姆·克拉克和戴蒙·希爾都是著名的英國一級方程式賽車手。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1809,
+      "question": "Where is England located within Europe?",
+      "question_zh": "英格蘭在歐洲的哪個位置？",
+      "options": [
+        "South-east Europe",
+        "North-west Europe",
+        "Central Europe",
+        "Southern Europe"
+      ],
+      "correctAnswers": [1],
+      "explanation": "England is located in north-west Europe as part of the British Isles.",
+      "explanation_zh": "英格蘭位於歐洲西北部，是不列顛群島的一部分。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1810,
+      "question": "What major disaster occurred during Charles II's reign in London?",
+      "question_zh": "查理二世統治期間倫敦發生了什麼重大災難？",
+      "options": [
+        "The Great Fire of London",
+        "A plague outbreak",
+        "A major flood",
+        "An earthquake"
+      ],
+      "correctAnswers": [0],
+      "explanation": "The Great Fire of London occurred in 1666 during Charles II's reign, destroying much of the city including St Paul's Cathedral.",
+      "explanation_zh": "1666年查理二世統治期間發生了倫敦大火，摧毀了包括聖保羅大教堂在內的大部分城市。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1811,
+      "question": "Which TWO are British overseas territories?",
+      "question_zh": "以下哪兩個是英國海外領土？",
+      "options": [
+        "The Falkland Islands",
+        "Isle of Man",
+        "Channel Islands",
+        "St Helena"
+      ],
+      "correctAnswers": [0, 3],
+      "explanation": "St Helena and the Falkland Islands are British overseas territories, while the Isle of Man and Channel Islands are Crown Dependencies.",
+      "explanation_zh": "聖赫勒拿島和福克蘭群島是英國海外領土，而馬恩島和海峽群島是皇家屬地。",
+      "category": "General Knowledge",
+      "isMultipleChoice": true
+    },
+    {
+      "id": 1812,
+      "question": "Who became Prime Minister after the UK's first female Prime Minister?",
+      "question_zh": "誰在英國第一位女首相之後成為首相？",
+      "options": [
+        "Tony Blair",
+        "John Major",
+        "Gordon Brown",
+        "David Cameron"
+      ],
+      "correctAnswers": [1],
+      "explanation": "John Major became Prime Minister in 1990 after Margaret Thatcher, the UK's first female Prime Minister.",
+      "explanation_zh": "約翰·梅傑於1990年在英國第一位女首相瑪格麗特·撒切爾之後成為首相。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1813,
+      "question": "Which poet wrote a famous poem about daffodils?",
+      "question_zh": "哪位詩人寫了一首著名的水仙花詩？",
+      "options": [
+        "William Wordsworth",
+        "Robert Burns",
+        "William Shakespeare",
+        "John Keats"
+      ],
+      "correctAnswers": [0],
+      "explanation": "William Wordsworth wrote the famous poem 'The Daffodils' (also known as 'I Wandered Lonely as a Cloud').",
+      "explanation_zh": "威廉·華茲華斯寫了著名的詩《水仙花》（也稱為《我孤獨地漫遊如一朵雲》）。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1814,
+      "question": "Which is one of the highest-grossing film franchises produced in the UK?",
+      "question_zh": "英國製作的票房最高的電影系列之一是什麼？",
+      "options": [
+        "Star Wars",
+        "James Bond",
+        "Marvel Cinematic Universe",
+        "The Lord of the Rings"
+      ],
+      "correctAnswers": [1],
+      "explanation": "James Bond and Harry Potter are the two highest-grossing film franchises produced in the UK.",
+      "explanation_zh": "詹姆斯·邦德和哈利·波特是英國製作的兩個票房最高的電影系列。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1815,
+      "question": "What is the minimum age to ride a motorcycle in the UK?",
+      "question_zh": "在英國騎摩托車的最低年齡是多少？",
+      "options": [
+        "17 years old",
+        "18 years old",
+        "16 years old",
+        "21 years old"
+      ],
+      "correctAnswers": [2],
+      "explanation": "You must be at least 17 years old to ride a motorcycle in the UK.",
+      "explanation_zh": "在英國，您必須至少17歲才能騎摩托車。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1816,
+      "question": "What is the maximum amount for small claims in Scotland?",
+      "question_zh": "蘇格蘭小額索賠的最高金額是多少？",
+      "options": [
+        "£3,000",
+        "£5,000",
+        "£10,000",
+        "£15,000"
+      ],
+      "correctAnswers": [1],
+      "explanation": "The small claims procedure in Scotland handles disputes of less than £5,000.",
+      "explanation_zh": "蘇格蘭的小額索賠程序處理少於5,000英鎊的糾紛。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1817,
+      "question": "When was the European Union established?",
+      "question_zh": "歐盟是什麼時候成立的？",
+      "options": [
+        "Before World War I",
+        "During World War II",
+        "After World War I",
+        "After World War II"
+      ],
+      "correctAnswers": [3],
+      "explanation": "The European Union developed from organizations established after World War II to promote peace and economic cooperation.",
+      "explanation_zh": "歐盟是從第二次世界大戰後建立的組織發展而來的，旨在促進和平與經濟合作。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1818,
+      "question": "Are the Channel Islands part of the UK?",
+      "question_zh": "海峽群島是英國的一部分嗎？",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correctAnswers": [1],
+      "explanation": "No. The Channel Islands are Crown Dependencies - they are closely linked to the UK but are not part of it.",
+      "explanation_zh": "不是。海峽群島是皇家屬地——它們與英國聯繫密切，但不是其一部分。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1819,
+      "question": "What position did Sir Robert Walpole hold in the 1720s?",
+      "question_zh": "羅伯特·沃波爾爵士在1720年代擔任什麼職位？",
+      "options": [
+        "Foreign Secretary",
+        "Chancellor",
+        "Prime Minister",
+        "Speaker of the House"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Sir Robert Walpole was the first person to be called Prime Minister, serving from 1721 to 1742.",
+      "explanation_zh": "羅伯特·沃波爾爵士是第一個被稱為首相的人，任期從1721年到1742年。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1820,
+      "question": "On which day is it believed that Jesus Christ died?",
+      "question_zh": "人們相信耶穌基督在哪一天去世？",
+      "options": [
+        "Easter Sunday",
+        "Easter Monday",
+        "Ash Wednesday",
+        "Good Friday"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Good Friday is the day Christians remember the crucifixion of Jesus Christ.",
+      "explanation_zh": "耶穌受難日是基督徒紀念耶穌基督被釘十字架的日子。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1821,
+      "question": "Which court handles small claims in Scotland?",
+      "question_zh": "蘇格蘭哪個法院處理小額索賠？",
+      "options": [
+        "The Crown Court",
+        "The Magistrates' Court",
+        "The High Court",
+        "The Sheriff Court"
+      ],
+      "correctAnswers": [3],
+      "explanation": "In Scotland, the Sheriff Court handles small claims procedures for disputes under £5,000.",
+      "explanation_zh": "在蘇格蘭，郡法院處理5,000英鎊以下糾紛的小額索賠程序。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1822,
+      "question": "What are candidates who do not represent any political party called?",
+      "question_zh": "不代表任何政黨的候選人被稱為什麼？",
+      "options": [
+        "Neutral candidates",
+        "Independent candidates",
+        "Non-partisan candidates",
+        "Free candidates"
+      ],
+      "correctAnswers": [1],
+      "explanation": "Candidates who do not represent a political party are called Independent candidates.",
+      "explanation_zh": "不代表政黨的候選人被稱為獨立候選人。",
+      "category": "Government",
+      "isMultipleChoice": false
+      },
+      {
+      "id": 1823,
+      "question": "Which sport is Wimbledon famous for?",
+      "question_zh": "溫布爾登以哪項運動聞名？",
+      "options": [
+        "Cricket",
+        "Football",
+        "Tennis",
+        "Rugby"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Wimbledon is the location of the famous annual tennis championship held at the All England Lawn Tennis and Croquet Club.",
+      "explanation_zh": "溫布爾登是在全英草地網球和槌球俱樂部舉行的著名年度網球錦標賽的地點。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+      },
+      {
+      "id": 1824,
+      "question": "Who discovered penicillin?",
+      "question_zh": "誰發現了盤尼西林？",
+      "options": [
+        "Isaac Newton",
+        "Charles Darwin",
+        "James Watt",
+        "Alexander Fleming"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Sir Alexander Fleming discovered penicillin in 1928, revolutionizing medicine.",
+      "explanation_zh": "亞歷山大·弗萊明爵士於1928年發現了盤尼西林，徹底改變了醫學。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    }
   ]
 }
