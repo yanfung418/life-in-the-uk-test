@@ -4630,5 +4630,385 @@ export const examQuestions = {
         "category": "History",
         "isMultipleChoice": false
     }
+  ],
+  15: [
+    {
+      "id": 1501,
+      "question": "Which two languages were spoken in England during the Middle Ages?",
+      "question_zh": "中世紀期間英格蘭使用哪兩種語言？",
+      "options": [
+        "Gaelic",
+        "Norman French",
+        "Welsh",
+        "Anglo-Saxon"
+      ],
+      "correctAnswers": [1, 3],
+      "explanation": "After the Norman Conquest, the nobility spoke Norman French while peasants continued to speak Anglo-Saxon. These two languages eventually merged to form English.",
+      "explanation_zh": "諾曼征服後，貴族說諾曼法語，而農民繼續說盎格魯-撒克遜語。這兩種語言最終合併形成英語。",
+      "category": "History",
+      "isMultipleChoice": true
+    },
+    {
+      "id": 1502,
+      "question": "Which British colonies declared independence in 1776 demanding 'no taxation without representation'?",
+      "question_zh": "1776 年哪些英國殖民地宣布獨立，要求「無代表不納稅」？",
+      "options": [
+        "South African",
+        "Asian",
+        "North American",
+        "North African"
+      ],
+      "correctAnswers": [2],
+      "explanation": "In 1776, 13 North American colonies declared independence, asserting people's right to establish their own governments.",
+      "explanation_zh": "1776 年，13 個北美殖民地宣布獨立，主張人民有權建立自己的政府。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1503,
+      "question": "When was England governed as a republic instead of a monarchy?",
+      "question_zh": "英格蘭何時以共和國而非君主制統治？",
+      "options": [
+        "When kind Harold died after the Battle of Hastings",
+        "When the Carta Magna restricted the king's power",
+        "When Elizabeth I died without any successor",
+        "When Charles I was executed"
+      ],
+      "correctAnswers": [3],
+      "explanation": "After Charles I was executed, England became a republic called the Commonwealth, without a monarch.",
+      "explanation_zh": "查理一世被處決後，英格蘭成為了一個稱為英聯邦的共和國，沒有君主。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1504,
+      "question": "Which UK-produced film became one of the highest-grossing franchises of all time?",
+      "question_zh": "哪部英國製作的電影成為有史以來票房最高的系列之一？",
+      "options": [
+        "Harry Potter",
+        "Indiana Jones",
+        "The Lord of the Rings",
+        "Spider-man"
+      ],
+      "correctAnswers": [0],
+      "explanation": "The UK has produced some of the most commercially successful films ever, including the two highest-grossing franchises: Harry Potter and James Bond.",
+      "explanation_zh": "英國製作了一些有史以來商業上最成功的電影，包括兩個票房最高的系列：哈利波特和詹姆斯邦德。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1505,
+      "question": "When did the first farmers arrive in Britain?",
+      "question_zh": "第一批農民何時抵達英國？",
+      "options": [
+        "2,000 years ago",
+        "6,000 years ago",
+        "15,000 years ago",
+        "10,000 years ago"
+      ],
+      "correctAnswers": [1],
+      "explanation": "The first farmers came to Britain 6,000 years ago.",
+      "explanation_zh": "第一批農民在 6,000 年前來到英國。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1506,
+      "question": "When did World War I end?",
+      "question_zh": "第一次世界大戰何時結束？",
+      "options": [
+        "At 11.00 am on 11th November 1914",
+        "At 12.00 pm on 11th November 1914",
+        "At 11.00 am on 11th November 1918",
+        "At 12.00 pm on 11th November 1918"
+      ],
+      "correctAnswers": [2],
+      "explanation": "World War I ended at 11:00 am on November 11th, 1918, with victory for Britain and its allies.",
+      "explanation_zh": "第一次世界大戰於 1918 年 11 月 11 日上午 11 點結束，英國及其盟國獲勝。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1507,
+      "question": "Can court orders protect someone from forced marriage?",
+      "question_zh": "法院命令能否保護某人免受強迫婚姻？",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correctAnswers": [0],
+      "explanation": "Yes. Court orders can be obtained to protect someone from being forced into marriage or to protect someone already in a forced marriage.",
+      "explanation_zh": "是的。可以獲得法院命令來保護某人免受強迫婚姻，或保護已經處於強迫婚姻中的人。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1508,
+      "question": "What Olympic medal did Mary Peters win in 1972?",
+      "question_zh": "瑪麗·彼得斯在 1972 年獲得了什麼奧運獎牌？",
+      "options": [
+        "Bronze",
+        "Silver",
+        "Gold",
+        "She did not win any medals"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Mary Peters, who moved to Northern Ireland as a child, won an Olympic gold medal in the pentathlon in 1972.",
+      "explanation_zh": "瑪麗·彼得斯小時候搬到北愛爾蘭，在 1972 年獲得了奧運五項全能金牌。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1509,
+      "question": "In England, Wales, and Northern Ireland, who hears Youth Court cases? (choose TWO)",
+      "question_zh": "在英格蘭、威爾士和北愛爾蘭，誰審理青年法庭案件？（選擇兩個）",
+      "options": [
+        "A sheriff",
+        "A District Judge",
+        "Up to 3 specially trained magistrates",
+        "Up to 5 specially trained magistrates"
+      ],
+      "correctAnswers": [1, 2],
+      "explanation": "Youth Court cases for those aged 10 to 17 are heard by up to three specially trained magistrates or a District Judge.",
+      "explanation_zh": "10 至 17 歲青少年的青年法庭案件由最多三名受過專門訓練的治安法官或地區法官審理。",
+      "category": "General Knowledge",
+      "isMultipleChoice": true
+    },
+    {
+      "id": 1510,
+      "question": "What did Alan Turing invent in the 1930s?",
+      "question_zh": "阿蘭·圖靈在 1930 年代發明了什麼？",
+      "options": [
+        "The ball pen",
+        "The television",
+        "The jet engine",
+        "The Turing machine"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Alan Turing, a British mathematician, invented the Turing machine, a theoretical mathematical device, in the 1930s.",
+      "explanation_zh": "英國數學家阿蘭·圖靈在 1930 年代發明了圖靈機，這是一種理論數學設備。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1511,
+      "question": "Which document describes English society just after the Norman Conquest?",
+      "question_zh": "哪份文件描述了諾曼征服後的英格蘭社會？",
+      "options": [
+        "The Carta Magna",
+        "The Canterbury Tales",
+        "The Domesday Book",
+        "The Book of Common Prayer"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The Domesday Book, which still exists today, lists all towns, villages, landowners, and livestock, giving a picture of English society after the Norman Conquest.",
+      "explanation_zh": "《末日審判書》至今仍存，列出了所有城鎮、村莊、地主和牲畜，描繪了諾曼征服後英格蘭社會的景象。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1512,
+      "question": "Who led the first team to successfully split the atom?",
+      "question_zh": "誰領導了第一個成功分裂原子的團隊？",
+      "options": [
+        "Ernest Rutherford",
+        "Sir Peter Mansfield",
+        "Alan Turing",
+        "Alexander Fleming"
+      ],
+      "correctAnswers": [0],
+      "explanation": "Ernest Rutherford led scientists at Manchester and Cambridge University who first split the atom and later contributed to the Manhattan Project.",
+      "explanation_zh": "歐內斯特·盧瑟福領導曼徹斯特和劍橋大學的科學家首次分裂原子，後來為曼哈頓計劃做出了貢獻。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1513,
+      "question": "What song is traditionally sung at New Year celebrations in the UK?",
+      "question_zh": "英國新年慶祝活動中傳統上唱什麼歌？",
+      "options": [
+        "White Christmas",
+        "Jingle Bells",
+        "Auld Lang Syne",
+        "The British Anthem"
+      ],
+      "correctAnswers": [2],
+      "explanation": "Auld Lang Syne is sung by people in the UK and other countries when celebrating New Year (called Hogmanay in Scotland).",
+      "explanation_zh": "Auld Lang Syne 是英國和其他國家的人們在慶祝新年（在蘇格蘭稱為 Hogmanay）時演唱的歌曲。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1514,
+      "question": "Who fought in the 1642 English Civil War?",
+      "question_zh": "誰在 1642 年英國內戰中作戰？",
+      "options": [
+        "The House of Fraser and the House of Stuart",
+        "The Cavaliers and the Roundheads",
+        "The Anglo-Saxons and the Vikings",
+        "The House of York and the House of Lancaster"
+      ],
+      "correctAnswers": [1],
+      "explanation": "The Civil War began in 1642 between the Cavaliers (who supported the king) and the Roundheads (who supported Parliament).",
+      "explanation_zh": "內戰始於 1642 年，交戰雙方是騎士黨（支持國王）和圓頭黨（支持議會）。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1515,
+      "question": "Which two forts were part of Hadrian's Wall?",
+      "question_zh": "哪兩個堡壘是哈德良長城的一部分？",
+      "options": [
+        "Housesteads",
+        "Grimsby",
+        "Vindolanda",
+        "Maiden Castle"
+      ],
+      "correctAnswers": [0, 2],
+      "explanation": "Hadrian's Wall includes the forts of Housesteads and Vindolanda.",
+      "explanation_zh": "哈德良長城包括豪斯泰德和文德蘭達堡壘。",
+      "category": "History",
+      "isMultipleChoice": true
+    },
+    {
+      "id": 1516,
+      "question": "What was the religion of the Puritans?",
+      "question_zh": "清教徒的宗教是什麼？",
+      "options": [
+        "Sikh",
+        "Protestant",
+        "Catholic",
+        "Hindu"
+      ],
+      "correctAnswers": [1],
+      "explanation": "The Puritans were Protestants who advocated strict and simple religious doctrine and worship.",
+      "explanation_zh": "清教徒是新教徒，主張嚴格和簡單的宗教教義和崇拜。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1517,
+      "question": "What were 19th-century Irish people who wanted complete independence from the UK called?",
+      "question_zh": "19 世紀想要從英國完全獨立的愛爾蘭人被稱為什麼？",
+      "options": [
+        "Suffragettes",
+        "Highlanders",
+        "Fenians",
+        "Quakers"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The Irish Nationalist movement grew strongly through the 19th century. Some, like the Fenians, favored complete independence.",
+      "explanation_zh": "愛爾蘭民族主義運動在整個 19 世紀蓬勃發展。一些人，如芬尼派，支持完全獨立。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1518,
+      "question": "Which two British pop groups were famous during the Swinging Sixties?",
+      "question_zh": "在搖擺六十年代，哪兩個英國流行音樂團體著名？",
+      "options": [
+        "Radiohead",
+        "ABBA",
+        "The Beatles",
+        "The Rolling Stones"
+      ],
+      "correctAnswers": [2, 3],
+      "explanation": "The 1960s, known as the 'Swinging Sixties', saw growth in British fashion, cinema, and pop music. The Beatles and The Rolling Stones were two famous groups from this era.",
+      "explanation_zh": "1960 年代被稱為「搖擺六十年代」，見證了英國時尚、電影和流行音樂的增長。披頭士和滾石樂隊是這個時代兩個著名的團體。",
+      "category": "Culture",
+      "isMultipleChoice": true
+    },
+    {
+      "id": 1519,
+      "question": "What is the minimum age to drive a motorcycle in the UK?",
+      "question_zh": "在英國駕駛摩托車的最低年齡是多少？",
+      "options": [
+        "21 years old",
+        "18 years old",
+        "16 years old",
+        "17 years old"
+      ],
+      "correctAnswers": [3],
+      "explanation": "You must be at least 17 to drive a car or motorcycle in the UK, and you need a driving licence to drive on public roads.",
+      "explanation_zh": "在英國，您必須至少 17 歲才能駕駛汽車或摩托車，並且需要駕駛執照才能在公共道路上駕駛。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1520,
+      "question": "Members of the House of Lords (peers) are elected by the people.",
+      "question_zh": "上議院成員（貴族）由人民選舉產生。",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswers": [1],
+      "explanation": "This is incorrect. Members of the House of Lords, known as peers, are not elected by the people.",
+      "explanation_zh": "這是不正確的。上議院成員，稱為貴族，不是由人民選舉產生的。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1521,
+      "question": "When did the Emancipation Act abolish slavery in the British Empire?",
+      "question_zh": "《解放法》何時廢除英國帝國的奴隸制？",
+      "options": [
+        "1807",
+        "1823",
+        "1833",
+        "1835"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The Emancipation Act abolished slavery throughout the British Empire in 1833.",
+      "explanation_zh": "《解放法》於 1833 年在整個英國帝國廢除了奴隸制。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1522,
+      "question": "Which government minister is responsible for crime, policing, and immigration?",
+      "question_zh": "哪位政府部長負責犯罪、治安和移民？",
+      "options": [
+        "The Speaker",
+        "The Foreign Secretary",
+        "The Home Secretary",
+        "The Chancellor of the Exchequer"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The Home Secretary is responsible for crime, policing, and immigration.",
+      "explanation_zh": "內政大臣負責犯罪、治安和移民。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1523,
+      "question": "What type of film was Wallace and Gromit, created by Nick Park?",
+      "question_zh": "尼克·帕克創作的《超級無敵掌門狗》是什麼類型的電影？",
+      "options": [
+        "An action film",
+        "A silent movie",
+        "A soap opera",
+        "An animated film"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Nick Park won four Oscars for his animated films, including three featuring Wallace and Gromit.",
+      "explanation_zh": "尼克·帕克憑藉其動畫電影獲得四項奧斯卡獎，其中三部是《超級無敵掌門狗》。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1524,
+      "question": "Anyone who is violent towards their partner can be prosecuted, regardless of gender or marital status.",
+      "question_zh": "任何對伴侶施暴的人都可能被起訴，無論性別或婚姻狀況如何。",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswers": [0],
+      "explanation": "This is correct. Anyone violent towards their partner - whether man or woman, married or living together - can be prosecuted.",
+      "explanation_zh": "這是正確的。任何對伴侶施暴的人——無論男性或女性、已婚或同居——都可能被起訴。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    }
   ]
 }
