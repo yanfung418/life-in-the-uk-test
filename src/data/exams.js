@@ -5396,5 +5396,387 @@ export const examQuestions = {
       "category": "Culture",
       "isMultipleChoice": false
     }
+  ],
+  17: [
+    {
+      "id": 1701,
+      "question": "Which of these is NOT a constitutional institution?",
+      "question_zh": "以下哪個不是憲法機構？",
+      "options": [
+        "The Parliament",
+        "The cabinet",
+        "The armed forces",
+        "The police"
+      ],
+      "correctAnswers": [2],
+      "explanation": "UK constitutional institutions include: monarchy, Parliament (Commons and Lords), Prime Minister, cabinet, judiciary, police, civil service, and local government. The armed forces are not a constitutional institution.",
+      "explanation_zh": "英國憲法機構包括：君主制、議會（下議院和上議院）、首相、內閣、司法機構、警察、公務員和地方政府。武裝部隊不是憲法機構。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1702,
+      "question": "Which crop failure caused the Irish famine?",
+      "question_zh": "哪種作物歉收導致了愛爾蘭飢荒？",
+      "options": [
+        "Potato",
+        "Wheat",
+        "Corn",
+        "Oats"
+      ],
+      "correctAnswers": [0],
+      "explanation": "In the mid-19th century, the potato crop failed, causing a famine in Ireland. A million people died from disease and starvation.",
+      "explanation_zh": "19 世紀中葉，馬鈴薯歉收，導致愛爾蘭發生飢荒。一百萬人死於疾病和飢餓。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1703,
+      "question": "What is the group of senior opposition MPs who challenge the government called?",
+      "question_zh": "挑戰政府的資深反對黨議員小組叫什麼？",
+      "options": [
+        "Lobby groups",
+        "Civil servants",
+        "Support peers",
+        "Shadow Cabinet"
+      ],
+      "correctAnswers": [3],
+      "explanation": "The opposition leader appoints senior MPs as 'shadow ministers' who challenge the government and propose alternative policies, forming the Shadow Cabinet.",
+      "explanation_zh": "反對黨領袖任命資深議員為「影子部長」，他們挑戰政府並提出替代政策，組成影子內閣。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1704,
+      "question": "What are TWO responsibilities of MPs?",
+      "question_zh": "議員的兩項職責是什麼？",
+      "options": [
+        "Represent everyone in their constituency",
+        "Scrutinise and comment on what the monarch is doing",
+        "Help to create new laws",
+        "Protect life and property"
+      ],
+      "correctAnswers": [0, 2],
+      "explanation": "MPs represent everyone in their constituency, help create new laws, scrutinize government actions, and debate important national issues.",
+      "explanation_zh": "議員代表選區內的每個人，幫助制定新法律，審查政府行為，並辯論重要的國家問題。",
+      "category": "Government",
+      "isMultipleChoice": true
+    },
+    {
+      "id": 1705,
+      "question": "Who was the longest-serving UK Prime Minister of the 20th century?",
+      "question_zh": "誰是 20 世紀任期最長的英國首相？",
+      "options": [
+        "Robert Walpole",
+        "Margaret Thatcher",
+        "John Major",
+        "Sir Alec Douglas-Home"
+      ],
+      "correctAnswers": [1],
+      "explanation": "Margaret Thatcher was the first female UK Prime Minister and the longest-serving of the 20th century, in office from 1979 to 1990.",
+      "explanation_zh": "瑪格麗特·撒切爾是英國第一位女首相，也是 20 世紀任期最長的首相，從 1979 年到 1990 年在任。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1706,
+      "question": "What are territories linked to the UK but not part of it called?",
+      "question_zh": "與英國有聯繫但不屬於英國的領土叫什麼？",
+      "options": [
+        "British Colonies",
+        "Crown Independencies",
+        "Crown Dependencies",
+        "Offshore Territories"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The Channel Islands and Isle of Man are closely linked to the UK but have their own governments and are called Crown Dependencies.",
+      "explanation_zh": "海峽群島和馬恩島與英國聯繫密切，但有自己的政府，被稱為皇家屬地。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1707,
+      "question": "What field did David Hume contribute to during the Enlightenment?",
+      "question_zh": "大衛·休謨在啟蒙運動期間為哪個領域做出了貢獻？",
+      "options": [
+        "Cinema",
+        "Poetry",
+        "Architecture",
+        "Philosophy"
+      ],
+      "correctAnswers": [3],
+      "explanation": "David Hume was a famous philosopher who developed ideas about human nature in the 18th century that continue to influence philosophers today.",
+      "explanation_zh": "大衛·休謨是一位著名的哲學家，他在 18 世紀提出了關於人性的思想，至今仍影響著哲學家。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1708,
+      "question": "What proportion of England's population died from the Black Death?",
+      "question_zh": "英格蘭有多少人口死於黑死病？",
+      "options": [
+        "One third of the population",
+        "Half of the population",
+        "One quarter of the population",
+        "55% of the population"
+      ],
+      "correctAnswers": [0],
+      "explanation": "The Black Death killed one third of England's population, with similar proportions in Scotland and Wales.",
+      "explanation_zh": "黑死病導致英格蘭三分之一的人口死亡，蘇格蘭和威爾士的比例類似。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1709,
+      "question": "What happened to Charles I after his imprisonment?",
+      "question_zh": "查理一世被監禁後發生了什麼？",
+      "options": [
+        "He moved to Spain",
+        "He was executed",
+        "He became a priest",
+        "He escaped to France"
+      ],
+      "correctAnswers": [1],
+      "explanation": "After defeats at Marston Moor and Naseby, Charles I was imprisoned. Unwilling to reach agreement with Parliament, he was executed in 1649.",
+      "explanation_zh": "在馬斯頓荒原和納斯比戰敗後，查理一世被監禁。因不願與議會達成協議，他於 1649 年被處決。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1710,
+      "question": "What are TWO responsibilities of the monarch?",
+      "question_zh": "君主的兩項職責是什麼？",
+      "options": [
+        "To appoint the members of the cabinet",
+        "To debate important national issues",
+        "To appoint the government",
+        "To advise, warn and encourage the Prime Minister's decisions on government policies"
+      ],
+      "correctAnswers": [2, 3],
+      "explanation": "The monarch appoints the government chosen by democratic election and meets regularly with the Prime Minister to advise, warn, and encourage, though policy decisions are made by the PM and cabinet.",
+      "explanation_zh": "君主任命通過民主選舉選出的政府，並定期與首相會面提供建議、警告和鼓勵，但政策決定由首相和內閣做出。",
+      "category": "Government",
+      "isMultipleChoice": true
+    },
+    {
+      "id": 1711,
+      "question": "What type of disaster was the Black Death?",
+      "question_zh": "黑死病是什麼類型的災難？",
+      "options": [
+        "A famine",
+        "A civil war",
+        "A plague",
+        "An earthquake"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The Black Death was a disease, probably a form of plague, that arrived in Britain in 1348.",
+      "explanation_zh": "黑死病是一種疾病，可能是鼠疫的一種形式，於 1348 年傳入英國。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1712,
+      "question": "Which country had trading conflicts with the UK during the 18th century?",
+      "question_zh": "18 世紀哪個國家與英國有貿易衝突？",
+      "options": [
+        "Luxembourg",
+        "Germany",
+        "Andorra",
+        "France"
+      ],
+      "correctAnswers": [3],
+      "explanation": "During the 18th century, overseas trading sometimes brought Britain into conflict with France, which was expanding similarly in many of the same areas.",
+      "explanation_zh": "在 18 世紀，海外貿易有時使英國與法國發生衝突，法國在許多相同地區以類似方式擴張。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1713,
+      "question": "The Speaker is an MP who represents a constituency and deals with constituents.",
+      "question_zh": "議長是代表選區並與選民打交道的議員。",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswers": [0],
+      "explanation": "This is correct. The Speaker is an MP who represents a constituency.",
+      "explanation_zh": "這是正確的。議長是代表選區的議員。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1714,
+      "question": "Where is Skara Brae, northern Europe's best-preserved prehistoric village?",
+      "question_zh": "北歐保存最完好的史前村莊斯卡拉布雷在哪裡？",
+      "options": [
+        "Northern Ireland",
+        "Wales",
+        "England",
+        "Scotland"
+      ],
+      "correctAnswers": [3],
+      "explanation": "Skara Brae on Orkney, off Scotland's north coast, is northern Europe's best-preserved prehistoric village.",
+      "explanation_zh": "位於蘇格蘭北海岸奧克尼群島的斯卡拉布雷是北歐保存最完好的史前村莊。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1715,
+      "question": "Which play was written by William Shakespeare?",
+      "question_zh": "以下哪部戲劇是威廉·莎士比亞創作的？",
+      "options": [
+        "MacBeth",
+        "The Canterbury Tales",
+        "Doctor Faustus",
+        "The Mikado"
+      ],
+      "correctAnswers": [0],
+      "explanation": "MacBeth is one of William Shakespeare's most famous plays.",
+      "explanation_zh": "《麥克白》是威廉·莎士比亞最著名的戲劇之一。",
+      "category": "Culture",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1716,
+      "question": "Where was William the Conqueror from?",
+      "question_zh": "征服者威廉來自哪裡？",
+      "options": [
+        "Ireland",
+        "France",
+        "Italy",
+        "Portugal"
+      ],
+      "correctAnswers": [1],
+      "explanation": "William the Conqueror was Duke of Normandy (now northern France). He defeated Harold at the Battle of Hastings in 1066.",
+      "explanation_zh": "征服者威廉是諾曼底公爵（現法國北部）。他在 1066 年黑斯廷斯戰役中擊敗了哈羅德。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1717,
+      "question": "What were the Dutch settlers called who fought the British in South Africa?",
+      "question_zh": "在南非與英國人作戰的荷蘭定居者被稱為什麼？",
+      "options": [
+        "Beefeaters",
+        "Conquistadors",
+        "Boers",
+        "Blacksmiths"
+      ],
+      "correctAnswers": [2],
+      "explanation": "The British fought the Boers, Dutch settlers in South Africa, in a fierce war that lasted over three years.",
+      "explanation_zh": "英國人與布爾人（南非的荷蘭定居者）進行了激烈的戰爭，持續了三年多。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1718,
+      "question": "In Northern Ireland, Youth Court cases require up to three specially trained magistrates or a District Judge.",
+      "question_zh": "在北愛爾蘭，青年法庭案件需要最多三名受過專門訓練的治安法官或地區法官。",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswers": [0],
+      "explanation": "This is correct. Youth Court cases in Northern Ireland are heard by up to three specially trained magistrates or a District Judge.",
+      "explanation_zh": "這是正確的。北愛爾蘭的青年法庭案件由最多三名受過專門訓練的治安法官或地區法官審理。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1719,
+      "question": "What made Roger Bannister famous?",
+      "question_zh": "是什麼讓羅傑·班尼斯特出名？",
+      "options": [
+        "He won gold medals in rowing in five consecutive Olympic Games.",
+        "He was the first British to climb Mount Everest.",
+        "He won gold medals for ice dancing at the Olympic Games in 1984.",
+        "He was the first man in the world to run a mile in under four minutes."
+      ],
+      "correctAnswers": [3],
+      "explanation": "Sir Roger Bannister became the first person in the world to run a mile in under four minutes in 1954.",
+      "explanation_zh": "羅傑·班尼斯特爵士在 1954 年成為世界上第一個在四分鐘內跑完一英里的人。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1720,
+      "question": "Who was invited to invade and rule England in 1688?",
+      "question_zh": "1688 年誰被邀請入侵並統治英格蘭？",
+      "options": [
+        "Napoleon",
+        "William of Orange",
+        "The Duke of Medina Sidonia",
+        "King Philip II of Spain"
+      ],
+      "correctAnswers": [1],
+      "explanation": "In 1688, important English Protestants invited William of Orange to invade England and become king.",
+      "explanation_zh": "1688 年，英格蘭重要的新教徒邀請奧蘭治的威廉入侵英格蘭並成為國王。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1721,
+      "question": "Who was defeated at the Battle of the Boyne?",
+      "question_zh": "誰在博因河戰役中被擊敗？",
+      "options": [
+        "Richard II",
+        "James II",
+        "James I",
+        "Richard I"
+      ],
+      "correctAnswers": [1],
+      "explanation": "William of Orange defeated James II at the Battle of the Boyne in Ireland in 1690.",
+      "explanation_zh": "奧蘭治的威廉在 1690 年愛爾蘭博因河戰役中擊敗了詹姆斯二世。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1722,
+      "question": "What did the Factories Act of 1847 introduce?",
+      "question_zh": "1847 年《工廠法》引入了什麼？",
+      "options": [
+        "It increased the number of hours that men could work to 12 hours per day.",
+        "It increased the number of hours that women and children could work to 12 hours per day.",
+        "It limited the number of hours that everybody could work to 10 hours per day.",
+        "It limited the number of hours that women and children could work to 10 hours per day."
+      ],
+      "correctAnswers": [3],
+      "explanation": "The Factories Act of 1847 limited women's and children's working hours to 10 hours per day.",
+      "explanation_zh": "1847 年的《工廠法》將婦女和兒童的工作時間限制為每天 10 小時。",
+      "category": "History",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1723,
+      "question": "What is the group of opposition MPs called?",
+      "question_zh": "反對黨議員小組叫什麼？",
+      "options": [
+        "Shadow Cabinet",
+        "Cavaliers",
+        "Roundheads",
+        "Quakers"
+      ],
+      "correctAnswers": [0],
+      "explanation": "Opposition MPs form the Shadow Cabinet, which challenges the government and proposes alternative policies.",
+      "explanation_zh": "反對黨議員組成影子內閣，挑戰政府並提出替代政策。",
+      "category": "Government",
+      "isMultipleChoice": false
+    },
+    {
+      "id": 1724,
+      "question": "Which area can the Scottish Parliament legislate on?",
+      "question_zh": "蘇格蘭議會可以就哪個領域立法？",
+      "options": [
+        "Defence",
+        "Security",
+        "Immigration",
+        "Education"
+      ],
+      "correctAnswers": [3],
+      "explanation": "The Scottish Parliament can legislate on civil and criminal law, health, education, planning, and additional tax-raising powers.",
+      "explanation_zh": "蘇格蘭議會可以就民法和刑法、衛生、教育、規劃和其他徵稅權力進行立法。",
+      "category": "Government",
+      "isMultipleChoice": false
+    }
   ]
 }
