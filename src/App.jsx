@@ -4,6 +4,7 @@ import LandingPage from './pages/LandingPage';
 import IndividualTestsPage from './pages/IndividualTestsPage';
 import PracticeExamPage from './pages/PracticeExamPage';
 import TestExamPage from './pages/TestExamPage';
+import RandomTestPage from './pages/RandomTestPage';
 import ExamResultsPage from './pages/ExamResultsPage';
 import ReviewIncorrectPage from './pages/ReviewIncorrectPage';
 import ScrollToTop from './components/ScrollToTop';
@@ -24,7 +25,7 @@ function App() {
     <Routes>
       <Route path="/" element={<LandingPage />} />
       {/* <Route path="/practice" element={<PlaceHolder title="Practice Mode" />} /> */}
-      <Route path="/test" element={<PlaceHolder title="Test Mode" />} />
+      <Route path="/test" element={<RandomTestPage />} />
       <Route path="/individual" element={<IndividualTestsPage />} />
       <Route path="/practice/exam/:examId" element={<PracticeExamPage />} />
       <Route path="/test/exam/:examId" element={<TestExamPage />} />
