@@ -6159,6 +6159,10 @@ export const examQuestions = {
       "explanation_zh": "亞歷山大·弗萊明爵士於1928年發現了盤尼西林，徹底改變了醫學。",
       "category": "General Knowledge",
       "isMultipleChoice": false
-    }
+    },
+    {
+      
+    }  
+
   ]
 }
