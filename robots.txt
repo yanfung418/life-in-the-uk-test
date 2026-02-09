@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://yanfung418.github.io/life-in-the-uk-test/sitemap.xml
+Sitemap: https://passlifeintheuktest.uk/sitemap.xml
