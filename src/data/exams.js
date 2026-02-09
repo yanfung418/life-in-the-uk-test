@@ -6159,6 +6159,22 @@ export const examQuestions = {
       "explanation_zh": "亞歷山大·弗萊明爵士於1928年發現了盤尼西林，徹底改變了醫學。",
       "category": "General Knowledge",
       "isMultipleChoice": false
+    },
+    {
+      "id": 1825,
+      "question": "What is the name of the UK's national anthem?",
+      "question_zh": "英國國歌的名字是什麼？",
+      "options": [
+        "God Save the Queen",
+        "Rule, Britannia!",
+        "Jerusalem",
+        "Land of Hope and Glory"
+      ],
+      "correctAnswers": [0],
+      "explanation": "The UK's national anthem is 'God Save the Queen'.",
+      "explanation_zh": "英國國歌是《天佑女王》。",
+      "category": "General Knowledge",
+      "isMultipleChoice": false
     }
   ]
 }
