@@ -35,6 +35,13 @@ const ExamResultsPage = () => {
   };
 
   const handleRetry = () => {
+    // For random tests, go back to the random test page
+    if (examId === 'random') {
+      navigate('/test');
+      return;
+    }
+    
+    // For specific exams, retry the same exam
     const path = mode === 'test' ? `/test/exam/${examId}` : `/practice/exam/${examId}`;
     navigate(path);
   };
