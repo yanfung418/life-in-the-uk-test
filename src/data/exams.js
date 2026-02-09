@@ -1448,7 +1448,7 @@ export const examQuestions = {
       explanation: "Baroness Tanni Grey-Thompson and Ellie Simmonds are famous British Paralympians.",
       explanation_zh: "Baroness Tanni Grey-Thompson 和 Ellie Simmonds是英國著名的殘疾奧運選手。",
       category: "General Knowledge",
-      isMultipleChoice: false
+      isMultipleChoice: true
     },
     {
       id: 611,
@@ -6159,10 +6159,6 @@ export const examQuestions = {
       "explanation_zh": "亞歷山大·弗萊明爵士於1928年發現了盤尼西林，徹底改變了醫學。",
       "category": "General Knowledge",
       "isMultipleChoice": false
-    },
-    {
-      
-    }  
-
+    }
   ]
 }
