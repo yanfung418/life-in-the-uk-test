@@ -182,7 +182,7 @@ export const examQuestions = {
       options: ["A war memorial", "A museum", "A royal palace", "A theatre"],
       correctAnswers: [0],
       explanation: "The Cenotaph is a war memorial on Whitehall in London.",
-      explanation_zh: "The Cenotaph 是倫敦白Hall的一個戰爭紀念碑。",
+      explanation_zh: "紀念碑是位於倫敦白廳的戰爭紀念碑。",
       category: "Culture",
       isMultipleChoice: false
     },
@@ -204,7 +204,7 @@ export const examQuestions = {
       options: ["Cricket", "Basketball", "Baseball", "Volleyball"],
       correctAnswers: [0],
       explanation: "Cricket is a bat-and-ball game that originated in south-east England.",
-      explanation_zh: "Cricket 是起源于南英格兰的一种板球游戏。",
+      explanation_zh: "Cricket 是起源於南英格蘭的一種板球遊戲。",
       category: "Culture",
       isMultipleChoice: false
     },
@@ -916,7 +916,7 @@ export const examQuestions = {
       explanation: "The UK Parliament is made up of two houses: the House of Commons and the House of Lords.",
       explanation_zh: "英國議會由兩個議院組成：下議院和上議院。",
       category: "Government",
-      isMultipleChoice: false
+      isMultipleChoice: true
     },
     {
       id: 411,
@@ -1567,9 +1567,9 @@ export const examQuestions = {
       options: ["The Bayeux Tapestry", "The Magna Carta", "The Canterbury Tales", "The Domesday Book"],
       correctAnswers: [0, 3],
       explanation: "The Bayeux Tapestry and The Domesday Book give us information about England during the reign of William I.",
-      explanation_zh: "The Bayeux Tapestry和 TheDomesday Book 提供了威廉一世統治時期英格蘭的資訊。",
+      explanation_zh: "《貝葉掛毯》和《末日審判書》為我們提供了威廉一世統治時期英格蘭的資訊。",
       category: "History",
-      isMultipleChoice: false
+      isMultipleChoice: true
     },
     {
       id: 622,
@@ -6012,7 +6012,7 @@ export const examQuestions = {
         "16 years old",
         "21 years old"
       ],
-      "correctAnswers": [2],
+      "correctAnswers": [0],
       "explanation": "You must be at least 17 years old to ride a motorcycle in the UK.",
       "explanation_zh": "在英國，您必須至少17歲才能騎摩托車。",
       "category": "General Knowledge",
