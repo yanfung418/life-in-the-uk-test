@@ -24,7 +24,7 @@ const IndividualTestsPage = () => {
             Individual Tests
           </h1>
           <p className="text-gray-500 max-w-xl mx-auto text-sm sm:text-base">
-            Practice specific exam sets. Choose from 18 available tests.
+            Select an exam set to practise (18 available).
           </p>
         </div>
       </header>
