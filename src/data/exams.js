@@ -393,7 +393,7 @@ export const examQuestions = {
       options: ["William the Conqueror", "Edward the Confessor", "Robert the Bruce", "Alfred the Great"],
       correctAnswers: [3],
       explanation: "Alfred the Great united the Anglo-Saxon kingdoms in England to defeat the Vikings.",
-      explanation_zh: "Alfred the Great是都鐸王朝的第一位君主。",
+      explanation_zh: "阿爾弗雷德大帝統一了英格蘭的盎格魯-撒克遜王國並擊敗了維京人。",
       category: "Culture",
       isMultipleChoice: false
     },
