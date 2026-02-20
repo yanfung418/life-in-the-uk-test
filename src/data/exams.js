@@ -6175,22 +6175,6 @@ export const examQuestions = {
       "explanation_zh": "英國國歌是《天佑女王》。",
       "category": "General Knowledge",
       "isMultipleChoice": false
-    },
-    {
-      "id": 1826,
-      "question": "What is the name of the UK's national anthem?",
-      "question_zh": "英國國歌的名字是什麼？",
-      "options": [
-        "Rule, Britannia!",
-        "Jerusalem",
-        "God Save the Queen",
-        "Land of Hope and Glory"
-      ],
-      "correctAnswers": [2],
-      "explanation": "The UK's national anthem is 'God Save the Queen'.",
-      "explanation_zh": "英國國歌是《天佑女王》。",
-      "category": "General Knowledge",
-      "isMultipleChoice": false
     }
   ]
 }
