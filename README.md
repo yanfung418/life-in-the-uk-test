@@ -24,7 +24,7 @@ A modern, fast, and interactive web application designed to help you prepare for
 - **Routing**: React Router (v7)
 - **Deployment**: GitHub Pages
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -51,7 +51,7 @@ A modern, fast, and interactive web application designed to help you prepare for
 
 The application will be available at `http://localhost:5173`.
 
-## 📦 Building and Deployment
+## Building and Deployment
 
 ### Build for Production
 ```bash
@@ -64,7 +64,7 @@ This project is configured to deploy directly to GitHub Pages using the `gh-page
 npm run deploy
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 - `src/data/exams.js`: Contains the comprehensive database of test questions.
 - `src/pages/`: Main application views (Landing, Practice, Test, Results).
