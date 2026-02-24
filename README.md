@@ -16,7 +16,7 @@ A modern, fast, and interactive web application designed to help you prepare for
 - **📱 Responsive Design**: Optimized for desktop, tablet, and mobile viewing.
 - **⚡ Built for Speed**: Powered by Vite and React for a lightning-fast user experience.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React (v19)
 - **Build Tool**: Vite
