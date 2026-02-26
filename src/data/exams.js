@@ -313,7 +313,7 @@ export const examQuestions = {
       id: 204,
       question: "When walking your dog in a public place, you must ensure:",
       question_zh: "帶狗在公共場所散步時，必須確保：",
-      options: ["That your dog does not bark", "That your dog wears a high visibility jacket", "That your dog wears a collar showing the name and address of the owner", "That your dog wears a high visibility jacket"],
+      options: ["That your dog does not bark", "That your dog wears a high visibility jacket", "That your dog wears a collar showing the name and address of the owner", "That your dog does not play with other dogs"],
       correctAnswers: [2],
       explanation: "You must ensure your dog is microchipped and wearing a collar with your name and address on it, is on a lead if required by local byelaws, and you clean up after it if it defecates in a public place.",
       explanation_zh: "您必須確保您的狗已植入微晶片並佩戴帶有您的姓名和地址的項圈，如果當地法規要求，必須戴上牽繩，並且在狗在公共場所排便時清理乾淨。",
