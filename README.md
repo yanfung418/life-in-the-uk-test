@@ -7,7 +7,7 @@ A modern, fast, and interactive web application designed to help you prepare for
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
-## ✨ Features
+## Features
 
 - **🎯 Targeted Practice Exams**: 15+ focused exams covering essential topics from the official handbook.
 - **⏱️ Realistic Test Mode**: Mock exams with a 45-minute timer and 24 random questions, simulating the real test environment.
