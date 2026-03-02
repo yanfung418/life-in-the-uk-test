@@ -1110,11 +1110,11 @@ export const examQuestions = {
     {
       id: 504,
       question: "St Helena and the Falkland Islands are part of Great Britain.",
-      question_zh: "聖赫勒拿(St Helena)和福克蘭群島(Falkland Islands)是大不列颠的一部分。",
+      question_zh: "聖赫勒拿(St Helena)和福克蘭群島(Falkland Islands)是大不列顛的一部分。",
       options: ["True","False"],
       correctAnswers: [1],
       explanation: "St Helena and the Falkland Islands are not part of Great Britain.",
-      explanation_zh: "聖赫勒拿(St Helena)和福克蘭群島(Falkland Islands)不是大不列颠的一部分。",
+      explanation_zh: "聖赫勒拿(St Helena)和福克蘭群島(Falkland Islands)不是大不列顛的一部分。",
       category: "General Knowledge",
       isMultipleChoice: false
     },
