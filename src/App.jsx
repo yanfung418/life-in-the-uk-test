@@ -8,6 +8,7 @@ import RandomTestPage from './pages/RandomTestPage';
 import ExamResultsPage from './pages/ExamResultsPage';
 import ReviewIncorrectPage from './pages/ReviewIncorrectPage';
 import ScrollToTop from './components/ScrollToTop';
+import Footer from './components/Footer';
 
 // Simple placeholders for now
 const PlaceHolder = ({ title }) => (
@@ -32,6 +33,7 @@ function App() {
       <Route path="/exam-results/:examId" element={<ExamResultsPage />} />
       <Route path="/review-incorrect" element={<ReviewIncorrectPage />} />
     </Routes>
+    <Footer />
     </>
   );
 }
