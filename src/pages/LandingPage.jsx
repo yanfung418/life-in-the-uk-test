@@ -55,11 +55,6 @@ const LandingPage = () => {
           ))}
         </div>
 
-        <section className="mt-20 text-center max-w-2xl mx-auto text-gray-500 text-sm">
-          <p>
-            This website is for practice purposes only. Not affiliated with the official Life in the UK Test.
-          </p>
-        </section>
       </main>
     </div>
   );
