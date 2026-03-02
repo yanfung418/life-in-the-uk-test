@@ -9,7 +9,7 @@ A modern, fast, and interactive web application designed to help you prepare for
 
 ## Features
 
-- **🎯 Targeted Practice Exams**: 15+ focused exams covering essential topics from the official handbook.
+- **Targeted Practice Exams**: 15+ focused exams covering essential topics from the official handbook.
 - **⏱️ Realistic Test Mode**: Mock exams with a 45-minute timer and 24 random questions, simulating the real test environment.
 - **📊 Detailed Results**: Instant feedback on your performance with a breakdown of scores.
 - **🔄 Review Incorrect Answers**: Specifically study the questions you missed to reinforce your knowledge.
