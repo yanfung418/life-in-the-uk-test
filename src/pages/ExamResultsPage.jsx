@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { saveIncorrectAnswers } from '../services/storage';
 
 const ExamResultsPage = () => {
@@ -52,6 +53,10 @@ const ExamResultsPage = () => {
 
   return (
       <div className="min-h-screen bg-gray-50/50 pb-20">
+        <Helmet>
+          <title>{`Exam ${examId} Results – Life in the UK Test Practice`}</title>
+          <meta name="robots" content="noindex, follow" />
+        </Helmet>
           <main className="max-w-4xl mx-auto px-4">
               <div className="max-w-7xl mx-auto px-4 py-6 text-center">
                   <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3 tracking-tight">
