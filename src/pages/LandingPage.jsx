@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import Hero from '../components/Landing/Hero';
 import ModeCard from '../components/Landing/ModeCard';
 
@@ -39,6 +40,23 @@ const LandingPage = () => {
 
   return (
     <div className="min-h-screen pb-20">
+      <Helmet>
+        <title>Life in the UK Test Practice – Free Mock Exams 2026</title>
+        <meta name="description" content="Practice for your Life in the UK Test with 18 free mock exams. Timed tests with real questions to help you pass the official British citizenship test." />
+        <link rel="canonical" href="https://passlifeintheuktest.uk/" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Life in the UK Test Practice",
+          "url": "https://passlifeintheuktest.uk",
+          "description": "Free mock exams to help you prepare for the official Life in the UK citizenship test. 18 practice exam sets with timed test mode and instant explanations.",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Life in the UK Test Practice",
+            "url": "https://passlifeintheuktest.uk"
+          }
+        })}</script>
+      </Helmet>
       <Hero />
       
       <main className="container mx-auto px-4">
