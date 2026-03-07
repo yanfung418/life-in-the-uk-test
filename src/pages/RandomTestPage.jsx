@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import QuestionGrid from '../components/Practice/QuestionGrid';
 import { generateRandomQuestions } from '../utils/randomQuestions';
 
@@ -152,6 +153,11 @@ const RandomTestPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50/50 pb-20">
+      <Helmet>
+        <title>Random Life in the UK Mock Test – 24 Questions, 45 Minutes</title>
+        <meta name="description" content="Take a randomised Life in the UK mock test with 24 questions in 45 minutes – just like the real exam. Shuffled from our full question bank for fresh practice every time." />
+        <link rel="canonical" href="https://passlifeintheuktest.uk/test" />
+      </Helmet>
       <header className="bg-white border-b border-gray-100 py-10 mb-8 sm:py-12 sm:mb-10">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <button 
