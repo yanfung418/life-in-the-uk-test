@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import QuestionGrid from '../components/Practice/QuestionGrid';
 import { getIncorrectAnswers, removeIncorrectAnswer, clearIncorrectAnswers } from '../services/storage';
 
@@ -98,23 +99,35 @@ const ReviewIncorrectPage = () => {
     return acc;
   }, {});
 
-  if (loading) return null;
+  // Helmet is rendered before early returns so noindex/title applies in all states
+  const helmetBlock = (
+    <Helmet>
+      <title>Review Incorrect Answers – Life in the UK Test Practice</title>
+      <meta name="description" content="Review and retry the questions you got wrong in previous Life in the UK Test practice sessions. Targeted repetition to close your knowledge gaps." />
+      <meta name="robots" content="noindex, follow" />
+    </Helmet>
+  );
+
+  if (loading) return helmetBlock;
 
   if (questions.length === 0) {
     return (
-      <div className="min-h-screen flex items-center justify-center flex-col gap-6 p-4">
-        <div className="text-6xl">🎉</div>
-        <h1 className="text-2xl font-bold text-gray-900">No incorrect answers saved!</h1>
-        <p className="text-gray-500 text-center max-w-md">
-          Great job! You don't have any incorrect answers to review. Keep practicing in Test or Practice mode.
-        </p>
-        <button 
-          onClick={() => navigate('/')} 
-          className="px-8 py-3 rounded-full bg-blue-600 text-white font-bold hover:bg-blue-700 shadow-lg shadow-blue-200 transition-all"
-        >
-          Back to Home
-        </button>
-      </div>
+      <>
+        {helmetBlock}
+        <div className="min-h-screen flex items-center justify-center flex-col gap-6 p-4">
+          <div className="text-6xl">🎉</div>
+          <h1 className="text-2xl font-bold text-gray-900">No incorrect answers saved!</h1>
+          <p className="text-gray-500 text-center max-w-md">
+            Great job! You don't have any incorrect answers to review. Keep practicing in Test or Practice mode.
+          </p>
+          <button 
+            onClick={() => navigate('/')} 
+            className="px-8 py-3 rounded-full bg-blue-600 text-white font-bold hover:bg-blue-700 shadow-lg shadow-blue-200 transition-all"
+          >
+            Back to Home
+          </button>
+        </div>
+      </>
     );
   }
 
@@ -123,6 +136,7 @@ const ReviewIncorrectPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50/50 pb-20">
+      {helmetBlock}
       <header className="bg-white border-b border-gray-100 py-10 mb-8 sm:py-12 sm:mb-10">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <button 
