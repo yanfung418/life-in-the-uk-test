@@ -7,6 +7,7 @@ import TestExamPage from './pages/TestExamPage';
 import RandomTestPage from './pages/RandomTestPage';
 import ExamResultsPage from './pages/ExamResultsPage';
 import ReviewIncorrectPage from './pages/ReviewIncorrectPage';
+import WhatIsLifeInUKTestPage from './pages/WhatIsLifeInUKTestPage';
 import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
 
@@ -32,6 +33,7 @@ function App() {
       <Route path="/test/exam/:examId" element={<TestExamPage />} />
       <Route path="/exam-results/:examId" element={<ExamResultsPage />} />
       <Route path="/review-incorrect" element={<ReviewIncorrectPage />} />
+      <Route path="/what-is-the-life-in-the-uk-test" element={<WhatIsLifeInUKTestPage />} />
     </Routes>
     <Footer />
     </>
