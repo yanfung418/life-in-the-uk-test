@@ -8,6 +8,10 @@ import RandomTestPage from './pages/RandomTestPage';
 import ExamResultsPage from './pages/ExamResultsPage';
 import ReviewIncorrectPage from './pages/ReviewIncorrectPage';
 import WhatIsLifeInUKTestPage from './pages/WhatIsLifeInUKTestPage';
+import PassMarkPage from './pages/PassMarkPage';
+import HowManyQuestionsPage from './pages/HowManyQuestionsPage';
+import TestCostPage from './pages/TestCostPage';
+import TestQuestionsPage from './pages/TestQuestionsPage';
 import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
 
@@ -34,6 +38,10 @@ function App() {
       <Route path="/exam-results/:examId" element={<ExamResultsPage />} />
       <Route path="/review-incorrect" element={<ReviewIncorrectPage />} />
       <Route path="/what-is-the-life-in-the-uk-test" element={<WhatIsLifeInUKTestPage />} />
+      <Route path="/life-in-the-uk-test-pass-mark" element={<PassMarkPage />} />
+      <Route path="/how-many-questions-life-in-the-uk-test" element={<HowManyQuestionsPage />} />
+      <Route path="/life-in-the-uk-test-cost" element={<TestCostPage />} />
+      <Route path="/life-in-the-uk-test-questions" element={<TestQuestionsPage />} />
     </Routes>
     <Footer />
     </>
