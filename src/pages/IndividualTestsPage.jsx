@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import ExamCard from '../components/IndividualTests/ExamCard';
 
 const IndividualTestsPage = () => {
@@ -12,6 +13,11 @@ const IndividualTestsPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50/50 pb-20">
+      <Helmet>
+        <title>Individual Practice Tests – Life in the UK Test | 18 Mock Exams</title>
+        <meta name="description" content="Browse 18 individual Life in the UK practice exam sets. Targeted mock tests covering history, culture, government and law to help you prepare for the British citizenship test." />
+        <link rel="canonical" href="https://passlifeintheuktest.uk/individual" />
+      </Helmet>
       <header className="bg-white border-b border-gray-100 py-10 mb-8 sm:py-12 sm:mb-10">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <button 
