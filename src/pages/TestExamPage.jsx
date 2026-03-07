@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import QuestionGrid from '../components/Practice/QuestionGrid';
 import { examQuestions } from '../data/exams';
 
@@ -154,6 +155,11 @@ const TestExamPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50/50 pb-20">
+      <Helmet>
+        <title>{`Life in the UK Test – Timed Exam ${examId} | Official Format Mock Test`}</title>
+        <meta name="description" content={`Timed mock test ${examId} for the Life in the UK Test. 45-minute countdown with ${questions.length} questions in the official exam format. Pass with 75% to succeed.`} />
+        <link rel="canonical" href={`https://passlifeintheuktest.uk/test/exam/${examId}`} />
+      </Helmet>
       <header className="bg-white border-b border-gray-100 py-10 mb-8 sm:py-12 sm:mb-10">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <button 
