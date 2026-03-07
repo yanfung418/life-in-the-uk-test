@@ -10,6 +10,7 @@ const Footer = () => {
           <Link to="/individual" className="hover:text-gray-800 transition-colors">Individual Tests</Link>
           <Link to="/test" className="hover:text-gray-800 transition-colors">Random Test Mode</Link>
           <Link to="/review-incorrect" className="hover:text-gray-800 transition-colors">Review Incorrect</Link>
+          <Link to="/what-is-the-life-in-the-uk-test" className="hover:text-gray-800 transition-colors">What is the Life in the UK Test?</Link>
         </nav>
         <p className="text-center text-gray-400 text-sm">
           This website is an independent practice resource and is not affiliated with or endorsed by the UK Government or the official Life in the UK Test.
