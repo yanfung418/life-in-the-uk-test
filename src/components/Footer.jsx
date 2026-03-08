@@ -17,6 +17,7 @@ const Footer = () => {
           <Link to="/how-many-questions-life-in-the-uk-test" className="hover:text-gray-600 transition-colors">How Many Questions?</Link>
           <Link to="/life-in-the-uk-test-cost" className="hover:text-gray-600 transition-colors">Test Cost</Link>
           <Link to="/life-in-the-uk-test-questions" className="hover:text-gray-600 transition-colors">Test Questions</Link>
+          <Link to="/life-in-the-uk-test-booking" className="hover:text-gray-600 transition-colors">How to Book</Link>
         </nav>
         <p className="text-center text-gray-400 text-sm">
           This website is an independent practice resource and is not affiliated with or endorsed by the UK Government or the official Life in the UK Test.
