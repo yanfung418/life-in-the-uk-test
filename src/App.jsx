@@ -13,6 +13,7 @@ import HowManyQuestionsPage from './pages/HowManyQuestionsPage';
 import TestCostPage from './pages/TestCostPage';
 import TestQuestionsPage from './pages/TestQuestionsPage';
 import LifeInUkTestBookingPage from './pages/LifeInUkTestBookingPage';
+import TestCentresPage from './pages/TestCentresPage';
 import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
 
@@ -44,6 +45,7 @@ function App() {
       <Route path="/life-in-the-uk-test-cost" element={<TestCostPage />} />
       <Route path="/life-in-the-uk-test-questions" element={<TestQuestionsPage />} />
       <Route path="/life-in-the-uk-test-booking" element={<LifeInUkTestBookingPage />} />
+      <Route path="/life-in-the-uk-test-centres" element={<TestCentresPage />} />
     </Routes>
     <Footer />
     </>
