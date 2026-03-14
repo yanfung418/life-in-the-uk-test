@@ -98,7 +98,7 @@ const WhatIsLifeInUKTestPage = () => {
               </div>
               <p className="text-gray-600 leading-relaxed mt-5">
                 Questions are multiple choice. You must answer at least <strong>18 out of 24 questions correctly</strong> (75%)
-                to pass. If you fail, you can retake the test after 7 days, paying the test fee each time.
+                to pass. If you fail, you can rebook the test as many times as you need. You will have to pay the test fee each time.
                 The fee is currently £50 per attempt.
               </p>
             </section>
