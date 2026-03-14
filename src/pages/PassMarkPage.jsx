@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     q: 'How many times can I retake the test if I fail?',
-    a: 'There is no limit on the number of retakes. However, you must wait at least 7 days before retaking, and you must pay the £50 fee each time. It is strongly recommended to use practice tests to prepare thoroughly before your attempt.',
+    a: 'There is no limit on the number of retakes. You can rebook the test as many times as you need, but you must pay the £50 fee each time. It is strongly recommended to use practice tests to prepare thoroughly before your attempt.',
   },
   {
     q: 'Will I be told which questions I got wrong after the test?',
@@ -100,14 +100,14 @@ const PassMarkPage = () => {
             {/* Section 3 */}
             <section className="px-6 py-8 sm:px-10">
               <h2 className="text-xl font-bold text-gray-900 mb-3">What Happens if You Fail?</h2>
-              <p className="text-gray-600 leading-relaxed">
-                If you do not reach the pass mark, you will receive a failure notice at the test centre. You
-                will <strong>not</strong> be told which questions you answered incorrectly.
+              <p className="text-gray-600 leading-relaxed mb-4">
+                If you do not reach the pass mark, you can rebook as many times as you need. Here is what you need to know:
               </p>
-              <ul className="mt-4 space-y-3 text-gray-600">
+              <ul className="space-y-3 text-gray-600">
                 {[
-                  'You must wait at least 7 days before booking a retake.',
-                  'You must pay the £50 test fee again for each retake.',
+                  'You will receive your pass or fail result by email shortly after the test.',
+                  'If you pass, the email includes the unique reference number needed for your application.',
+                  'You can rebook the test immediately if you fail, but you must pay the £50 fee again.',
                   'There is no limit to the number of times you can retake the test.',
                   'Your visa application will not be affected until you are required to submit evidence of passing.',
                 ].map((point) => (
