@@ -9,11 +9,11 @@ const faqs = [
   },
   {
     q: 'Can I book the test online?',
-    a: 'Yes. All bookings are made online through the official UK Government website at gov.uk. You will need to create or log in to a GOV.UK account, select a test centre, choose a date and time, and pay the £50 fee. You cannot book by phone or in person at the test centre.',
+    a: 'Yes. All bookings are made online through the official booking website at lituktestbooking.co.uk. You will need to create an account, select a test centre, choose a date and time, and pay the £50 fee. You cannot book by phone or in person at the test centre.',
   },
   {
     q: 'What happens if I need to cancel or reschedule?',
-    a: 'You can cancel or reschedule your test booking through your GOV.UK account. If you cancel more than 3 working days before your test, you should receive a full refund. Cancelling within 3 working days, or failing to attend without notice, usually means you forfeit the £50 fee. Always check the current cancellation terms when you book.',
+    a: 'You can cancel or reschedule your test booking through your official account. If you cancel more than 3 working days before your test, you should receive a full refund. Cancelling within 3 working days, or failing to attend without notice, usually means you forfeit the £50 fee. Always check the current cancellation terms when you book.',
   },
   {
     q: 'Can I book at any test centre in the UK?',
@@ -28,8 +28,21 @@ const faqs = [
 const steps = [
   {
     n: '1',
-    title: 'Create a GOV.UK account',
-    body: 'Go to gov.uk and create a GOV.UK One Login account if you do not already have one. This account is used to book and manage your test appointment.',
+    title: 'Create an account',
+    body: (
+      <>
+        Visit{' '}
+        <a 
+          href="https://www.lituktestbooking.co.uk/lituk-web/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-primary font-semibold hover:underline"
+        >
+          lituktestbooking.co.uk
+        </a>{' '}
+        and register with your name, email address, and a password. This account is used to book and manage your test appointment.
+      </>
+    ),
   },
   {
     n: '2',
@@ -39,7 +52,7 @@ const steps = [
   {
     n: '3',
     title: 'Find a test centre',
-    body: 'Search for approved test centres on the booking website. You can filter by location. Test centres are located across England, Wales, Scotland, and Northern Ireland — over 60 centres are available nationwide.',
+    body: 'Search for approved test centres on the booking website. You can filter by postcode or location. Test centres are located across England, Wales, Scotland, and Northern Ireland — there are more than 30 approved centres available.',
   },
   {
     n: '4',
@@ -122,21 +135,21 @@ const LifeInUkTestBookingPage = () => {
             <section className="px-6 py-8 sm:px-10">
               <h2 className="text-xl font-bold text-gray-900 mb-3">The Booking Process: An Overview</h2>
               <p className="text-gray-600 leading-relaxed">
-                The Life in the UK Test must be booked online through the official UK Government website
-                (gov.uk). All approved test centres across England, Wales, Scotland, and Northern Ireland
-                are listed on the booking platform. You can choose any centre regardless of where you live —
+                The Life in the UK Test must be booked online through the official booking portal
+                (lituktestbooking.co.uk). All approved test centres across England, Wales, Scotland, and Northern Ireland
+                are listed on the platform. You can choose any centre regardless of where you live —
                 there is no requirement to attend a centre in your home area.
               </p>
               <p className="text-gray-600 leading-relaxed mt-3">
-                The entire booking process can be completed in around 10 minutes once you have a GOV.UK
+                The entire booking process can be completed in around 10 minutes once you have your
                 account and your documents ready. After booking, you will receive an email confirmation with
-                your appointment details. There are currently over 60 approved test centres in the UK, so
+                your appointment details. There are currently over 30 approved test centres in the UK, so
                 most candidates can find a convenient location.
               </p>
               <div className="mt-5 bg-blue-50 border border-blue-100 rounded-xl p-4">
                 <p className="text-sm text-blue-800">
                   <strong>Important:</strong> The test can only be booked through the official
-                  GOV.UK website. Be cautious of third-party websites that charge additional fees
+                  booking website. Be cautious of third-party websites that charge additional fees
                   or claim to offer faster booking — these are not necessary.
                 </p>
               </div>
@@ -195,9 +208,7 @@ const LifeInUkTestBookingPage = () => {
               </div>
               <p className="text-gray-600 leading-relaxed mt-5">
                 If you fail the test or do not attend, you <strong>cannot transfer the fee</strong> to a
-                future attempt — you will need to pay £50 again when you rebook. Cancellations made more
-                than 3 working days before your appointment are generally eligible for a refund;
-                late cancellations and no-shows are not.
+                future attempt — you will need to pay £50 again when you rebook.
               </p>
               <p className="text-gray-600 leading-relaxed mt-3">
                 Because the fee is non-refundable in most circumstances, it is strongly recommended to
@@ -226,19 +237,18 @@ const LifeInUkTestBookingPage = () => {
                 ))}
               </ul>
               <p className="text-gray-600 leading-relaxed mt-4">
-                <strong>On the day of your test</strong>, arrive at least 15 minutes before your
+                <strong>On the day of your test</strong>, arrive at least 30 minutes before your
                 scheduled time. Bring your valid photo ID — if your ID does not match your booking name
                 exactly, you may be refused entry and forfeit your fee.
               </p>
               <p className="text-gray-600 leading-relaxed mt-3">
-                The test itself takes up to 45 minutes. You will receive your pass or fail result on
-                screen immediately after completing the test. If you pass, you will be given an official
-                pass notification letter which you will need to include in your visa or citizenship
-                application.
+                The test itself takes up to 45 minutes. You will receive your pass or fail result by
+                email shortly after completing the test. If you pass, the email will include a unique 
+                reference number which you will need for your Indefinite Leave to Remain (ILR) or 
+                British citizenship application.
               </p>
               <p className="text-gray-600 leading-relaxed mt-3">
-                If you fail, you can rebook immediately through your GOV.UK account, but you must wait
-                at least <strong>7 days</strong> before sitting the test again.
+                If you fail, you can rebook the test as many times as you need. You’ll have to pay each time.
               </p>
             </section>
 
