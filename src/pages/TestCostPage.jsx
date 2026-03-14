@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     q: 'Is the fee the same at all test centres?',
-    a: 'Yes. The test fee is set by the Home Office and is £50 at all approved test centres throughout the UK. Test centres are not permitted to charge more or less than this amount.',
+    a: 'Yes. The test fee is set by the Home Office and is £50 at all approved test centres throughout the UK.',
   },
   {
     q: 'Do I pay the full fee again if I fail and retake?',
@@ -61,8 +61,7 @@ const TestCostPage = () => {
             <section className="px-6 py-8 sm:px-10">
               <h2 className="text-xl font-bold text-gray-900 mb-3">The Test Fee is £50 Per Attempt</h2>
               <p className="text-gray-600 leading-relaxed">
-                The Life in the UK Test costs <strong>£50 per attempt</strong>. This fee is set by the UK Home
-                Office and applies to all approved test centres across the United Kingdom. The fee must be paid
+                The Life in the UK Test costs <strong>£50 per attempt</strong>. The fee must be paid
                 at the time of booking, and no discounts or exemptions apply.
               </p>
               <div className="mt-6 flex justify-center">
@@ -81,10 +80,9 @@ const TestCostPage = () => {
               </p>
               <div className="space-y-3">
                 {[
-                  { icon: '🖥️', title: 'Computer-based test session', detail: 'Access to the test system at an approved test centre with a supervised computer terminal.' },
-                  { icon: '📋', title: 'Immediate pass/fail result', detail: 'You receive your result on screen immediately after completing the test. No waiting for a posted result.' },
-                  { icon: '📄', title: 'Pass notification letter', detail: 'If you pass, you receive an official pass notification letter that you will need for your visa or citizenship application.' },
-                  { icon: '🏢', title: 'Test centre administration', detail: 'Booking support, identity verification on arrival, and a supervised testing environment.' },
+                  { icon: '🖥️', title: 'Test session', detail: 'A supervised 45-minute test session at an approved centre with an official terminal.' },
+                  { icon: '�', title: 'Result by email', detail: 'Your result is sent by email shortly after the test. Check your inbox (and spam folder) for the official notification.' },
+                  { icon: '🆔', title: 'Unique Reference Number', detail: 'Successful candidates receive a unique reference number in their email for visa or citizenship applications.' }
                 ].map(({ icon, title, detail }) => (
                   <div key={title} className="flex gap-4 bg-gray-50 rounded-xl p-4 border border-gray-100">
                     <span className="text-2xl flex-shrink-0">{icon}</span>
@@ -95,38 +93,22 @@ const TestCostPage = () => {
                   </div>
                 ))}
               </div>
+              <div className="mt-6 bg-blue-50 border border-blue-100 rounded-xl p-5">
+                <p className="text-sm text-blue-800 leading-relaxed">
+                  <strong>Important:</strong> On the day of your test, arrive at least <strong>30 minutes</strong> before 
+                  your scheduled time. Bring your valid photo ID — if your ID does not match your booking name 
+                  exactly, you may be refused entry and forfeit your fee.
+                </p>
+              </div>
             </section>
 
             {/* Section 3 */}
             <section className="px-6 py-8 sm:px-10">
               <h2 className="text-xl font-bold text-gray-900 mb-3">The Cost of Retaking the Test</h2>
               <p className="text-gray-600 leading-relaxed">
-                If you fail the Life in the UK Test, you must pay the <strong>full £50 fee again</strong> for
-                each retake. There are no reduced fees for subsequent attempts, and there is no limit on the
-                number of times you can retake it. However, you must wait at least <strong>7 days</strong>
-                between attempts.
+                If you fail the Life in the UK Test, you can rebook the test as many times as you need. 
+                You will have to pay the full £50 fee for each attempt.
               </p>
-              <p className="text-gray-600 leading-relaxed mt-3">
-                This means the total cost can add up quickly if you are not adequately prepared:
-              </p>
-              <div className="mt-4 overflow-hidden rounded-xl border border-gray-100">
-                <table className="w-full text-sm text-left">
-                  <thead className="bg-gray-50 text-gray-500 font-semibold">
-                    <tr>
-                      <th className="px-5 py-3">Attempts</th>
-                      <th className="px-5 py-3">Total Cost</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-gray-100 text-gray-700">
-                    {[['1 (pass first time)', '£50'], ['2', '£100'], ['3', '£150'], ['4', '£200']].map(([attempts, cost]) => (
-                      <tr key={attempts} className="hover:bg-gray-50">
-                        <td className="px-5 py-3">{attempts}</td>
-                        <td className="px-5 py-3 font-semibold">{cost}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
             </section>
 
             {/* Section 4 */}
@@ -138,8 +120,8 @@ const TestCostPage = () => {
               </p>
               <ol className="mt-4 space-y-3 text-gray-600">
                 {[
-                  { n: '1', title: 'Read the official handbook fully', body: 'All test questions come from the 3rd edition handbook. Do not book your test until you have read and understood the entire book.' },
-                  { n: '2', title: 'Take multiple practice tests', body: 'Consistently scoring 18+ out of 24 in practice tests before your real test date is a strong indicator that you are ready.' },
+                  { n: '1', title: 'Take multiple practice tests', body: 'Consistently scoring 18+ out of 24 in practice tests before your real test date is a strong indicator that you are ready.' },
+                  { n: '2', title: 'Read the official handbook', body: 'All test questions come from the 3rd edition handbook. It is a good idea to read and understand the entire book before booking your test, as every question in the exam comes from its topics.' },
                   { n: '3', title: 'Book when you are confident', body: 'There is no requirement to book your test by a specific date unless your visa deadline is approaching. Take the time you need to prepare properly.' },
                 ].map(({ n, title, body }) => (
                   <li key={n} className="flex gap-3">
