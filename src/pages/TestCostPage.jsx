@@ -81,8 +81,8 @@ const TestCostPage = () => {
               <div className="space-y-3">
                 {[
                   { icon: '🖥️', title: 'Test session', detail: 'A supervised 45-minute test session at an approved centre with an official terminal.' },
-                  { icon: '�', title: 'Result by email', detail: 'Your result is sent by email shortly after the test. Check your inbox (and spam folder) for the official notification.' },
-                  { icon: '🆔', title: 'Unique Reference Number', detail: 'Successful candidates receive a unique reference number in their email for visa or citizenship applications.' }
+                  { icon: '�', title: 'Result by email', detail: 'After completing the test, your result will be sent to you by email. Make sure to check your inbox (and spam folder) for the official notification.' },
+                  { icon: '🆔', title: 'Unique Reference Number', detail: 'If you pass, the email will include a reference number you will need for your settlement or citizenship application.' }
                 ].map(({ icon, title, detail }) => (
                   <div key={title} className="flex gap-4 bg-gray-50 rounded-xl p-4 border border-gray-100">
                     <span className="text-2xl flex-shrink-0">{icon}</span>
