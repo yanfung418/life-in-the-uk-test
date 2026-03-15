@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import QuestionGrid from '../components/Practice/QuestionGrid';
@@ -12,6 +12,20 @@ const ReviewIncorrectPage = () => {
   const [submitted, setSubmitted] = useState({}); // { qIdx: boolean }
   const [showChinese, setShowChinese] = useState(false);
   const [loading, setLoading] = useState(true);
+  const questionTopRef = useRef(null);
+
+  useEffect(() => {
+    if (window.innerWidth <= 768) {
+      if (questionTopRef.current) {
+        const y = questionTopRef.current.getBoundingClientRect().top + window.scrollY - 20;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      } else {
+        window.scrollTo(0, 0);
+      }
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [currentQuestionIdx]);
 
   useEffect(() => {
     const stored = getIncorrectAnswers();
@@ -160,7 +174,7 @@ const ReviewIncorrectPage = () => {
         </div>
       </header>
 
-      <main className="max-w-4xl mx-auto px-4">
+      <main className="max-w-4xl mx-auto px-4" ref={questionTopRef}>
         <QuestionGrid 
           currentQuestion={currentQuestionIdx + 1}
           totalQuestions={questions.length}
