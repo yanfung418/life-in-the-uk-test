@@ -10,7 +10,21 @@ const RandomTestPage = () => {
   const [userAnswers, setUserAnswers] = useState({}); // { qIdx: optionIdx }
   const [submitted, setSubmitted] = useState({}); // { qIdx: boolean }
   const [showChinese, setShowChinese] = useState(false);
+  const questionTopRef = useRef(null);
   
+  useEffect(() => {
+    if (window.innerWidth <= 768) {
+      if (questionTopRef.current) {
+        const y = questionTopRef.current.getBoundingClientRect().top + window.scrollY - 20;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      } else {
+        window.scrollTo(0, 0);
+      }
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [currentQuestionIdx]);
+
   // Timer State (45 minutes = 2700 seconds)
   const [timeLeft, setTimeLeft] = useState(45 * 60);
   const timerRef = useRef(null);
@@ -184,7 +198,7 @@ const RandomTestPage = () => {
         </div>
       </header>
 
-      <main className="max-w-4xl mx-auto px-4">
+      <main className="max-w-4xl mx-auto px-4" ref={questionTopRef}>
         <QuestionGrid 
           currentQuestion={currentQuestionIdx + 1}
           totalQuestions={questions.length}
