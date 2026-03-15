@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import QuestionGrid from '../components/Practice/QuestionGrid';
@@ -11,6 +11,20 @@ const PracticeExamPage = () => {
   const [userAnswers, setUserAnswers] = useState({}); // { qIdx: optionIdx }
   const [submitted, setSubmitted] = useState({}); // { qIdx: boolean }
   const [showChinese, setShowChinese] = useState(false);
+  const questionTopRef = useRef(null);
+
+  useEffect(() => {
+    if (window.innerWidth <= 768) {
+      if (questionTopRef.current) {
+        const y = questionTopRef.current.getBoundingClientRect().top + window.scrollY - 20;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      } else {
+        window.scrollTo(0, 0);
+      }
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [currentQuestionIdx]);
 
   // Get questions for this exam
   const questions = examQuestions[examId] || [];
@@ -146,7 +160,7 @@ const PracticeExamPage = () => {
         </div>
       </header>
 
-      <main className="max-w-4xl mx-auto px-4">
+      <main className="max-w-4xl mx-auto px-4" ref={questionTopRef}>
         <QuestionGrid 
           currentQuestion={currentQuestionIdx + 1}
           totalQuestions={questions.length}
