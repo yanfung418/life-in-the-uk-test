@@ -56,10 +56,10 @@ const TestCentresPage = () => {
   return (
     <>
       <Helmet>
-        <title>Life in the UK Test Centres (2026 Guide)</title>
+        <title>Life in the UK Test Centres Near You (Full List + Search by City)</title>
         <meta
           name="description"
-          content="Find official Life in the UK test centres across the UK, how to choose a location, and what to expect on your test day."
+          content="Find your nearest Life in the UK test centre. Browse all official UK locations and search by city or postcode to book your test easily."
         />
         <link rel="canonical" href="https://passlifeintheuktest.uk/life-in-the-uk-test-centres" />
       </Helmet>
