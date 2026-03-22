@@ -100,7 +100,7 @@ const LifeInUkTestBookingPage = () => {
   return (
     <>
       <Helmet>
-        <title>Life in the UK Test Booking: How to Book Your Test in 2026</title>
+        <title>How to Book the Life in the UK Test (Step-by-Step 2026 Guide)</title>
         <meta
           name="description"
           content="Learn how to book the Life in the UK Test step by step. Find out what documents you need, how much it costs, and tips to get an appointment quickly."
