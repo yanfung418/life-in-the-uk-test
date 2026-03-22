@@ -27,7 +27,7 @@ const TestCostPage = () => {
   return (
     <>
       <Helmet>
-        <title>Life in the UK Test Cost: How Much Does the Test Cost in 2026?</title>
+        <title>Life in the UK Test Cost 2026 (£50 Fee + Retake Costs Explained)</title>
         <meta
           name="description"
           content="The Life in the UK Test costs £50 per attempt in 2026. Learn what's included, the cancellation policy, and how to avoid paying more than once."
