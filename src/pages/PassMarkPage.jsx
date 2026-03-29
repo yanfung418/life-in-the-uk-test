@@ -27,10 +27,10 @@ const PassMarkPage = () => {
   return (
     <>
       <Helmet>
-        <title>Life in the UK Test Pass Mark: How Many Questions Do You Need to Pass?</title>
+        <title>Life in the UK Test Pass Mark (18/24 = 75% Explained)</title>
         <meta
           name="description"
-          content="Find out the Life in the UK Test pass mark, how many correct answers you need out of 24, and what happens if you fail. Updated for 2026."
+          content="The Life in the UK Test pass mark is 18 out of 24 (75%). Learn how it works, what happens if you fail, and how many times you can retake the test."
         />
         <link rel="canonical" href="https://passlifeintheuktest.uk/life-in-the-uk-test-pass-mark" />
       </Helmet>
