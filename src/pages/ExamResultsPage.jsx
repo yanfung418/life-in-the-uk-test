@@ -64,43 +64,61 @@ const ExamResultsPage = () => {
                   </h1>
               </div>
               {/* Pass/Fail Status */}
-              <div className={`rounded-3xl p-10 mb-8 text-center ${
+              <div className={`rounded-3xl p-6 sm:p-8 mb-6 text-center ${
                   passed 
                       ? 'bg-gradient-to-br from-green-50 to-green-100 border-2 border-green-200' 
                       : 'bg-gradient-to-br from-red-50 to-red-100 border-2 border-red-200'
               }`}>
-                  <div className="text-7xl mb-4">
+                  <div className="text-5xl sm:text-6xl mb-3">
                       {timedOut ? '⌛' : passed ? '🎉' : '📚'}
                   </div>
-                  <h2 className={`text-4xl font-extrabold mb-4 ${
+                  <h2 className={`text-2xl sm:text-3xl font-extrabold mb-2 ${
                       passed ? 'text-green-700' : 'text-red-700'
                   }`}>
                       {timedOut ? 'Time out - Keep practicing' : passed ? 'Congratulations! You Passed!' : 'Keep Practicing!'}
                   </h2>
-                  <p className="text-gray-600 text-lg mb-6">
+                  <p className="text-gray-600 text-sm md:text-base mb-5">
                       {timedOut ? "You didn't finish within 45 minutes." : "You need 75% (18 out of 24) to pass"}
                   </p>
                   
                   {mode === 'test' && !timedOut && (
-                    <div className="mb-6 text-xl font-bold text-blue-700">
+                    <div className="mb-5 text-lg font-bold text-blue-700">
                         Your time: {formatTime(timeSpent)}
                     </div>
                   )}
                   
-                  <div className="flex flex-wrap justify-center gap-4 sm:gap-8 mb-6 px-2">
-                      <div className="bg-white rounded-2xl px-4 py-4 sm:px-8 sm:py-6 shadow-sm min-w-[100px] flex-1 sm:flex-none">
-                          <div className="text-3xl sm:text-4xl font-bold text-green-600">{correctCount}</div>
-                          <div className="text-xs sm:text-sm text-gray-600 font-semibold mt-1">Correct</div>
+                  <div className="grid grid-cols-3 gap-2 sm:gap-4 max-w-[360px] sm:max-w-[420px] mx-auto mb-6 px-1 sm:px-2">
+                      <div className="bg-white rounded-2xl px-1 py-3 sm:px-4 sm:py-4 shadow-sm flex flex-col items-center justify-center">
+                          <div className="text-2xl sm:text-3xl font-bold text-green-600 leading-none">{correctCount}</div>
+                          <div className="text-[11px] sm:text-sm text-gray-600 font-semibold mt-1.5 sm:mt-1">Correct</div>
                       </div>
-                      <div className="bg-white rounded-2xl px-4 py-4 sm:px-8 sm:py-6 shadow-sm min-w-[100px] flex-1 sm:flex-none">
-                          <div className="text-3xl sm:text-4xl font-bold text-red-600">{incorrectCount}</div>
-                          <div className="text-xs sm:text-sm text-gray-600 font-semibold mt-1">Incorrect</div>
+                      <div className="bg-white rounded-2xl px-1 py-3 sm:px-4 sm:py-4 shadow-sm flex flex-col items-center justify-center">
+                          <div className="text-2xl sm:text-3xl font-bold text-red-600 leading-none">{incorrectCount}</div>
+                          <div className="text-[11px] sm:text-sm text-gray-600 font-semibold mt-1.5 sm:mt-1">Incorrect</div>
                       </div>
-                      <div className="bg-white rounded-2xl px-4 py-4 sm:px-8 sm:py-6 shadow-sm min-w-[100px] flex-1 sm:flex-none">
-                          <div className="text-3xl sm:text-4xl font-bold text-blue-600">{percentage}%</div>
-                          <div className="text-xs sm:text-sm text-gray-600 font-semibold mt-1">Score</div>
+                      <div className="bg-white rounded-2xl px-1 py-3 sm:px-4 sm:py-4 shadow-sm flex flex-col items-center justify-center">
+                          <div className="text-2xl sm:text-3xl font-bold text-blue-600 leading-none">{percentage}%</div>
+                          <div className="text-[11px] sm:text-sm text-gray-600 font-semibold mt-1.5 sm:mt-1">Score</div>
+                      </div>
+                  </div>
+
+                  {/* Buy Me a Coffee CTA - only show when passed */}
+                  {passed && !timedOut && (
+                    <div className="max-w-md mx-auto mb-6 bg-white/80 rounded-2xl border border-gray-200 px-5 py-4 shadow-sm">
+                      <p className="text-sm text-gray-600 mb-3 font-medium">
+                        If you have found this site useful, feel free to support ☕
+                      </p>
+                      <div className="flex justify-center mt-2">
+                        <a href="https://www.buymeacoffee.com/lifeintheuktest" target="_blank" rel="noopener noreferrer">
+                          <img 
+                            src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=lifeintheuktest&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff" 
+                            alt="Buy me a coffee" 
+                            className="h-[46px] hover:scale-[1.02] transition-transform"
+                          />
+                        </a>
                       </div>
                     </div>
+                  )}
 
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                       <button
