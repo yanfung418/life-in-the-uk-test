@@ -171,7 +171,7 @@ export const examQuestions = {
       options: ["Charles Dickens", "Albert Einstein", "Isaac Newton", "Alexander Fleming"],
       correctAnswers: [0],
       explanation: "Charles Dickens was a famous English writer and social critic.",
-      explanation_zh: "查爾斯·狄更斯是著名的英國作家和社会評論家。",
+      explanation_zh: "查爾斯·狄更斯是著名的英國作家和社會評論家。",
       category: "Culture",
       isMultipleChoice: false
     },
@@ -1541,7 +1541,7 @@ export const examQuestions = {
     {
       id: 619,
       question: "Haggis is a traditional food from which area?",
-      question_zh: "哈吉斯(Haggis)是從哪個地區的传统食物？",
+      question_zh: "哈吉斯(Haggis)是從哪個地區的傳統食物？",
       options: ["Wales", "England","Scotland", "Northern Ireland"],
       correctAnswers: [2],
       explanation: "Haggis is a traditional food from Scotland.",
