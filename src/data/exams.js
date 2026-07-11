@@ -5860,18 +5860,18 @@ export const examQuestions = {
     },
     {
       "id": 1806,
-      "question": "Where did the Armada that attacked England in 1588 come from?",
-      "question_zh": "1588年攻擊英格蘭的無敵艦隊來自哪裡？",
+      "question": "What are the British scientists Sir Ian Wilmut and Keith Campbell famous for?",
+      "question_zh": "英國科學家伊恩·威爾穆特爵士（Sir Ian Wilmut）和基思·坎貝爾（Keith Campbell）因什麼而聞名？",
       "options": [
-        "France",
-        "Spain",
-        "Portugal",
-        "Italy"
+        "Discovering penicillin",
+        "Inventing the World Wide Web",
+        "Cloning Dolly the sheep",
+        "Co-inventing the MRI (magnetic resonance imaging) scanner"
       ],
-      "correctAnswers": [1],
-      "explanation": "The Spanish Armada was sent by Spain in 1588 to conquer England and restore Catholicism.",
-      "explanation_zh": "西班牙無敵艦隊於1588年由西班牙派遣以征服英格蘭並恢復天主教。",
-      "category": "History",
+      "correctAnswers": [2],
+      "explanation": "Sir Ian Wilmut and Keith Campbell are famous for leading the team that cloned Dolly the sheep, the world's first mammal cloned from an adult cell, in 1996.",
+      "explanation_zh": "伊恩·威爾穆特爵士和基思·坎貝爾因帶領團隊於1996年成功複製出桃莉羊（Dolly the sheep）而聞名。桃莉羊是世界上第一隻由成年體細胞複製而成的哺乳動物。",
+      "category": "Science",
       "isMultipleChoice": false
     },
     {
@@ -5924,18 +5924,18 @@ export const examQuestions = {
     },
     {
       "id": 1810,
-      "question": "What major disaster occurred during Charles II's reign in London?",
-      "question_zh": "查理二世統治期間倫敦發生了什麼重大災難？",
+      "question": "Which traditional Northern Irish breakfast includes bacon, eggs, sausages, black pudding, soda bread and potato bread?",
+      "question_zh": "哪一款北愛爾蘭傳統早餐包括煙肉、雞蛋、香腸、黑布丁、梳打麵包和薯仔麵包？",
       "options": [
-        "The Great Fire of London",
-        "A plague outbreak",
-        "A major flood",
-        "An earthquake"
+        "English breakfast",
+        "Welsh cake",
+        "Ulster fry",
+        "Haggis"
       ],
-      "correctAnswers": [0],
-      "explanation": "The Great Fire of London occurred in 1666 during Charles II's reign, destroying much of the city including St Paul's Cathedral.",
-      "explanation_zh": "1666年查理二世統治期間發生了倫敦大火，摧毀了包括聖保羅大教堂在內的大部分城市。",
-      "category": "History",
+      "correctAnswers": [2],
+      "explanation": "An Ulster fry is the traditional breakfast of Northern Ireland. It typically includes bacon, eggs, sausages, black pudding, soda bread and potato bread.",
+      "explanation_zh": "Ulster fry 是北愛爾蘭的傳統早餐，通常包括煙肉、雞蛋、香腸、黑布丁、梳打麵包和薯仔麵包。",
+      "category": "Culture",
       "isMultipleChoice": false
     },
     {
@@ -5972,18 +5972,18 @@ export const examQuestions = {
     },
     {
       "id": 1813,
-      "question": "Which poet wrote a famous poem about daffodils?",
-      "question_zh": "哪位詩人寫了一首著名的水仙花詩？",
+      "question": "What was the name given to the bombing campaign during the Second World War when Germany bombed many UK cities?",
+      "question_zh": "第二次世界大戰期間，德國轟炸英國多個城市的轟炸行動被稱為什麼？",
       "options": [
-        "William Wordsworth",
-        "Robert Burns",
-        "William Shakespeare",
-        "John Keats"
+        "Operation Sealion",
+        "The Battle of Britain",
+        "The Great Fire of London",
+        "The Blitz"
       ],
-      "correctAnswers": [0],
-      "explanation": "William Wordsworth wrote the famous poem 'The Daffodils' (also known as 'I Wandered Lonely as a Cloud').",
-      "explanation_zh": "威廉·華茲華斯寫了著名的詩《水仙花》（也稱為《我孤獨地漫遊如一朵雲》）。",
-      "category": "Culture",
+      "correctAnswers": [3],
+      "explanation": "The Blitz was the sustained bombing campaign carried out by Germany against the UK between 1940 and 1941 during the Second World War.",
+      "explanation_zh": "「閃電戰」（The Blitz）是指第二次世界大戰期間，德國於1940年至1941年間對英國進行的大規模持續轟炸行動。",
+      "category": "History",
       "isMultipleChoice": false
     },
     {
@@ -6004,18 +6004,18 @@ export const examQuestions = {
     },
     {
       "id": 1815,
-      "question": "What is the minimum age to ride a motorcycle in the UK?",
-      "question_zh": "在英國騎摩托車的最低年齡是多少？",
+      "question": "What is the main purpose of the North Atlantic Treaty Organization (NATO)?",
+      "question_zh": "北大西洋公約組織（NATO）的主要目的是什麼？",
       "options": [
-        "17 years old",
-        "18 years old",
-        "16 years old",
-        "21 years old"
+        "To establish a single currency for all European nations",
+        "To maintain peace and security among its member countries",
+        "To promote cultural exchange and tourism between its member countries",
+        "To regulate international trade and economic policies among its members"
       ],
-      "correctAnswers": [0],
-      "explanation": "You must be at least 17 years old to ride a motorcycle in the UK.",
-      "explanation_zh": "在英國，您必須至少17歲才能騎摩托車。",
-      "category": "General Knowledge",
+      "correctAnswers": [1],
+      "explanation": "NATO was established in 1949 to provide collective defence and help maintain peace and security among its member countries.",
+      "explanation_zh": "北約（NATO）於1949年成立，透過集體防禦來維護成員國之間的和平與安全。",
+      "category": "Government and Politics",
       "isMultipleChoice": false
     },
     {
@@ -6144,19 +6144,19 @@ export const examQuestions = {
       "category": "General Knowledge",
       "isMultipleChoice": false
       },
-      {
+    {
       "id": 1824,
-      "question": "Who discovered penicillin?",
-      "question_zh": "誰發現了盤尼西林？",
+      "question": "Damon Hill, Lewis Hamilton and Jenson Button are known for which sport?",
+      "question_zh": "戴蒙·希爾、劉易斯·漢密爾頓和詹森·巴頓以哪項運動聞名？",
       "options": [
-        "Isaac Newton",
-        "Charles Darwin",
-        "James Watt",
-        "Alexander Fleming"
+        "Tennis",
+        "Formula One",
+        "Rugby",
+        "Cricket"
       ],
-      "correctAnswers": [3],
-      "explanation": "Sir Alexander Fleming discovered penicillin in 1928, revolutionizing medicine.",
-      "explanation_zh": "亞歷山大·弗萊明爵士於1928年發現了盤尼西林，徹底改變了醫學。",
+      "correctAnswers": [1],
+      "explanation": "Damon Hill, Lewis Hamilton and Jenson Button are all famous Formula One racing drivers.",
+      "explanation_zh": "戴蒙·希爾、劉易斯·漢密爾頓和詹森·巴頓都是著名的一級方程式（Formula One，F1）賽車手。",
       "category": "General Knowledge",
       "isMultipleChoice": false
     },
