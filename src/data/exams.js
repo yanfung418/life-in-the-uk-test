@@ -6178,17 +6178,17 @@ export const examQuestions = {
     },
     {
       "id": 1826,
-      "question": "What is the name of the UK's national anthem?",
-      "question_zh": "英國國歌的名字是什麼？",
+      "question": "Who opened the first curry house in London?",
+      "question_zh": "誰在倫敦開設了第一家咖喱餐廳？",
       "options": [
-        "Rule, Britannia!",
-        "Jerusalem",
-        "God Save the Queen",
-        "Land of Hope and Glory"
+        "William Shakespeare",
+        "Sake Dean Mahomed",
+        "Isambard Kingdom Brunel",
+        "Robert Burns"
       ],
-      "correctAnswers": [2],
-      "explanation": "The UK's national anthem is 'God Save the Queen'.",
-      "explanation_zh": "英國國歌是《天佑女王》。",
+      "correctAnswers": [1],
+      "explanation": "Sake Dean Mahomed opened the Hindoostane Coffee House in London in 1810. It is regarded as London's first curry house and Indian restaurant.",
+      "explanation_zh": "薩克·迪恩·馬霍默德於1810年在倫敦開設了印度斯坦咖啡館（Hindoostane Coffee House）。這間餐廳被視為倫敦第一家咖喱餐廳及印度餐廳。",
       "category": "General Knowledge",
       "isMultipleChoice": false
     }
