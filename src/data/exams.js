@@ -6165,14 +6165,14 @@ export const examQuestions = {
       "question": "What is the name of the UK's national anthem?",
       "question_zh": "英國國歌的名字是什麼？",
       "options": [
-        "God Save the Queen",
+        "God Save the King",
         "Rule, Britannia!",
         "Jerusalem",
         "Land of Hope and Glory"
       ],
       "correctAnswers": [0],
       "explanation": "The UK's national anthem is 'God Save the Queen'.",
-      "explanation_zh": "英國國歌是《天佑女王》。",
+      "explanation_zh": "英國國歌是《天佑國王》。",
       "category": "General Knowledge",
       "isMultipleChoice": false
     },
