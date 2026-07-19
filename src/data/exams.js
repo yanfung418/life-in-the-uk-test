@@ -1602,7 +1602,7 @@ export const examQuestions = {
       explanation: "Documents that prove your identity and Documents that prove that you have permission to work in the UK are required to apply for a National Insurance number.",
       explanation_zh: "申請國民保險號碼需要提供身份證明文件和證明您有權在英國工作的文件。",
       category: "General Knowledge",
-      isMultipleChoice: false
+      isMultipleChoice: true
     }
   ],
   7: [
