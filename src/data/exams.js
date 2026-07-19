@@ -1127,7 +1127,7 @@ export const examQuestions = {
       explanation: "The fundamental principles of British life include: democracy, the rule of law, individual liberty, tolerance of those with different faiths and beliefs and participation in community life.",
       explanation_zh: "英國生活的基本原則包括：民主、法治、個人自由、對不同信念和信念的寬容以及參與社區生活。",
       category: "General Knowledge",
-      isMultipleChoice: false
+      isMultipleChoice: true
     },
     {
       id: 506,
